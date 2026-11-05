@@ -1,0 +1,15 @@
+run	library	taxon	rank	evidence	source	detected	outcome	reads_final	first_detection_batch	first_detection_seq_time_s	first_detection_wall_s	first_detection_reads_cum
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	yes	detected	1872.0	1.0		117.632	4000.0
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	yes	detected	738.0	1.0		117.632	4000.0
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	no	not_found	1.0				
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	no	not_found	0.0				
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	yes	detected	1974.0	1.0		155.384	4000.0
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	yes	detected	3217.0	1.0		155.384	4000.0
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	yes	found	384.0	1.0		155.384	4000.0
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	yes	found	16.0	8.0		3128.115	32000.0
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	yes	detected	749.0	1.0		100.568	4000.0
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	no	clear	2.0				
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	no	not_found	0.0				
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	yes	detected	856.0	1.0		117.802	4000.0
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	no	clear	2.0				
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	yes	found	167.0	3.0		355.648	12000.0

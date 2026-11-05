@@ -1,0 +1,14 @@
+source	accession	taxid	species	division	organism
+COVID	OX637002.1	3418604	Betacoronavirus pandemicum	Viruses	Severe acute respiratory syndrome coronavirus 2
+DENV	NC_001474.2	3052464	Orthoflavivirus denguei	Viruses	dengue virus type 2
+LASV_L	MG812630.1	3052310	Mammarenavirus lassaense	Viruses	Mammarenavirus lassaense
+LASV_S	MG812631.1	3052310	Mammarenavirus lassaense	Viruses	Mammarenavirus lassaense
+Smitis_SK637	GCF_000722765.2	28037	Streptococcus mitis	Bacteria	Streptococcus mitis
+Cpseudodiphtheriticum	GCF_022345865.1	37637	Corynebacterium pseudodiphtheriticum	Bacteria	Corynebacterium pseudodiphtheriticum
+Capnocytophaga_sputigena	GCF_002302415.1	1019	Capnocytophaga sputigena	Bacteria	Capnocytophaga sputigena
+Mcatarrhalis	GCF_002080125.1	480	Moraxella catarrhalis	Bacteria	Moraxella catarrhalis
+Spyogenes_SF370	GCF_000006785.2	1314	Streptococcus pyogenes	Bacteria	Streptococcus pyogenes M1 GAS
+Dpigrum_KPL3250	GCF_017655665.1	29394	Dolosigranulum pigrum	Bacteria	Dolosigranulum pigrum
+Saureus_NCTC8325	GCF_000013425.1	1280	Staphylococcus aureus	Bacteria	Staphylococcus aureus subsp. aureus NCTC 8325
+Pputida_KT2440	GCF_000007565.2	303	Pseudomonas putida	Bacteria	Pseudomonas putida KT2440
+human	GCF_000001405.40	9606	Homo sapiens	Eukaryota	Homo sapiens

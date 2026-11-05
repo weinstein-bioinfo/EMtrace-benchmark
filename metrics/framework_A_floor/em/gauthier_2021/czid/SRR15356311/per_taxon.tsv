@@ -1,0 +1,10 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Alphainfluenzavirus influenzae	FP	39.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	69.0	1.0
+Viruses	species	Seadornavirus kadipiroense	FP	19.0	0.0
+Viruses	genus	Alphainfluenzavirus	FP	39.0	0.0
+Viruses	genus	Betacoronavirus	TP	69.0	1.0
+Viruses	genus	Seadornavirus	FP	19.0	0.0
+Viruses	family	Coronaviridae	TP	69.0	1.0
+Viruses	family	Orthomyxoviridae	FP	39.0	0.0
+Viruses	family	Sedoreoviridae	FP	19.0	0.0

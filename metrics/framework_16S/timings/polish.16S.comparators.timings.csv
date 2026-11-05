@@ -1,0 +1,5 @@
+sample,user,system,cpu,total,max_rss_mb,exit_status
+wf16s.gutmock_sup_r1,33.431,6.568,3,1384.878,1210.4,0
+wf16s.gutmock_sup_r2,20.280,2.316,5,476.393,1321.7,0
+wf16s.gutmock_sup_r3,20.098,2.470,5,477.238,1142.5,0
+wf16s.gutmock_sup_r4,20.225,2.354,5,500.351,1277.2,0

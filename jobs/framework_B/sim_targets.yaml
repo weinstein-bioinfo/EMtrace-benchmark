@@ -1,0 +1,37 @@
+# sim_targets.yaml — single-source virus mapping for Framework B simulation pipeline.
+#
+# vimop_root: path (relative to repo root) to the pulled ViMOP benchmark repository.
+# targets: one entry per virus/segment; shared by sim_02, sim_03, sim_04, sim_05.
+# deviations: mutation rates as fractions of reference length (0.00 = unmutated copy).
+# seed: default random seed; overridable via --seed flag on each script.
+
+vimop_root: data/OPR-group-BNITM-vimop_benchmark-2004953
+
+targets:
+  - name: COVID
+    vimop_name: COVID
+    ref_acc: OX637002.1
+    vimop_aligned: data/virus_references/COVID.aligned.fasta.gz   # relative to vimop_root
+    segment: null
+
+  - name: DENV
+    vimop_name: DENV
+    ref_acc: NC_001474.2
+    vimop_aligned: data/virus_references/DENV.aligned.fasta.gz
+    segment: null
+
+  - name: LASV_L
+    vimop_name: LASV_L
+    ref_acc: MG812630.1
+    vimop_aligned: data/virus_references/LASV_L.aligned.fasta.gz
+    segment: L
+
+  - name: LASV_S
+    vimop_name: LASV_S
+    ref_acc: MG812631.1
+    vimop_aligned: data/virus_references/LASV_S.aligned.fasta.gz
+    segment: S
+
+deviations: [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
+
+seed: 42

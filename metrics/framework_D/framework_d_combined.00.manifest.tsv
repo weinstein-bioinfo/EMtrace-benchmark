@@ -1,0 +1,7 @@
+filter	removed_fastq
+default_AS0	results/framework_d/combined/combined_00_default_AS0/reads/hflt.Homo_sapiens.reads.fq.gz
+default_AS30	results/framework_d/combined/combined_00_default_AS30/reads/hflt.Homo_sapiens.reads.fq.gz
+default_AS50	results/framework_d/combined/combined_00_default_AS50/reads/hflt.Homo_sapiens.reads.fq.gz
+default_AS75	results/framework_d/combined/combined_00_default_AS75/reads/hflt.Homo_sapiens.reads.fq.gz
+default_AS100	results/framework_d/combined/combined_00_default_AS100/reads/hflt.Homo_sapiens.reads.fq.gz
+default_AS125	results/framework_d/combined/combined_00_default_AS125/reads/hflt.Homo_sapiens.reads.fq.gz

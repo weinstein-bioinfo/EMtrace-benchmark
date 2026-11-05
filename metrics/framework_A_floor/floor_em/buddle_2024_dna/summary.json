@@ -1,0 +1,5 @@
+{
+  "fp_persistent_taxa_warning": "Truth file has no `matrix_id` column \u2014 fp_persistent_taxa is NA. Add `matrix_id` to enable persistence analysis.",
+  "n_samples": 16,
+  "total_unique_fps": 0
+}

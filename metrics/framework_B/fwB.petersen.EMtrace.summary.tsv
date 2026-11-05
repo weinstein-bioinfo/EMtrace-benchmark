@@ -1,0 +1,5 @@
+sample	n_segments	total_ref_len	mean_coverage_pct	mean_identity_pct	weighted_coverage_pct	weighted_identity_pct	mean_positions_called_pct	weighted_positions_called_pct	substitutions	insertions	deletions
+ERR14941561	1	10962	42.15	99.7	42.15	99.7	42.85	42.85	14	1	0
+SRR15356294	1	29903	20.42	99.97	20.42	99.97	20.42	20.42	2	0	0
+SRR31174237	1	10807	99.63	99.78	99.63	99.78	99.63	99.63	24	0	0
+SRR32419728	1	10723	99.6	99.23	99.6	99.23	99.6	99.6	82	0	0

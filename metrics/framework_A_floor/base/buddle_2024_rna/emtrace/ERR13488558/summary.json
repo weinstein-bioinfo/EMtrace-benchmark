@@ -1,0 +1,83 @@
+{
+  "AUPR": 0.0,
+  "F_max": 0.0,
+  "Pr_at_Fmax": 0.0,
+  "Rc_at_Fmax": 0.0,
+  "config": {
+    "buddle": false,
+    "dilution_series": false,
+    "drop_unknown": true,
+    "exclude_retro": false,
+    "filter_col": "readn",
+    "keep_phages": false,
+    "min_rel": 0.0,
+    "min_rel_exclude": [
+      "Primates"
+    ],
+    "nc_pred": null,
+    "outdir": "metrics/framework_A_floor/base/buddle_2024_rna/emtrace/ERR13488558",
+    "pred": "results/framework_A/emtrace/buddle_2024_rna/ERR13488558/results/reports/abund_table.tsv",
+    "pred_fmt": "emtrace",
+    "ranks": [
+      "species",
+      "genus",
+      "family"
+    ],
+    "read_min": 10.0,
+    "score_col": "readn",
+    "tail_ba": 0.0,
+    "tail_col": "readn",
+    "tail_vi": 0.0,
+    "taxgroups": [
+      "Viruses"
+    ],
+    "tn_universe": null,
+    "total_reads_nc": null,
+    "total_reads_sample": null,
+    "truth": "metrics/framework_A_floor/base/buddle_2024_rna/emtrace/ERR13488558/truth.sample.tsv"
+  },
+  "metrics": [
+    {
+      "F1": 0.0,
+      "FN": 4,
+      "FP": 1,
+      "Pr": 0.0,
+      "Rc": 0.0,
+      "TP": 0,
+      "mean_accuracy": 0.0,
+      "n_pred": 1,
+      "n_true": 4,
+      "rank": "species",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 0.0,
+      "FN": 4,
+      "FP": 1,
+      "Pr": 0.0,
+      "Rc": 0.0,
+      "TP": 0,
+      "mean_accuracy": 0.0,
+      "n_pred": 1,
+      "n_true": 4,
+      "rank": "genus",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 0.0,
+      "FN": 4,
+      "FP": 1,
+      "Pr": 0.0,
+      "Rc": 0.0,
+      "TP": 0,
+      "mean_accuracy": 0.0,
+      "n_pred": 1,
+      "n_true": 4,
+      "rank": "family",
+      "taxgroup": "Viruses"
+    }
+  ],
+  "primary_rank": "species",
+  "primary_taxgroup": "Viruses",
+  "threshold_at_Fmax": NaN
+}

@@ -1,0 +1,17 @@
+rank	from	to	if_species	reason
+genus	Shigella	Escherichia		Shigella is genomically E. coli; NCBI keeps them as separate genera, so every NCBI-taxonomy run splits these reads.
+genus	Escherichia-Shigella	Escherichia		SILVA 138.2 merged genus label; maps onto the truth genus Escherichia.
+species	Shigella flexneri	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella sonnei	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella dysenteriae	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella boydii	Escherichia coli		16S-indistinguishable from E. coli.
+species	Lactobacillus fermentum	Limosilactobacillus fermentum		Pre-2020 name for the same organism (Zheng et al. 2020). Deliberately NOT mirrored by an unscoped genus-level Lactobacillus -> Limosilactobacillus rule (the genus row below is scoped to this species): Lactobacillus remains a real, populated genus (11260 SILVA rows, 2165 NCBI species, e.g. L. delbrueckii) whose members are 16S-distinguishable from L. fermentum, so collapsing the genus would convert genuine false positives into a true positive.
+genus	Lactobacillus	Limosilactobacillus	Lactobacillus fermentum	Genus half of the L. fermentum rename, scoped to that species only. Needed for references predating Zheng et al. 2020 (Spaghetti's QIIME SILVA 138 files L. fermentum under g__Lactobacillus). Other Lactobacillus species keep their genus and stay false positives; the unscoped genus rule was withdrawn (the project notes).
+species	Bacillus spizizenii	Bacillus subtilis		B. subtilis group; <15 bases separate these over the full 16S gene (Curry et al. 2022).
+species	Bacillus inaquosorum	Bacillus subtilis		B. subtilis group.
+species	Bacillus halotolerans	Bacillus subtilis		B. subtilis group.
+species	Bacillus stercoris	Bacillus subtilis		B. subtilis group.
+species	Bacillus mojavensis	Bacillus subtilis		B. subtilis group.
+species	Bacillus vallismortis	Bacillus subtilis		B. subtilis group.
+species	Bacillus atrophaeus	Bacillus subtilis		B. subtilis group.
+species	Bacillus tequilensis	Bacillus subtilis		B. subtilis group.

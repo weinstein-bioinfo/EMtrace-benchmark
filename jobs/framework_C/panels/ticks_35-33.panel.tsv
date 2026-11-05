@@ -1,0 +1,9 @@
+# Ergunay et al. 2023 (PRJNA878809), pool 35-33: R. bursa, 7 females, sheep, Konya.
+# Pools were screened by in-house PCR for generic nairovirus (CCHFV) and JMTV.
+# JMTV: 35-33 is absent from Table S2, which lists every Nanopore-positive pool with its
+# PCR result; pools negative by both are not listed, so 35-33 is JMTV PCR-negative.
+# reported: the paper's own BLAST of the Nanopore reads, agreement only. Scored at genus.
+taxon	evidence	source
+Orthonairovirus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)
+Jingmenvirus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)
+Mivirus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)

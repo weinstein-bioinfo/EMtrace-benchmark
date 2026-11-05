@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ngs-benchmark"
+version = "1.0.0"
+description = "Scoring library of the EMtrace benchmark (detection, assembly, real-time, background filtering)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "COPYRIGHT"]
+authors = [
+    { name = "Ilja Weinstein", email = "Ilja.Weinstein@helsinki.fi" },
+    { name = "Onnia Leppanen", email = "onnia.leppanen@helsinki.fi" },
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "click>=8.1",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+ngs-benchmark = "ngs_benchmark.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ngs_benchmark*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

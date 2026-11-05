@@ -1,0 +1,332 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Aedes flavivirus	TP	729.0	730.0
+Viruses	species	Alphacoronavirus amsterdamense	TP	1828.0	1830.0
+Viruses	species	Alphainfluenzavirus influenzae	TP	90.0	90.0
+Viruses	species	Alphapolyomavirus quintihominis	TP	350.0	350.0
+Viruses	species	Alphavirus chikungunya	TP	777.0	780.0
+Viruses	species	Bandavirus dabieense	TP	749.0	750.0
+Viruses	species	Betacoronavirus pandemicum	TP	1976.0	1980.0
+Viruses	species	Betapapillomavirus 2	TP	490.0	490.0
+Viruses	species	Betapolyomavirus hominis	TP	339.0	340.0
+Viruses	species	Betapolyomavirus macacae	TP	340.0	340.0
+Viruses	species	Betapolyomavirus quartihominis	TP	340.0	340.0
+Viruses	species	Betapolyomavirus secuhominis	TP	339.0	340.0
+Viruses	species	Betaretrovirus maspfimon	TP	55.0	65.0
+Viruses	species	Betaretrovirus murmamtum	TP	784.0	785.0
+Viruses	species	Betatorquevirus homini8	TP	190.0	190.0
+Viruses	species	Bocaparvovirus primate1	TP	349.0	350.0
+Viruses	species	Culex flavivirus	TP	720.0	720.0
+Viruses	species	Cytomegalovirus humanbeta5	TP	15688.0	15700.0
+Viruses	species	Deltavirus italiense	TP	109.0	110.0
+Viruses	species	Dependoparvovirus mammalian1	TP	310.0	310.0
+Viruses	species	Enterovirus alphacoxsackie	TP	490.0	490.0
+Viruses	species	Enterovirus alpharhino	TP	469.0	470.0
+Viruses	species	Enterovirus betacoxsackie	TP	490.0	490.0
+Viruses	species	Enterovirus betarhino	TP	480.0	480.0
+Viruses	species	Enterovirus coxsackiepol	TP	490.0	490.0
+Viruses	species	Hepacivirus hominis	TP	3787.0	3790.0
+Viruses	species	Human endogenous retrovirus	FN	0.0	2815.0
+Viruses	species	Human endogenous retrovirus K	TP	396.0	29018.0
+Viruses	species	Human endogenous retrovirus W	FN	0.0	708.0
+Viruses	species	Iotatorquevirus suida1a	TP	190.0	190.0
+Viruses	species	Lentivirus humimdef1	TP	610.0	610.0
+Viruses	species	Lentivirus humimdef2	TP	689.0	690.0
+Viruses	species	Lyssavirus rabies	TP	789.0	790.0
+Viruses	species	Mammarenavirus lassaense	TP	919.0	700.0
+Viruses	species	Mastadenovirus blackbeardi	TP	4654.999999671	4660.0
+Viruses	species	Mastadenovirus dominans	TP	2327.0	2330.0
+Viruses	species	Metapneumovirus hominis	TP	880.0	880.0
+Viruses	species	Mopeia Lassa virus reassortant 29	FN	0.0	220.0
+Viruses	species	Morbillivirus hominis	TP	1050.0	1050.0
+Viruses	species	Norovirus norwalkense	TP	509.0	510.0
+Viruses	species	Orthoavulavirus javaense	TP	1010.0	1010.0
+Viruses	species	Orthobornavirus bornaense	TP	589.0	590.0
+Viruses	species	Orthobunyavirus akabaneense	TP	730.0	730.0
+Viruses	species	Orthobunyavirus lacrosseense	TP	460.0	460.0
+Viruses	species	Orthobunyavirus oropoucheense	TP	450.0	450.0
+Viruses	species	Orthobunyavirus schmallenbergense	TP	449.0	450.0
+Viruses	species	Orthoebolavirus zairense	TP	1259.0	1260.0
+Viruses	species	Orthoflavivirus denguei	TP	2828.0	2830.0
+Viruses	species	Orthoflavivirus encephalitidis	TP	740.0	740.0
+Viruses	species	Orthoflavivirus japonicum	TP	730.0	730.0
+Viruses	species	Orthoflavivirus louisense	TP	720.0	720.0
+Viruses	species	Orthoflavivirus nilense	TP	1458.0	1460.0
+Viruses	species	Orthoflavivirus omskense	TP	710.0	710.0
+Viruses	species	Orthoflavivirus tembusu	TP	730.0	730.0
+Viruses	species	Orthohantavirus hantanense	TP	350.0	350.0
+Viruses	species	Orthohepadnavirus hominoidei	TP	210.0	210.0
+Viruses	species	Orthomarburgvirus marburgense	TP	1270.0	1270.0
+Viruses	species	Orthonairovirus haemorrhagiae	TP	1149.0	1150.0
+Viruses	species	Orthopneumovirus bovis	FP	1009.0	0.0
+Viruses	species	Orthopneumovirus hominis	TP	1008.0	2020.0
+Viruses	species	Orthopneumovirus muris	TP	989.0	990.0
+Viruses	species	Orthopoxvirus cowpox	FP	97.0	0.0
+Viruses	species	Orthopoxvirus vaccinia	TP	12857.0	12980.0
+Viruses	species	Orthorubulavirus mammalis	TP	1010.0	1010.0
+Viruses	species	Orthorubulavirus parotitidis	TP	1020.0	1020.0
+Viruses	species	Paslahepevirus balayani	TP	470.0	470.0
+Viruses	species	Phlebovirus napoliense	TP	280.0	280.0
+Viruses	species	Phlebovirus riftense	TP	780.0	780.0
+Viruses	species	Phlebovirus siciliaense	TP	289.0	290.0
+Viruses	species	Respirovirus laryngotracheitidis	TP	1040.0	1040.0
+Viruses	species	Respirovirus pneumoniae	TP	1029.0	1030.0
+Viruses	species	Rotavirus alphagastroenteritidis	TP	1196.999999718	1200.0
+Viruses	species	Rotavirus betagastroenteritidis	TP	80.0	80.0
+Viruses	species	Rotavirus gammagastroenteritidis	TP	220.0	220.0
+Viruses	species	Rotavirus iotagastroenteritidis	TP	90.0	90.0
+Viruses	species	Rotavirus tritogastroenteritidis	TP	280.00000001	280.0
+Viruses	species	Rubivirus rubellae	TP	649.0	650.0
+Viruses	species	Sapovirus sapporoense	TP	489.0	490.0
+Viruses	species	Seadornavirus bannaense	TP	239.0	240.0
+Viruses	species	Seadornavirus kadipiroense	TP	120.0	120.0
+Viruses	species	Simiispumavirus pantrosch	TP	1563.0	1565.0
+Viruses	species	TTV-like mini virus	TP	189.0	190.0
+Viruses	species	Uukuvirus uukuniemiense	TP	210.0	210.0
+Viruses	species	Varicellovirus humanalpha3	TP	8314.0	8320.0
+Viruses	genus	Alphacoronavirus	TP	1828.0	1830.0
+Viruses	genus	Alphainfluenzavirus	TP	90.0	90.0
+Viruses	genus	Alphapolyomavirus	TP	350.0	350.0
+Viruses	genus	Alphavirus	TP	777.0	780.0
+Viruses	genus	Arenavirus	FN	0.0	220.0
+Viruses	genus	Bandavirus	TP	749.0	750.0
+Viruses	genus	Betacoronavirus	TP	1976.0	1980.0
+Viruses	genus	Betapapillomavirus	TP	490.0	490.0
+Viruses	genus	Betapolyomavirus	TP	1358.0	1360.0
+Viruses	genus	Betaretrovirus	TP	839.0	850.0
+Viruses	genus	Betatorquevirus	TP	379.0	380.0
+Viruses	genus	Bocaparvovirus	TP	349.0	350.0
+Viruses	genus	Cytomegalovirus	TP	15688.0	15700.0
+Viruses	genus	Deltavirus	TP	109.0	110.0
+Viruses	genus	Dependoparvovirus	TP	310.0	310.0
+Viruses	genus	Enterovirus	TP	2419.0	2420.0
+Viruses	genus	Hepacivirus	TP	3787.0	3790.0
+Viruses	genus	Iotatorquevirus	TP	190.0	190.0
+Viruses	genus	Lentivirus	TP	1299.0	1300.0
+Viruses	genus	Lyssavirus	TP	789.0	790.0
+Viruses	genus	Mammarenavirus	TP	919.0	700.0
+Viruses	genus	Mastadenovirus	TP	6981.999999671	6990.0
+Viruses	genus	Metapneumovirus	TP	880.0	880.0
+Viruses	genus	Morbillivirus	TP	1050.0	1050.0
+Viruses	genus	Norovirus	TP	509.0	510.0
+Viruses	genus	Orthoavulavirus	TP	1010.0	1010.0
+Viruses	genus	Orthobornavirus	TP	589.0	590.0
+Viruses	genus	Orthobunyavirus	TP	2089.0	2090.0
+Viruses	genus	Orthoebolavirus	TP	1259.0	1260.0
+Viruses	genus	Orthoflavivirus	TP	9365.0	9370.0
+Viruses	genus	Orthohantavirus	TP	350.0	350.0
+Viruses	genus	Orthohepadnavirus	TP	210.0	210.0
+Viruses	genus	Orthomarburgvirus	TP	1270.0	1270.0
+Viruses	genus	Orthonairovirus	TP	1149.0	1150.0
+Viruses	genus	Orthopneumovirus	TP	3006.0	3010.0
+Viruses	genus	Orthopoxvirus	TP	12954.0	12980.0
+Viruses	genus	Orthorubulavirus	TP	2030.0	2030.0
+Viruses	genus	Paslahepevirus	TP	470.0	470.0
+Viruses	genus	Phlebovirus	TP	1349.0	1350.0
+Viruses	genus	Respirovirus	TP	2069.0	2070.0
+Viruses	genus	Rotavirus	TP	1866.9999997280001	1870.0
+Viruses	genus	Rubivirus	TP	649.0	650.0
+Viruses	genus	Sapovirus	TP	489.0	490.0
+Viruses	genus	Seadornavirus	TP	359.0	360.0
+Viruses	genus	Simiispumavirus	TP	1563.0	1565.0
+Viruses	genus	Uukuvirus	TP	210.0	210.0
+Viruses	genus	Varicellovirus	TP	8314.0	8320.0
+Viruses	genus	unknown	TP	396.0	32541.0
+Viruses	family	Adenoviridae	TP	6981.999999671	6990.0
+Viruses	family	Anelloviridae	TP	569.0	570.0
+Viruses	family	Arenaviridae	TP	919.0	920.0
+Viruses	family	Bornaviridae	TP	589.0	590.0
+Viruses	family	Caliciviridae	TP	998.0	1000.0
+Viruses	family	Coronaviridae	TP	3804.0	3810.0
+Viruses	family	Filoviridae	TP	2529.0	2530.0
+Viruses	family	Flaviviridae	TP	13152.0	13160.0
+Viruses	family	Hantaviridae	TP	350.0	350.0
+Viruses	family	Hepadnaviridae	TP	210.0	210.0
+Viruses	family	Hepeviridae	TP	470.0	470.0
+Viruses	family	Kolmioviridae	TP	109.0	110.0
+Viruses	family	Matonaviridae	TP	649.0	650.0
+Viruses	family	Nairoviridae	TP	1149.0	1150.0
+Viruses	family	Orthoherpesviridae	TP	24002.0	24020.0
+Viruses	family	Orthomyxoviridae	TP	90.0	90.0
+Viruses	family	Papillomaviridae	TP	490.0	490.0
+Viruses	family	Paramyxoviridae	TP	6159.0	6160.0
+Viruses	family	Parvoviridae	TP	659.0	660.0
+Viruses	family	Peribunyaviridae	TP	2089.0	2090.0
+Viruses	family	Phenuiviridae	TP	2308.0	2310.0
+Viruses	family	Picornaviridae	TP	2419.0	2420.0
+Viruses	family	Pneumoviridae	TP	3886.0	3890.0
+Viruses	family	Polyomaviridae	TP	1708.0	1710.0
+Viruses	family	Poxviridae	TP	12954.0	12980.0
+Viruses	family	Retroviridae	TP	4097.0	36256.0
+Viruses	family	Rhabdoviridae	TP	789.0	790.0
+Viruses	family	Sedoreoviridae	TP	2225.999999728	2230.0
+Viruses	family	Togaviridae	TP	777.0	780.0
+Bacteria	species	Achromobacter xylosoxidans	FN	0.0	20625.0
+Bacteria	species	Acinetobacter baumannii	FP	0.4	0.0
+Bacteria	species	Acinetobacter junii	FN	0.0	11034.0
+Bacteria	species	Acinetobacter sp. ATCC 27244	FN	0.0	10898.0
+Bacteria	species	Alloprevotella tannerae	FN	0.0	8603.0
+Bacteria	species	Anaerococcus vaginalis	FN	0.0	6238.0
+Bacteria	species	Bacillus subtilis	FP	2.1	0.0
+Bacteria	species	Bacteroides fragilis	TP	3.0	36247.0
+Bacteria	species	Bacteroides ovatus	FN	0.0	26247.0
+Bacteria	species	Bacteroides sp. 3_1_23	FN	0.0	21594.0
+Bacteria	species	Bacteroides sp. 4_3_47FAA	FN	0.0	17983.0
+Bacteria	species	Bacteroides stercoris	FN	0.0	13361.0
+Bacteria	species	Bifidobacterium bifidum	FN	0.0	7262.0
+Bacteria	species	Bifidobacterium dentium	FN	0.0	8779.0
+Bacteria	species	Bifidobacterium longum	FN	0.0	7986.0
+Bacteria	species	Brevibacterium mcbrellneri	FN	0.0	8540.0
+Bacteria	species	Campylobacter upsaliensis	FN	0.0	5385.0
+Bacteria	species	Cardiobacterium valvarum	FN	0.0	8413.0
+Bacteria	species	Catenibacterium mitsuokai	FN	0.0	8917.0
+Bacteria	species	Clostridium sp. 7_2_43FAA	FN	0.0	12647.0
+Bacteria	species	Clostridium sp. D5	FN	0.0	17805.0
+Bacteria	species	Corynebacterium aurimucosum	FN	0.0	9100.0
+Bacteria	species	Corynebacterium glucuronolyticum	FN	0.0	9220.0
+Bacteria	species	Corynebacterium pseudotuberculosis	FP	0.9	0.0
+Bacteria	species	Cutibacterium acnes	FN	0.0	58035.0
+Bacteria	species	Dialister invisus	FN	0.0	6318.0
+Bacteria	species	Enterococcus casseliflavus	FN	0.0	11798.0
+Bacteria	species	Enterococcus faecalis	FN	0.0	59372.0
+Bacteria	species	Enterococcus faecium	FN	0.0	8981.0
+Bacteria	species	Escherichia coli	TP	411.303103513	64630.0
+Bacteria	species	Faecalibacterium prausnitzii	FN	0.0	9655.0
+Bacteria	species	Fannyhessea vaginae	FN	0.0	4768.0
+Bacteria	species	Finegoldia magna	FN	0.0	6100.0
+Bacteria	species	Fusobacterium nucleatum	FN	0.0	7457.0
+Bacteria	species	Gardnerella vaginalis	FN	0.0	11313.0
+Bacteria	species	Glaesserella parasuis	FP	0.022407678	0.0
+Bacteria	species	Helicobacter winghamensis	FN	0.0	5478.0
+Bacteria	species	Holdemanella biformis	FN	0.0	7919.0
+Bacteria	species	Klebsiella pneumoniae	FP	0.4	0.0
+Bacteria	species	Lactobacillus crispatus	FN	0.0	14123.0
+Bacteria	species	Lactobacillus gasseri	FN	0.0	6420.0
+Bacteria	species	Lactobacillus jensenii	TP	8.0	5547.0
+Bacteria	species	Lactobacillus ultunensis	FN	0.0	7139.0
+Bacteria	species	Lentilactobacillus hilgardii	FN	0.0	8528.0
+Bacteria	species	Limosilactobacillus fermentum	FN	0.0	5927.0
+Bacteria	species	Massilia timonae	FN	0.0	20058.0
+Bacteria	species	Mobiluncus holmesii	FN	0.0	6954.0
+Bacteria	species	Neisseria flavescens	FP	0.459272895	0.0
+Bacteria	species	Neisseria lactamica	FN	0.0	7238.0
+Bacteria	species	Neisseria subflava	TP	3.540727105	7650.0
+Bacteria	species	Paenibacillus sp. oral taxon 786	FN	0.0	16059.0
+Bacteria	species	Parabacteroides johnsonii	FN	0.0	15361.0
+Bacteria	species	Peptoanaerobacter stomatis	FN	0.0	16153.0
+Bacteria	species	Peptoniphilus indolicus	FN	0.0	6823.0
+Bacteria	species	Prevotella denticola	FN	0.0	9792.0
+Bacteria	species	Prevotella melaninogenica	FN	0.0	10594.0
+Bacteria	species	Prevotella sp. oral taxon 317	FN	0.0	13192.0
+Bacteria	species	Proteus mirabilis	FP	0.022407678	0.0
+Bacteria	species	Pseudoflavonifractor capillosus	FN	0.0	14137.0
+Bacteria	species	Pseudomonas aeruginosa	FN	0.0	20937.0
+Bacteria	species	Salmonella enterica	FP	1.207226285	0.0
+Bacteria	species	Segatella salivae	FN	0.0	10293.0
+Bacteria	species	Shigella flexneri	FP	0.1084706	0.0
+Bacteria	species	Shigella sonnei	FP	0.505338397	0.0
+Bacteria	species	Shigella sp. PIB	FP	0.031045843	0.0
+Bacteria	species	Slackia exigua	FN	0.0	6963.0
+Bacteria	species	Staphylococcus aureus	FN	0.0	18694.0
+Bacteria	species	Staphylococcus epidermidis	FN	0.0	34044.0
+Bacteria	species	Streptococcus agalactiae	FN	0.0	6958.0
+Bacteria	species	Streptococcus downei	FN	0.0	7467.0
+Bacteria	species	Streptococcus equinus	FN	0.0	5704.0
+Bacteria	species	Streptococcus infantis	FN	0.0	5814.0
+Bacteria	species	Streptococcus parasanguinis	FN	0.0	14179.0
+Bacteria	species	Streptococcus pneumoniae	FN	0.0	6963.0
+Bacteria	species	Streptococcus sanguinis	FN	0.0	54603.0
+Bacteria	species	Streptococcus sp. F0441	FN	0.0	6597.0
+Bacteria	species	Sutterella parvirubra	FN	0.0	7716.0
+Bacteria	species	Sutterella wadsworthensis	FN	0.0	8853.0
+Bacteria	species	Tannerella sp. 6_1_58FAA_CT1	FN	0.0	12779.0
+Bacteria	species	Thomasclavelia ramosa	FN	0.0	10776.0
+Bacteria	species	Treponema phagedenis	FN	0.0	9340.0
+Bacteria	species	Veillonella dispar	FN	0.0	7031.0
+Bacteria	genus	Achromobacter	FN	0.0	20625.0
+Bacteria	genus	Acinetobacter	TP	0.4	21932.0
+Bacteria	genus	Alloprevotella	FN	0.0	8603.0
+Bacteria	genus	Anaerococcus	FN	0.0	6238.0
+Bacteria	genus	Bacillus	FP	2.1	0.0
+Bacteria	genus	Bacteroides	TP	3.0	115432.0
+Bacteria	genus	Bifidobacterium	FN	0.0	24027.0
+Bacteria	genus	Brevibacterium	FN	0.0	8540.0
+Bacteria	genus	Campylobacter	FN	0.0	5385.0
+Bacteria	genus	Cardiobacterium	FN	0.0	8413.0
+Bacteria	genus	Catenibacterium	FN	0.0	8917.0
+Bacteria	genus	Clostridium	FN	0.0	30452.0
+Bacteria	genus	Corynebacterium	TP	0.9	18320.0
+Bacteria	genus	Cutibacterium	FN	0.0	58035.0
+Bacteria	genus	Dialister	FN	0.0	6318.0
+Bacteria	genus	Enterococcus	FN	0.0	80151.0
+Bacteria	genus	Escherichia	TP	411.303103513	64630.0
+Bacteria	genus	Faecalibacterium	FN	0.0	9655.0
+Bacteria	genus	Fannyhessea	FN	0.0	4768.0
+Bacteria	genus	Finegoldia	FN	0.0	6100.0
+Bacteria	genus	Fusobacterium	FN	0.0	7457.0
+Bacteria	genus	Gardnerella	FN	0.0	11313.0
+Bacteria	genus	Glaesserella	FP	0.022407678	0.0
+Bacteria	genus	Helicobacter	FN	0.0	5478.0
+Bacteria	genus	Holdemanella	FN	0.0	7919.0
+Bacteria	genus	Klebsiella	FP	0.4	0.0
+Bacteria	genus	Lactobacillus	TP	8.0	33229.0
+Bacteria	genus	Lentilactobacillus	FN	0.0	8528.0
+Bacteria	genus	Limosilactobacillus	FN	0.0	5927.0
+Bacteria	genus	Massilia	FN	0.0	20058.0
+Bacteria	genus	Mobiluncus	FN	0.0	6954.0
+Bacteria	genus	Neisseria	TP	4.0	14888.0
+Bacteria	genus	Paenibacillus	FN	0.0	16059.0
+Bacteria	genus	Parabacteroides	FN	0.0	15361.0
+Bacteria	genus	Peptoanaerobacter	FN	0.0	16153.0
+Bacteria	genus	Peptoniphilus	FN	0.0	6823.0
+Bacteria	genus	Prevotella	FN	0.0	33578.0
+Bacteria	genus	Proteus	FP	0.022407678	0.0
+Bacteria	genus	Pseudoflavonifractor	FN	0.0	14137.0
+Bacteria	genus	Pseudomonas	FN	0.0	20937.0
+Bacteria	genus	Salmonella	FP	1.207226285	0.0
+Bacteria	genus	Segatella	FN	0.0	10293.0
+Bacteria	genus	Shigella	FP	0.64485484	0.0
+Bacteria	genus	Slackia	FN	0.0	6963.0
+Bacteria	genus	Staphylococcus	FN	0.0	52738.0
+Bacteria	genus	Streptococcus	FN	0.0	108285.0
+Bacteria	genus	Sutterella	FN	0.0	16569.0
+Bacteria	genus	Tannerella	FN	0.0	12779.0
+Bacteria	genus	Thomasclavelia	FN	0.0	10776.0
+Bacteria	genus	Treponema	FN	0.0	9340.0
+Bacteria	genus	Veillonella	FN	0.0	7031.0
+Bacteria	family	Actinomycetaceae	FN	0.0	6954.0
+Bacteria	family	Alcaligenaceae	FN	0.0	20625.0
+Bacteria	family	Atopobiaceae	FN	0.0	4768.0
+Bacteria	family	Bacillaceae	FP	2.1	0.0
+Bacteria	family	Bacteroidaceae	TP	3.0	115432.0
+Bacteria	family	Bifidobacteriaceae	FN	0.0	35340.0
+Bacteria	family	Brevibacteriaceae	FN	0.0	8540.0
+Bacteria	family	Campylobacteraceae	FN	0.0	5385.0
+Bacteria	family	Cardiobacteriaceae	FN	0.0	8413.0
+Bacteria	family	Clostridiaceae	FN	0.0	30452.0
+Bacteria	family	Coprobacillaceae	FN	0.0	19693.0
+Bacteria	family	Corynebacteriaceae	TP	0.9	18320.0
+Bacteria	family	Eggerthellaceae	FN	0.0	6963.0
+Bacteria	family	Enterobacteriaceae	TP	413.555184638	64630.0
+Bacteria	family	Enterococcaceae	FN	0.0	80151.0
+Bacteria	family	Erysipelotrichaceae	FN	0.0	7919.0
+Bacteria	family	Filifactoraceae	FN	0.0	16153.0
+Bacteria	family	Fusobacteriaceae	FN	0.0	7457.0
+Bacteria	family	Helicobacteraceae	FN	0.0	5478.0
+Bacteria	family	Lactobacillaceae	TP	8.0	47684.0
+Bacteria	family	Moraxellaceae	TP	0.4	21932.0
+Bacteria	family	Morganellaceae	FP	0.022407678	0.0
+Bacteria	family	Neisseriaceae	TP	4.0	14888.0
+Bacteria	family	Oscillospiraceae	FN	0.0	23792.0
+Bacteria	family	Oxalobacteraceae	FN	0.0	20058.0
+Bacteria	family	Paenibacillaceae	FN	0.0	16059.0
+Bacteria	family	Pasteurellaceae	FP	0.022407678	0.0
+Bacteria	family	Peptoniphilaceae	FN	0.0	19161.0
+Bacteria	family	Prevotellaceae	FN	0.0	52474.0
+Bacteria	family	Propionibacteriaceae	FN	0.0	58035.0
+Bacteria	family	Pseudomonadaceae	FN	0.0	20937.0
+Bacteria	family	Staphylococcaceae	FN	0.0	52738.0
+Bacteria	family	Streptococcaceae	FN	0.0	108285.0
+Bacteria	family	Sutterellaceae	FN	0.0	16569.0
+Bacteria	family	Tannerellaceae	FN	0.0	28140.0
+Bacteria	family	Treponemataceae	FN	0.0	9340.0
+Bacteria	family	Veillonellaceae	FN	0.0	13349.0

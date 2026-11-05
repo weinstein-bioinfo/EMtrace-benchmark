@@ -1,0 +1,15 @@
+sample	n_segments	total_ref_len	mean_coverage_pct	mean_identity_pct	weighted_coverage_pct	weighted_identity_pct	mean_positions_called_pct	weighted_positions_called_pct	viral_reads
+LASV_L_00_mixed	1	7243	90.61	100.0	90.61	100.0	90.63	90.63	266
+LASV_L_05_mixed	1	7243	86.3	99.97	86.3	99.97	86.3	86.3	199
+LASV_L_10_mixed	1	7243	84.96	99.92	84.96	99.92	84.96	84.96	141
+LASV_L_15_mixed	1	7243	64.01	99.98	64.01	99.98	64.05	64.05	82
+LASV_L_20_mixed	1	7243	NA	NA	NA	NA	NA	NA	44
+LASV_L_25_mixed	1	7243	NA	NA	NA	NA	NA	NA	39
+LASV_L_30_mixed	1	7243	NA	NA	NA	NA	NA	NA	40
+LASV_S_00_mixed	1	3402	89.09	100.0	89.09	100.0	89.09	89.09	153
+LASV_S_05_mixed	1	3402	86.07	100.0	86.07	100.0	86.07	86.07	122
+LASV_S_10_mixed	1	3402	79.78	99.74	79.78	99.74	79.78	79.78	95
+LASV_S_15_mixed	1	3402	45.77	100.0	45.77	100.0	45.77	45.77	89
+LASV_S_20_mixed	1	3402	37.15	100.0	37.15	100.0	37.15	37.15	92
+LASV_S_25_mixed	1	3402	37.45	100.0	37.45	100.0	37.45	37.45	86
+LASV_S_30_mixed	1	3402	37.27	100.0	37.27	100.0	37.27	37.27	75

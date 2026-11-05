@@ -1,0 +1,9 @@
+# Ergunay et al. 2023 (PRJNA878809), pool 58-37: R. bursa, 7 females, sheep, Antalya.
+# Pools were screened by in-house PCR for generic nairovirus (CCHFV) and JMTV.
+# pcr_pos/pcr_neg: PCR result (Tables S2, S3); reported: the paper's own BLAST of the
+# Nanopore reads (Tables S4, S5), agreement only. Scored at genus.
+taxon	evidence	source
+Orthonairovirus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)
+Jingmenvirus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)
+Mivirus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)
+Phlebovirus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)

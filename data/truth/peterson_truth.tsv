@@ -1,0 +1,5 @@
+sample_id	taxid	species	genus	family	order	class	division	organism	prob
+SRR31174237	64320	Orthoflavivirus zikaense	Orthoflavivirus	Flaviviridae	Amarillovirales	Flasuviricetes	Viruses	Zika virus	1.0
+ERR14941561	11082	Orthoflavivirus nilense	Orthoflavivirus	Flaviviridae	Amarillovirales	Flasuviricetes	Viruses	West Nile virus	1.0
+SRR15356294	2697049	Betacoronavirus pandemicum	Betacoronavirus	Coronaviridae	Nidovirales	Pisoniviricetes	Viruses	Severe acute respiratory syndrome coronavirus 2	1.0
+SRR32419728	11060	Orthoflavivirus denguei	Orthoflavivirus	Flaviviridae	Amarillovirales	Flasuviricetes	Viruses	dengue virus type 2	1.0

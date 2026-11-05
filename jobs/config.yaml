@@ -1,0 +1,169 @@
+# Central configuration for the 3-step EMtrace Framework A evaluation pipeline.
+#
+# Consumed by:
+#   01_fetch_data.sh         — pulls every datasets.*.samples[*].sra (and .nc_sra)
+#   02_emtrace_analyze.sh — runs `emtrace run` per sample using .emtrace.*
+#   03_ngs_benchmark.sh      — scores predictions using .ngs_benchmark.* per dataset.mode
+#
+# Dependencies: python3 + PyYAML, sra-tools (prefetch/fasterq-dump), emtrace, ngs-benchmark.
+
+# ---------------------------------------------------------------------------
+# EMtrace pipeline parameters
+# ---------------------------------------------------------------------------
+emtrace:
+  threads: 8
+
+  # Subsample reads before analysis.
+  # Results are written to results_sub<N>.
+  # Comment out to analyse the full dataset.
+  max_reads: 10000
+
+  # Annotation strategy.  Picks search engine + reference DB.
+  # Named strategies defined in emtrace/src/emtrace/config/default.yaml:
+  #   abv          — minimap2 vs minimap.refseq.abv             (default, fastest)
+  #   abv.1g       — minimap2 vs minimap.refseq.abv.1g          (larger 1g index)
+  #   vi.2round    — minimap2 vs minimap.refseq.vi  then blastn round 2
+  #   vi.2round1g  — minimap2 vs minimap.refseq.abv.1g + blastn round 2
+  #   vi.chain1    — minimap.refseq.vi → blastn.refseq.abv
+  #   vi.chain2    — minimap.refseq.abv.1g → blastn.refseq.abv (recommended hybrid)
+  #anns: abv.1g
+  # Alternative: bypass --anns and set the rounds explicitly.
+  ann1: minimap.refseq.abv.1g
+  # ann2: vi:blastn.refseq.abv
+
+  hostgen: Homo_sapiens
+  taxonomy: NCBI                # NCBI | SILVA
+
+  # Optional scoring thresholds (uncomment to override defaults).
+  # min_minimap_score: 80
+  # min_blastn_bits: 50
+  # min_qcov: 0.5
+
+# ---------------------------------------------------------------------------
+# ngs-benchmark scoring parameters (apply to every dataset unless overridden)
+# ---------------------------------------------------------------------------
+ngs_benchmark:
+  pred_fmt: emtrace
+  ranks: species,genus,family
+  taxgroup: Viruses
+  score_col: readn               # readn | prob | pvalue
+  read_min: 10                   # applied to readn, never to tail_col
+  tail: 0.0                      # cumulative-share tail trim, FRACTION (0.01 = 1%)
+  tail_col: readn                # readn | readn_em (falls back to readn)
+  # tail_vi / tail_ba were PERCENT and are deprecated; `tail` replaces both.
+  # Every completed Framework A result was scored with the trim off, and
+  # tail: 0.0 keeps it that way.
+
+# ---------------------------------------------------------------------------
+# Datasets
+# ---------------------------------------------------------------------------
+# Each dataset:
+#   mode         buddle | detection  (selects step-3 branch)
+#   truth_file   ground-truth TSV (canonical AbundanceDF schema)
+#   samples[]    sra, optional gc_per_ml + nc_sra for buddle dilution series
+# ---------------------------------------------------------------------------
+datasets:
+
+  # Buddle et al. 2024 (ATCC MSA-1008 mock community) — PRJEB74559, PromethION R10.4.1.
+  # Split into two datasets by library type (DNA/RNA must be scored separately because
+  # the truth set differs: RNA viruses are absent from the DNA library and vice versa).
+  # Replicates a/b are kept separate; replicate b lines are commented — uncomment to add.
+  # Negative controls: DNA_0_1 (ERR13488555) and DNA_0_2 (ERR13488750) for DNA;
+  #                   RNA_0_1 (ERR13488751) for RNA (only one NC library prepared).
+
+  buddle_2024_dna:
+    mode: buddle
+    truth_file: data/truth/buddle_dna_truth.tsv
+    # METAGENOMIC library (NEBNext Microbiome depletion + Rapid PCR Barcoding V14).
+    # Captures dsDNA viruses (Adenovirus F, CMV) well; RNA viruses under-represented.
+    samples:
+      - { sra: ERR13488553, gc_per_ml: 60,    nc_sra: ERR13488555 }  # DNA_60_a    / rep a
+      - { sra: ERR13488749, gc_per_ml: 600,   nc_sra: ERR13488555 }  # DNA_600_a   / rep a
+      - { sra: ERR13488550, gc_per_ml: 6000,  nc_sra: ERR13488555 }  # DNA_6000_a  / rep a
+      - { sra: ERR13485822, gc_per_ml: 60000, nc_sra: ERR13488555 }  # DNA_60000_a / rep a
+      # - { sra: ERR13488554, gc_per_ml: 60,    nc_sra: ERR13488750 }  # DNA_60_b    / rep b
+      # - { sra: ERR13488552, gc_per_ml: 600,   nc_sra: ERR13488750 }  # DNA_600_b   / rep b
+      # - { sra: ERR13488551, gc_per_ml: 6000,  nc_sra: ERR13488750 }  # DNA_6000_b  / rep b
+      # - { sra: ERR13488549, gc_per_ml: 60000, nc_sra: ERR13488750 }  # DNA_60000_b / rep b
+
+  buddle_2024_rna:
+    mode: buddle
+    truth_file: data/truth/buddle_rna_truth.tsv
+    # METATRANSCRIPTOMIC library (Rapid-SMART-9N cDNA synthesis).
+    # Captures RNA viruses (RSV, Influenza B, Reovirus, Zika) well; dsDNA viruses sparse.
+    # One negative-control library only (RNA_0_1).
+    samples:
+      - { sra: ERR13488562, gc_per_ml: 60,    nc_sra: ERR13488751 }  # RNA_60_a    / rep a
+      - { sra: ERR13488560, gc_per_ml: 600,   nc_sra: ERR13488751 }  # RNA_600_a   / rep a
+      - { sra: ERR13488558, gc_per_ml: 6000,  nc_sra: ERR13488751 }  # RNA_6000_a  / rep a
+      - { sra: ERR13488556, gc_per_ml: 60000, nc_sra: ERR13488751 }  # RNA_60000_a / rep a
+      # - { sra: ERR13488563, gc_per_ml: 60,    nc_sra: ERR13488751 }  # RNA_60_b    / rep b
+      # - { sra: ERR13488561, gc_per_ml: 600,   nc_sra: ERR13488751 }  # RNA_600_b   / rep b
+      # - { sra: ERR13488559, gc_per_ml: 6000,  nc_sra: ERR13488751 }  # RNA_6000_b  / rep b
+      # - { sra: ERR13488557, gc_per_ml: 60000, nc_sra: ERR13488751 }  # RNA_60000_b / rep b
+
+  peterson_2026:
+    mode: detection
+    truth_file: data/truth/peterson_truth.tsv
+    # PRJNA606238 — Tang et al. DENV-2 surveillance, Brazil 2019, MinION.
+    # Two samples already on disk; extend list as needed.
+    samples:
+      - { sra: SRR31174237 }  # Zika virus, 96,903 reads, lab stock, ViMOP Table S11 (Peterset et al. 2026)
+      - { sra: ERR14941561 }  # West Nile virus,  403 reads, lab stock, ViMOP Table S11 (Peterset et al. 2026)
+      - { sra: SRR15356294 }  # SARS-CoV-2, 85,593 reads, nasophar. swab, ViMOP Table S11 (Peterset et al. 2026)
+      - { sra: SRR32419728 }  # Dengue virus, 297,971 reads, serum-derived culture isolate, ViMOP Table S11 (Peterset et al. 2026)
+
+  gauthier_2021:
+    mode: detection
+    truth_file: data/truth/gauthier_truth.tsv
+    # Gauthier et al. 2021 (SARS-CoV-2, BioProject PRJNA752146 / SRA SRP331272).
+    # SISPA random-amplification nanopore mNGS on NPS/OPS swabs (MinION MK1b, FLO-MIN106).
+    # Three cohorts: VGH Fall 2020 (LSK109), BCCDC Fall 2020 (LSK110), VGH+Oxford Spring 2020–2021 (LSK110).
+    # 20 mNGS-positive samples after 0.2% barcode-crosstalk correction; 4 excluded (see below).
+    # 16 clean positives retained: Ct 14.7–30.6; log(RPM) predicts Cov20X better than Ct alone
+    # (r=0.90 vs r=-0.86 on clean set). Coverage cliff at Ct~25: all samples with Ct<25 achieve
+    # ≥99% Cov20X; all with Ct>26 achieve 0% Cov20X. See gauthier_ct_coverage.png.
+    # 5 negative controls (N1–N5, VGH Spring 2021) available — uncomment for FP/specificity scoring.
+    #
+    # Excluded samples (4/20):
+    #   P31 (SRR15356309, Ct=22.8, RPM=1,136): RPM ~150× lower than P30 (Ct=22.0, RPM=171,129)
+    #     from the same Spring 2021 VGH sequencing batch. Barcode crosstalk correction stripped most
+    #     viral reads; Cov20X=20%. Anomalous RPM/Ct ratio relative to all other samples in this Ct zone.
+    #   P32 (SRR15356324, Ct=23.5, RPM=374): lowest RPM of any mNGS-positive sample; same batch as
+    #     P31; Cov20X=3.9%. Continues P31 trajectory — insufficient reads post-crosstalk correction.
+    #   P33 (SRR15356323, Ct=24.4, RPM=1,055): same Spring 2021 VGH batch; Cov20X=0%; RPM grossly
+    #     inconsistent with Ct. P31/P32/P33 form a within-batch cluster of anomalously low RPM at
+    #     moderate Ct (~22–24) unexplained by viral load; likely a batch-level crosstalk overcorrection.
+    #   P1  (SRR15356297, Ct=37.1, RPM=3,030): Ct=37.1 implies ~2^22-fold fewer copies than Ct=15;
+    #     genuine SARS-CoV-2 signal at this level is implausible for SISPA mNGS on NPS. Cov20X=80.1%
+    #     is irreconcilable with near-zero viral load — probable residual barcode cross-contamination
+    #     surviving the 0.2% correction. Opposite outlier to P31–P33 (too high coverage for its Ct).
+    samples:
+      - { sra: SRR15356303 }  # P3,  Ct=14.7, VGH NPS Fall 2020,    RPM=889,826
+      - { sra: SRR15356328 }  # P24, Ct=15.5, VGH NPS Spring 2021,  RPM=58,193
+      - { sra: SRR15356305 }  # P25, Ct=16.1, VGH NPS Spring 2021,  RPM=68,749
+      - { sra: SRR15356306 }  # P26, Ct=16.1, VGH NPS Spring 2021,  RPM=493,422
+      - { sra: SRR15356327 }  # P27, Ct=17.0, VGH NPS Spring 2021,  RPM=60,412
+      - { sra: SRR15356326 }  # P28, Ct=17.7, VGH NPS Spring 2021,  RPM=22,088
+      - { sra: SRR15356325 }  # P29, Ct=20.0, VGH NPS Spring 2021,  RPM=47,058
+      - { sra: SRR15356329 }  # P23, Ct=21.4, VGH NPS Spring 2021,  RPM=17,462
+      - { sra: SRR15356307 }  # P30, Ct=22.0, VGH NPS Dec 2020,     RPM=171,129
+      - { sra: SRR15356298 }  # P2,  Ct=24.1, VGH NPS Fall 2020,    RPM=62,401
+      - { sra: SRR15356308 }  # P4,  Ct=25.4, Oxford OPS Spring 2020, RPM=3,135
+      - { sra: SRR15356322 }  # P34, Ct=25.5, VGH NPS Spring 2021,  RPM=39
+      - { sra: SRR15356310 }  # P35, Ct=27.3, VGH NPS Spring 2021,  RPM=3
+      - { sra: SRR15356311 }  # P36, Ct=27.7, VGH NPS Spring 2021,  RPM=28
+      - { sra: SRR15356321 }  # P37, Ct=28.0, VGH NPS Jul 2020,     RPM=241
+      - { sra: SRR15356320 }  # P38, Ct=30.6, VGH NPS Spring 2021,  RPM=49
+      # Negative controls — uncomment for FP/specificity scoring:
+      - { sra: SRR15356319 }  # N1, Ct=—, VGH NPS 2021-05-23
+      - { sra: SRR15356312 }  # N2, Ct=—, VGH NPS 2021-05-24
+      - { sra: SRR15356295 }  # N3, Ct=—, VGH NPS 2021-05-24
+      - { sra: SRR15356318 }  # N4, Ct=—, VGH NPS 2021-05-23
+      - { sra: SRR15356317 }  # N5, Ct=—, VGH NPS 2021-05-23
+
+  dna_viral_placeholder:
+    mode: detection
+    truth_file: data/truth/dna_viral_truth.tsv
+    # DNA viral SRA datasets to be selected.  Populate when chosen.
+    samples: []

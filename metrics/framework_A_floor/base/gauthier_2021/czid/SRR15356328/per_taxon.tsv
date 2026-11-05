@@ -1,0 +1,9 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Alphainfluenzavirus influenzae	FP	27.0	0.0
+Viruses	species	Bat coronavirus	FP	499.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	161885.0	1.0
+Viruses	species	Pangolin coronavirus	FP	2184.0	0.0
+Viruses	genus	Alphainfluenzavirus	FP	27.0	0.0
+Viruses	genus	Betacoronavirus	TP	164069.0	1.0
+Viruses	family	Coronaviridae	TP	164568.0	1.0
+Viruses	family	Orthomyxoviridae	FP	27.0	0.0

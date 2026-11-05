@@ -1,0 +1,5 @@
+sample_id	consensus	reference
+ERR14941561	metrics/framework_B/sra_petersen_2026_v20260924_chain2.medaka.primary/ERR14941561.fa	data/sra/refs/petersen_2026/ERR14941561.fasta
+SRR15356294	metrics/framework_B/sra_petersen_2026_v20260924_chain2.medaka.primary/SRR15356294.fa	data/sra/refs/petersen_2026/SRR15356294.fasta
+SRR31174237	metrics/framework_B/sra_petersen_2026_v20260924_chain2.medaka.primary/SRR31174237.fa	data/sra/refs/petersen_2026/SRR31174237.fasta
+SRR32419728	metrics/framework_B/sra_petersen_2026_v20260924_chain2.medaka.primary/SRR32419728.fa	data/sra/refs/petersen_2026/SRR32419728.fasta

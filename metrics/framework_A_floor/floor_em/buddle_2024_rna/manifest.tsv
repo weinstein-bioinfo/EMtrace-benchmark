@@ -1,0 +1,17 @@
+pipeline	sample_id	path	fmt	gc_per_ml
+emtrace	ERR13488562	results/framework_A/emtrace/buddle_2024_rna/ERR13488562/results/reports/abund_table.tsv	emtrace	60
+epi2me	ERR13488562	results/framework_A/epi2me/buddle_2024_rna/ERR13488562/ERR13488562_epi2me.bracken.tsv	epi2me	60
+czid	ERR13488562	results/framework_A/czid/buddle_2024_rna/ERR13488562/ERR13488562_978135_taxon_report.csv	czid	60
+megan_lr	ERR13488562	results/framework_A/megan_lr/buddle_2024_rna/ERR13488562/ERR13488562_megan_taxcount.tsv	megan_lr	60
+emtrace	ERR13488560	results/framework_A/emtrace/buddle_2024_rna/ERR13488560/results/reports/abund_table.tsv	emtrace	600
+epi2me	ERR13488560	results/framework_A/epi2me/buddle_2024_rna/ERR13488560/ERR13488560_epi2me.bracken.tsv	epi2me	600
+czid	ERR13488560	results/framework_A/czid/buddle_2024_rna/ERR13488560/ERR13488560_978136_taxon_report.csv	czid	600
+megan_lr	ERR13488560	results/framework_A/megan_lr/buddle_2024_rna/ERR13488560/ERR13488560_megan_taxcount.tsv	megan_lr	600
+emtrace	ERR13488558	results/framework_A/emtrace/buddle_2024_rna/ERR13488558/results/reports/abund_table.tsv	emtrace	6000
+epi2me	ERR13488558	results/framework_A/epi2me/buddle_2024_rna/ERR13488558/ERR13488558_epi2me.bracken.tsv	epi2me	6000
+czid	ERR13488558	results/framework_A/czid/buddle_2024_rna/ERR13488558/ERR13488558_978137_taxon_report.csv	czid	6000
+megan_lr	ERR13488558	results/framework_A/megan_lr/buddle_2024_rna/ERR13488558/ERR13488558_megan_taxcount.tsv	megan_lr	6000
+emtrace	ERR13488556	results/framework_A/emtrace/buddle_2024_rna/ERR13488556/results/reports/abund_table.tsv	emtrace	60000
+epi2me	ERR13488556	results/framework_A/epi2me/buddle_2024_rna/ERR13488556/ERR13488556_epi2me.bracken.tsv	epi2me	60000
+czid	ERR13488556	results/framework_A/czid/buddle_2024_rna/ERR13488556/ERR13488556_978138_taxon_report.csv	czid	60000
+megan_lr	ERR13488556	results/framework_A/megan_lr/buddle_2024_rna/ERR13488556/ERR13488556_megan_taxcount.tsv	megan_lr	60000

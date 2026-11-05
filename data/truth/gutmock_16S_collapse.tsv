@@ -1,0 +1,10 @@
+rank	from	to	if_species	reason
+genus	Shigella	Escherichia		Reused from zymobiomics_16S_collapse.tsv. Shigella is genomically E. coli; NCBI keeps them as separate genera, so every NCBI-taxonomy run splits these reads.
+genus	Escherichia-Shigella	Escherichia		Reused from zymobiomics_16S_collapse.tsv. SILVA 138.2 merged genus label; maps onto the truth genus Escherichia (Spaghetti on SILVA reports 10.6 % here).
+species	Shigella flexneri	Escherichia coli		Reused. 16S-indistinguishable from E. coli.
+species	Shigella sonnei	Escherichia coli		Reused. 16S-indistinguishable from E. coli.
+species	Shigella dysenteriae	Escherichia coli		Reused. 16S-indistinguishable from E. coli.
+species	Shigella boydii	Escherichia coli		Reused. 16S-indistinguishable from E. coli.
+species	Lactobacillus fermentum	Limosilactobacillus fermentum		Reused. Pre-2020 name for the same organism (Zheng et al. 2020); Zymo's D6331 certificate still prints Lactobacillus fermentum, and SILVA 138 (Spaghetti) reports it under the old name.
+genus	Lactobacillus	Limosilactobacillus	Lactobacillus fermentum	Reused. Genus half of the L. fermentum rename, scoped to that species only; other Lactobacillus species keep their genus and stay false positives.
+genus	Clostridium sensu stricto 1	Clostridium	Clostridium perfringens	Reused from synthgut_16S_collapse.tsv. SILVA 138's split label for the Clostridium type group, scoped to C. perfringens (0.0002 % of this truth).

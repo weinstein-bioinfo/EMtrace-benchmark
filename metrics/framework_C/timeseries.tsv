@@ -1,0 +1,553 @@
+run	library	anns	batch	seq_time_s	wall_s	reads_cum	top_taxon	em_prob	L1	n_truth_taxa	latency_s	n_pred	n_true	TP	FP	FN	Pr	Rc	F1
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	1	788.0	140.919	4000	Orbivirus	0.4432207100472161			140.919	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	2	1355.0	292.913	8000	Orbivirus	0.4223525609399322			151.846	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	3	1882.0	451.3	12000	Orbivirus	0.4341461121299289			158.338	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	4	2358.0	604.757	16000	Orbivirus	0.4263168442833711			153.399	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	5	2817.0	755.551	20000	Orbivirus	0.4200602298481113			150.72	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	6	3235.0	901.015	24000	Orbivirus	0.430061774211435			145.383	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	7	3652.0	1060.659	28000	Orbivirus	0.4264301684599972			159.572	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	8	4046.0	1220.263	32000	Orbivirus	0.4222125733353333			159.528	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	9	4437.0	1382.703	36000	Orbivirus	0.4192854153390776			162.357	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	10	4823.0	1555.437	40000	Orbivirus	0.4186432146312513			172.664	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	11	5213.0	1733.813	44000	Orbivirus	0.4174639014882596			178.327	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	12	5840.0	1907.131	48000	Orbivirus	0.4193841342908904			173.256	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	13	6275.0	2091.314	52000	Orbivirus	0.4215310136849554			184.125	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	14	6709.0	2264.402	56000	Orbivirus	0.4235185053946504			173.033	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	15	7143.0	2457.638	60000	Orbivirus	0.4214197207183864			193.169	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	16	7572.0	2640.832	64000	Orbivirus	0.4206843472561431			183.133	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	17	7980.0	2830.367	68000	Orbivirus	0.4217805444684909			189.452	4.0	1.0	1.0	3.0	0.0	0.25	1.0	0.4
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	18	8391.0	2986.526	72000	Orbivirus	0.4232209168199808			156.093	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	19	8823.0	3167.809	76000	Orbivirus	0.4222892103791805			181.222	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	20	9239.0	3343.705	80000	Orbivirus	0.423048728095652			175.824	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	21	9653.0	3522.693	84000	Orbivirus	0.4248706739143575			178.923	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	22	10075.0	3697.568	88000	Orbivirus	0.4247449949749804			174.797	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	23	10504.0	3877.569	92000	Orbivirus	0.4231013439191554			179.943	6.0	1.0	1.0	5.0	0.0	0.1667	1.0	0.2857
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	24	10943.0	4037.286	96000	Orbivirus	0.4236956121450599			159.668	6.0	1.0	1.0	5.0	0.0	0.1667	1.0	0.2857
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	25	11619.0	4226.157	100000	Orbivirus	0.4240986661362039			188.803	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	26	12053.0	4397.404	104000	Orbivirus	0.4222798191988234			171.183	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	27	12490.0	4561.758	108000	Orbivirus	0.4211539465671132			164.295	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	28	12922.0	4729.138	112000	Orbivirus	0.4207504208787007			167.32	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	29	13356.0	4904.687	116000	Orbivirus	0.4198471993402813			175.486	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	30	13792.0	5086.042	120000	Orbivirus	0.4188208895821081			181.288	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	31	14226.0	5271.435	124000	Orbivirus	0.4189820519535112			185.329	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	32	14697.0	5487.077	128000	Orbivirus	0.4185745428176834			215.591	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	33	15153.0	5681.536	132000	Orbivirus	0.417253731470918			194.385	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	34	15614.0	5878.057	136000	Orbivirus	0.4175357588388704			196.472	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	35	16097.0	6067.657	140000	Orbivirus	0.417257229876			189.526	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	36	16579.0	6249.518	144000	Orbivirus	0.4171072617827821			181.821	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	37	17249.0	6435.073	148000	Orbivirus	0.4162364931197325			185.482	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	38	17540.0	6624.364	152000	Orbivirus	0.4169861052038439			189.214	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	39	17833.0	6815.193	156000	Orbivirus	0.4172126378203364			190.77	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	40	18134.0	7004.7	160000	Orbivirus	0.41726058567268			189.447	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	41	18441.0	7206.87	164000	Orbivirus	0.4173288070674419			202.096	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	42	18758.0	7391.409	168000	Orbivirus	0.4174364886301335			184.484	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	43	19073.0	7562.965	172000	Orbivirus	0.4176967058837323			171.477	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	44	19393.0	7741.395	176000	Orbivirus	0.418410851139509			178.351	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	45	19718.0	7913.904	180000	Orbivirus	0.4192278538503902			172.45	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	46	20039.0	8107.598	184000	Orbivirus	0.4193424035965848			193.635	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	47	20376.0	8310.671	188000	Orbivirus	0.4182679310293184			203.001	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	48	20715.0	8523.419	192000	Orbivirus	0.418848707187492			212.683	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	49	21064.0	8722.26	196000	Orbivirus	0.4187602487055262			198.759	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	50	21425.0	8918.122	200000	Orbivirus	0.4178960242646332			195.792	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	51	21790.0	9097.699	204000	Orbivirus	0.4179317217501487			179.5	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	52	22168.0	9284.433	208000	Orbivirus	0.4172695720959475			186.671	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	53	22570.0	9474.175	212000	Orbivirus	0.4177672232246887			189.684	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	54	23068.0	9659.217	216000	Orbivirus	0.4174896757374107			184.958	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	55	23299.0	9844.026	220000	Orbivirus	0.4179779195658469			184.761	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	56	23534.0	10015.659	224000	Orbivirus	0.4168531653784127			171.559	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	57	23780.0	10189.319	228000	Orbivirus	0.4172267664249799			173.597	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	58	24025.0	10373.179	232000	Orbivirus	0.4168530845951371			183.789	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	59	24277.0	10554.959	236000	Orbivirus	0.4166536419416084			181.712	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	60	24528.0	10730.958	240000	Orbivirus	0.4167374816397538			175.931	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	61	24784.0	10921.837	244000	Orbivirus	0.4169833589390582			190.701	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	62	25042.0	11118.772	248000	Orbivirus	0.4168970309088419			196.861	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	63	25301.0	11320.673	252000	Orbivirus	0.4169038048078882			201.824	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	64	25559.0	11534.95	256000	Orbivirus	0.4171065558167798			214.201	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	65	25829.0	11726.846	260000	Orbivirus	0.4172523439485089			191.819	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	66	26101.0	11915.595	264000	Orbivirus	0.4178569933553593			188.687	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	67	26384.0	12091.535	268000	Orbivirus	0.4178186050095228			175.85	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	68	26674.0	12297.79	272000	Orbivirus	0.4178788848074883			206.191	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	69	26970.0	12506.906	276000	Orbivirus	0.4177184616317607			209.052	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	70	27287.0	12701.447	280000	Orbivirus	0.4178077317669579			194.48	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	71	27617.0	12890.142	284000	Orbivirus	0.4180889878504472			188.628	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	72	27954.0	13082.334	288000	Orbivirus	0.4185898455530496			192.157	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	73	28554.0	13284.695	292000	Orbivirus	0.4189403773220621			202.314	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	74	28950.0	13477.527	296000	Orbivirus	0.4193702730760837			192.755	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	75	29349.0	13661.307	300000	Orbivirus	0.4191666950344768			183.734	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	76	29772.0	13850.029	304000	Orbivirus	0.4191618510602963			188.669	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	77	30193.0	14029.656	308000	Orbivirus	0.419264483072281			179.568	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	78	30640.0	14229.574	312000	Orbivirus	0.419144175952835			199.85	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	79	31108.0	14424.445	316000	Orbivirus	0.4190338179049822			194.806	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	80	31596.0	14601.488	320000	Orbivirus	0.419251715473208			176.999	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	81	32119.0	14794.157	324000	Orbivirus	0.4191750084245942			192.614	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	82	32676.0	14976.771	328000	Orbivirus	0.4197995831408824			182.557	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	83	33276.0	15172.674	332000	Orbivirus	0.4201070935602181			195.848	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	84	33934.0	15370.546	336000	Orbivirus	0.4199148581357595			197.823	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	85	34492.0	15586.401	340000	Orbivirus	0.4200627339615163			215.799	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	86	34798.0	15780.187	344000	Orbivirus	0.4203143207150394			193.707	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	87	35121.0	15972.028	348000	Orbivirus	0.4206488312694392			191.764	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	88	35455.0	16147.721	352000	Orbivirus	0.4211572788131063			175.616	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	89	35795.0	16329.456	356000	Orbivirus	0.4212106251665559			181.672	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	90	36163.0	16527.295	360000	Orbivirus	0.421892595739951			197.786	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	91	36570.0	16723.723	364000	Orbivirus	0.4221893575387825			196.365	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	92	37017.0	16920.849	368000	Orbivirus	0.4228307812362316			197.06	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	93	37543.0	17117.231	372000	Orbivirus	0.4230195546293232			196.306	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	94	38150.0	17299.052	376000	Orbivirus	0.4228383324022831			181.755	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	95	38799.0	17476.735	380000	Orbivirus	0.4225794403415439			177.647	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	96	39467.0	17654.366	384000	Orbivirus	0.4227877424940117			177.582	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	97	40077.0	17837.405	388000	Orbivirus	0.4229373799009513			182.978	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	98	40337.0	18039.283	392000	Orbivirus	0.4229759189592492			201.821	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	99	40604.0	18232.282	396000	Orbivirus	0.4230954871519842			192.949	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	100	40895.0	18409.058	400000	Orbivirus	0.4232423270460095			176.72	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	101	41198.0	18585.828	404000	Orbivirus	0.4238022467926578			176.705	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	102	41560.0	18801.097	408000	Orbivirus	0.4243399353921894			215.192	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	103	41988.0	19004.161	412000	Orbivirus	0.4249235465742705			202.994	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	104	42518.0	19184.883	416000	Orbivirus	0.4251624864005328			180.662	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	105	43175.0	19383.884	420000	Orbivirus	0.4252836487479602			198.949	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	106	43926.0	19568.729	424000	Orbivirus	0.4253857931734224			184.786	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	107	44737.0	19746.983	428000	Orbivirus	0.4255377264651775			178.19	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	108	45704.0	19924.851	432000	Orbivirus	0.4257493112035928			177.814	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	109	46113.0	20094.653	436000	Orbivirus	0.4261801522195922			169.736	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	110	46663.0	20278.6	440000	Orbivirus	0.4264611884269978			183.89	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	111	47501.0	20477.733	444000	Orbivirus	0.4265982770296201			199.081	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	112	48917.0	20654.662	448000	Orbivirus	0.4268668170245334			176.867	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	113	51338.0	20878.647	452000	Orbivirus	0.42661960380054			223.909	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	114	51864.0	21079.874	456000	Orbivirus	0.4266771982631903			201.163	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	115	57177.0	21260.269	460000	Orbivirus	0.4268303063688411			180.352	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	116	68340.0	21438.227	464000	Orbivirus	0.4271669049038473			177.885	15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	1	788.0	229.274	4000	Orbivirus	0.4252764348403313			229.274	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	2	1355.0	451.546	8000	Orbivirus	0.4073514887007009			222.124	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	3	1882.0	680.02	12000	Orbivirus	0.3993683502553313			228.405	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	4	2358.0	916.205	16000	Orbivirus	0.3955286394223001			236.119	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	5	2817.0	1144.363	20000	Orbivirus	0.3976839062519338			228.09	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	6	3235.0	1377.567	24000	Orbivirus	0.3953962224598439			233.134	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	7	3652.0	1602.704	28000	Orbivirus	0.3958645002428936			225.081	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	8	4046.0	1845.003	32000	Orbivirus	0.3955710145309457			242.248	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	9	4437.0	2095.665	36000	Orbivirus	0.3942532605380555			250.606	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	10	4823.0	2347.39	40000	Orbivirus	0.3960051005105582			251.677	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	11	5213.0	2585.611	44000	Orbivirus	0.3942732376827397			238.154	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	12	5840.0	2832.895	48000	Orbivirus	0.3946224460776761			247.239	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	13	6275.0	3075.369	52000	Orbivirus	0.3928063163819841			242.411	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	14	6709.0	3317.0	56000	Orbivirus	0.3937682293255592			241.572	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	15	7143.0	3583.559	60000	Orbivirus	0.393984345284577			266.497	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	16	7572.0	3834.088	64000	Orbivirus	0.3941772776542429			250.474	3.0	1.0	1.0	2.0	0.0	0.3333	1.0	0.5
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	17	7980.0	4092.76	68000	Orbivirus	0.3932991732550487			258.61	4.0	1.0	1.0	3.0	0.0	0.25	1.0	0.4
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	18	8391.0	4330.251	72000	Orbivirus	0.393686854677742			237.437	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	19	8823.0	4593.994	76000	Orbivirus	0.3921849707139835			263.68	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	20	9239.0	4855.832	80000	Orbivirus	0.3918531026980027			261.788	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	21	9653.0	5108.498	84000	Orbivirus	0.3927044444549635			252.607	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	22	10075.0	5361.23	88000	Orbivirus	0.3906715304598769			252.674	5.0	1.0	1.0	4.0	0.0	0.2	1.0	0.3333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	23	10504.0	5611.916	92000	Orbivirus	0.3906013505951827			250.614	6.0	1.0	1.0	5.0	0.0	0.1667	1.0	0.2857
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	24	10943.0	5881.536	96000	Orbivirus	0.3892529143458079			269.554	6.0	1.0	1.0	5.0	0.0	0.1667	1.0	0.2857
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	25	11619.0	6143.444	100000	Orbivirus	0.3880214826046602			261.857	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	26	12053.0	6385.193	104000	Orbivirus	0.3875672032687128			241.699	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	27	12490.0	6641.188	108000	Orbivirus	0.387201572866204			255.934	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	28	12922.0	6893.017	112000	Orbivirus	0.386244745238535			251.759	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	29	13356.0	7145.649	116000	Orbivirus	0.3858632534219277			252.584	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	30	13792.0	7401.584	120000	Orbivirus	0.384673288197132			255.863	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	31	14226.0	7679.749	124000	Orbivirus	0.3842521278256813			278.103	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	32	14697.0	7965.273	128000	Orbivirus	0.3836505423440758			285.47	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	33	15153.0	8226.229	132000	Orbivirus	0.3837992511706334			260.883	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	34	15614.0	8503.736	136000	Orbivirus	0.3840190353272595			277.447	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	35	16097.0	8785.857	140000	Orbivirus	0.3831014461901467			282.073	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	36	16579.0	9061.271	144000	Orbivirus	0.3831074451775794			275.355	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	37	17249.0	9338.393	148000	Orbivirus	0.3825533972628587			277.075	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	38	17540.0	9608.614	152000	Orbivirus	0.3817513483238114			270.166	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	39	17833.0	9867.634	156000	Orbivirus	0.3805244882735865			258.965	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	40	18134.0	10117.847	160000	Orbivirus	0.3802549459205219			250.155	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	41	18441.0	10374.927	164000	Orbivirus	0.3794148143245981			257.033	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	42	18758.0	10621.769	168000	Orbivirus	0.3791024316756026			246.785	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	43	19073.0	10887.969	172000	Orbivirus	0.3784664176011129			266.137	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	44	19393.0	11145.044	176000	Orbivirus	0.3787312220004336			257.013	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	45	19718.0	11396.326	180000	Orbivirus	0.3787039424349194			251.233	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	46	20039.0	11651.893	184000	Orbivirus	0.3783944193939661			255.516	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	47	20376.0	11927.673	188000	Orbivirus	0.3778937280164284			275.716	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	48	20715.0	12197.221	192000	Orbivirus	0.3773175759923114			269.487	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	49	21064.0	12461.2	196000	Orbivirus	0.3768487826676048			263.909	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	50	21425.0	12721.574	200000	Orbivirus	0.3759540409711191			260.301	7.0	1.0	1.0	6.0	0.0	0.1429	1.0	0.25
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	51	21790.0	13000.962	204000	Orbivirus	0.3751883471137187			279.32	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	52	22168.0	13269.302	208000	Orbivirus	0.3743569981660259			268.263	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	53	22570.0	13525.786	212000	Orbivirus	0.3741563873900718			256.424	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	54	23068.0	13771.948	216000	Orbivirus	0.3735209467244042			246.088	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	55	23299.0	14034.201	220000	Orbivirus	0.373007083937046			262.192	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	56	23534.0	14320.116	224000	Orbivirus	0.3727636155344315			285.869	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	57	23780.0	14605.164	228000	Orbivirus	0.3723340510498293			284.992	8.0	1.0	1.0	7.0	0.0	0.125	1.0	0.2222
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	58	24025.0	14884.591	232000	Orbivirus	0.3722211136747302			279.362	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	59	24277.0	15157.449	236000	Orbivirus	0.372324132626157			272.799	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	60	24528.0	15432.623	240000	Orbivirus	0.3721899557121226			275.101	9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	61	24784.0	15689.011	244000	Orbivirus	0.3720246926184857			256.318	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	62	25042.0	15954.624	248000	Orbivirus	0.3716290257170618			265.545	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	63	25301.0	16229.102	252000	Orbivirus	0.3710582109488285			274.413	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	64	25559.0	16517.857	256000	Orbivirus	0.3710213705350453			288.707	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	65	25829.0	16811.09	260000	Orbivirus	0.3706335404836412			293.173	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	66	26101.0	17453.663	264000	Orbivirus	0.3703861854052368			642.52	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	67	26384.0	18289.704	268000	Orbivirus	0.370146277988132			835.976	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	68	26674.0	18913.341	272000	Orbivirus	0.3697994010096425			623.579	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	69	26970.0	19236.4	276000	Orbivirus	0.369574900848071			323.007	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	70	27287.0	19505.681	280000	Orbivirus	0.3694438104068171			269.22	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	71	27617.0	19799.673	284000	Orbivirus	0.3690354930314179			293.94	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	72	27954.0	20074.278	288000	Orbivirus	0.3685939720920689			274.525	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	73	28554.0	20372.244	292000	Orbivirus	0.3684535101408577			297.907	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	74	28950.0	20639.824	296000	Orbivirus	0.3683419877941149			267.533	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	75	29349.0	20901.525	300000	Orbivirus	0.3679940466367643			261.624	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	76	29772.0	21172.4	304000	Orbivirus	0.3676087043395424			270.8	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	77	30193.0	21452.533	308000	Orbivirus	0.3678407178985084			280.058	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	78	30640.0	21720.562	312000	Orbivirus	0.3673761852451754			267.945	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	79	31108.0	21989.397	316000	Orbivirus	0.3674162325374094			268.766	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	80	31596.0	22293.746	320000	Orbivirus	0.3673452527786652			304.287	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	81	32119.0	22592.552	324000	Orbivirus	0.3671916729766052			298.728	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	82	32676.0	22851.288	328000	Orbivirus	0.3669068429801562			258.662	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	83	33276.0	23127.163	332000	Orbivirus	0.366325133361212			275.8	10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	84	33934.0	23415.292	336000	Orbivirus	0.36642259406191			288.043	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	85	34492.0	23735.799	340000	Orbivirus	0.3663000516454112			320.437	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	86	34798.0	24011.595	344000	Orbivirus	0.3660897491023874			275.734	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	87	35121.0	24292.274	348000	Orbivirus	0.366203296270236			280.589	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	88	35455.0	24571.401	352000	Orbivirus	0.3657763865306458			279.041	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	89	35795.0	24868.606	356000	Orbivirus	0.365487252628491			297.132	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	90	36163.0	25160.803	360000	Orbivirus	0.3649205366796456			292.133	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	91	36570.0	25439.934	364000	Orbivirus	0.3647038406462879			279.049	11.0	1.0	1.0	10.0	0.0	0.0909	1.0	0.1667
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	92	37017.0	25733.103	368000	Orbivirus	0.3643984482114103			293.092	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	93	37543.0	26044.646	372000	Orbivirus	0.3640681085584671			311.467	12.0	1.0	1.0	11.0	0.0	0.0833	1.0	0.1538
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	94	38150.0	26328.816	376000	Orbivirus	0.3638002394716181			284.093	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	95	38799.0	26601.022	380000	Orbivirus	0.3637216814619761			272.133	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	96	39467.0	26882.178	384000	Orbivirus	0.3635121916842486			281.101	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	97	40077.0	27147.265	388000	Orbivirus	0.3632449305694014			265.004	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	98	40337.0	27439.618	392000	Orbivirus	0.3632791265419815			292.293	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	99	40604.0	27716.797	396000	Orbivirus	0.3632035279701269			277.121	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	100	40895.0	27994.124	400000	Orbivirus	0.3629905881541219			277.289	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	101	41198.0	28295.626	404000	Orbivirus	0.3632710158130605			301.431	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	102	41560.0	28570.902	408000	Orbivirus	0.3630093718210472			275.214	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	103	41988.0	28871.481	412000	Orbivirus	0.3627486655662411			300.509	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	104	42518.0	29147.837	416000	Orbivirus	0.3622255864640758			276.278	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	105	43175.0	29454.375	420000	Orbivirus	0.3620634991149822			306.468	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	106	43926.0	29724.958	424000	Orbivirus	0.3618698002572409			270.503	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	107	44737.0	29998.498	428000	Orbivirus	0.3616788385922989			273.461	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	108	45704.0	30295.479	432000	Orbivirus	0.361629437063891			296.921	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	109	46113.0	30584.995	436000	Orbivirus	0.3613311188168078			289.469	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	110	46663.0	30881.734	440000	Orbivirus	0.3612037977411927			296.656	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	111	47501.0	31167.634	444000	Orbivirus	0.3611787775932085			285.824	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	112	48917.0	31437.221	448000	Orbivirus	0.3609334020591527			269.522	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	113	51338.0	31757.069	452000	Orbivirus	0.3610753595643347			319.764	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	114	51864.0	32057.346	456000	Orbivirus	0.3609859022272205			300.223	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	115	57177.0	32347.974	460000	Orbivirus	0.3609571782921846			290.556	14.0	1.0	1.0	13.0	0.0	0.0714	1.0	0.1333
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	116	68340.0	32619.548	464000	Orbivirus	0.3605380089604802			271.498	13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	1	289.7874	86.613	4000	Orthoflavivirus encephalitidis	1.0000000000000249			86.613	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	2	502.3556	177.43	8000	Orthoflavivirus encephalitidis	1.0000000000000242			90.683	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	3	708.2438	266.222	12000	Orthoflavivirus encephalitidis	0.9999999999999668			88.738	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	4	908.276199	351.331	16000	Orthoflavivirus encephalitidis	1.0000000000000506			85.044	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	5	1102.4274	438.372	20000	Orthoflavivirus encephalitidis	0.999839682195314			86.987	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	6	1296.3718	525.637	24000	Orthoflavivirus encephalitidis	0.9997351558254304			87.223	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	7	1479.7062	614.622	28000	Orthoflavivirus encephalitidis	0.999774103405997			88.921	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	8	1664.3536	704.855	32000	Orthoflavivirus encephalitidis	0.9998031032264376			90.171	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	9	1849.8058	793.135	36000	Orthoflavivirus encephalitidis	0.9998259844361004			88.22	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	10	2033.9296	880.257	40000	Orthoflavivirus encephalitidis	0.9997660856953902			87.053	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	11	2225.389	968.272	44000	Orthoflavivirus encephalitidis	0.999788661030926			87.954	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	12	2412.0266	1058.482	48000	Orthoflavivirus encephalitidis	0.9997369016361514			90.14	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	13	2600.78	1144.437	52000	Orthoflavivirus encephalitidis	0.999638663779901			85.898	1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	14	2786.0784	1230.372	56000	Orthoflavivirus encephalitidis	0.9996115925255236			85.871	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	15	2978.4592	1329.445	60000	Orthoflavivirus encephalitidis	0.999586804434098			99.007	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	16	3170.52	1415.433	64000	Orthoflavivirus encephalitidis	0.9995179174131318			85.924	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	17	3365.705	1501.944	68000	Orthoflavivirus encephalitidis	0.9995486098982924			86.437	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	18	3553.3546	1594.156	72000	Orthoflavivirus encephalitidis	0.999575113010566			92.142	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	19	3753.6414	1683.362	76000	Orthoflavivirus encephalitidis	0.999599066746953			89.143	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	20	3953.186199	1771.358	80000	Orthoflavivirus encephalitidis	0.999582681665148			87.919	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	21	4153.879	1858.038	84000	Orthoflavivirus encephalitidis	0.999567683068736			86.618	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	22	4357.7718	1951.848	88000	Orthoflavivirus encephalitidis	0.9995156687377164			93.756	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	23	4558.3354	2039.712	92000	Orthoflavivirus encephalitidis	0.9995186298260276			87.8	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	24	4757.7686	2126.201	96000	Orthoflavivirus encephalitidis	0.9995110285952338			86.433	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	25	4967.0018	2213.73	100000	Orthoflavivirus encephalitidis	0.999504499896162			87.459	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	26	5169.6684	2304.808	104000	Orthoflavivirus encephalitidis	0.9994911400095904			91.035	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	27	5370.6086	2391.299	108000	Orthoflavivirus encephalitidis	0.9995124386404676			86.422	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	28	5781.1534	2485.489	112000	Orthoflavivirus encephalitidis	0.9995263148597552			94.118	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	29	5957.4836	2575.594	116000	Orthoflavivirus encephalitidis	0.9995453002748232			90.048	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	30	6136.947	2664.664	120000	Orthoflavivirus encephalitidis	0.9995628303363288			89.005	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	31	6322.6092	2754.022	124000	Orthoflavivirus encephalitidis	0.9995536004547332			89.296	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	32	6507.3832	2843.156	128000	Orthoflavivirus encephalitidis	0.9995686052248448			89.089	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	33	6687.6342	2933.684	132000	Orthoflavivirus encephalitidis	0.999582665171757			90.465	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	34	6871.068	3031.939	136000	Orthoflavivirus encephalitidis	0.9995961901009563			98.187	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	35	7058.2624	3128.281	140000	Orthoflavivirus encephalitidis	0.999609066189872			96.277	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	36	7259.94	3217.39	144000	Orthoflavivirus encephalitidis	0.99957922915454			89.043	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	37	7461.5918	3306.504	148000	Orthoflavivirus encephalitidis	0.999588917685938			89.041	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	38	7663.8534	3396.671	152000	Orthoflavivirus encephalitidis	0.999601196275395			90.106	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	39	7866.6502	3489.848	156000	Orthoflavivirus encephalitidis	0.999612910756624			93.118	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	40	8073.0544	3587.631	160000	Orthoflavivirus encephalitidis	0.999623284673746			97.722	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	41	8277.947	3689.956	164000	Orthoflavivirus encephalitidis	0.9996338025687524			102.265	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	42	8487.9038	3791.446	168000	Orthoflavivirus encephalitidis	0.9996231786441868			101.437	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	43	8698.5622	3890.808	172000	Orthoflavivirus encephalitidis	0.9996328151525			99.296	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	44	8918.859	3983.448	176000	Orthoflavivirus encephalitidis	0.9996086056761532			92.572	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	45	9149.614	4085.336	180000	Orthoflavivirus encephalitidis	0.9996192900704608			101.823	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	46	9369.362	4180.755	184000	Orthoflavivirus encephalitidis	0.9996119791309616			95.357	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	47	9600.2752	4279.124	188000	Orthoflavivirus encephalitidis	0.9996221350924728			98.308	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	48	9846.1768	4374.853	192000	Orthoflavivirus encephalitidis	0.9996319973487532			95.67	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	49	10085.252	4469.106	196000	Orthoflavivirus encephalitidis	0.9996410159359566			94.173	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	50	10331.6684	4564.195	200000	Orthoflavivirus encephalitidis	0.9996497174398764			95.024	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	51	10576.7944	4658.455	204000	Orthoflavivirus encephalitidis	0.9996579985284936			94.194	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	52	10823.1164	4755.309	208000	Orthoflavivirus encephalitidis	0.999638322150855			96.797	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	53	11070.6844	4854.22	212000	Orthoflavivirus encephalitidis	0.999632907164751			98.852	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	54	11513.6262	4947.36	216000	Orthoflavivirus encephalitidis	0.999640792365521			93.113	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	55	11741.5746	5038.581	220000	Orthoflavivirus encephalitidis	0.999621878490098			91.161	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	56	11974.5874	5130.094	224000	Orthoflavivirus encephalitidis	0.9996135606247952			91.451	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	57	12198.9862	5223.415	228000	Orthoflavivirus encephalitidis	0.99962144694897			93.276	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	58	12444.7788	5317.822	232000	Orthoflavivirus encephalitidis	0.9996169202712905			94.349	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	59	12692.7124	5414.223	236000	Orthoflavivirus encephalitidis	0.9996247603505004			96.337	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	60	12941.5064	5506.486	240000	Orthoflavivirus encephalitidis	0.99962032406175			92.209	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	61	13194.7104	5604.789	244000	Orthoflavivirus encephalitidis	0.9996274836721576			98.24	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	62	13444.3504	5697.138	248000	Orthoflavivirus encephalitidis	0.999623069909446			92.284	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	63	13697.0568	5799.589	252000	Orthoflavivirus encephalitidis	0.99962977618698			102.397	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	64	13948.956	5893.804	256000	Orthoflavivirus encephalitidis	0.9996257030530318			94.178	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	65	14207.9038	5987.203	260000	Orthoflavivirus encephalitidis	0.9996215379596988			93.322	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	66	14463.234	6083.007	264000	Orthoflavivirus encephalitidis	0.999627035469036			95.744	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	67	14727.979	6182.548	268000	Orthoflavivirus encephalitidis	0.9996336891339448			99.479	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	68	14987.877	6276.837	272000	Orthoflavivirus encephalitidis	0.999639978730474			94.229	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	69	15246.7332	6373.035	276000	Orthoflavivirus encephalitidis	0.9996366167135278			96.132	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	70	15514.4342	6481.741	280000	Orthoflavivirus encephalitidis	0.9996327017058068			108.65	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	71	15780.3516	6586.792	284000	Orthoflavivirus encephalitidis	0.9996385062529656			104.996	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	72	16051.4796	6694.277	288000	Orthoflavivirus encephalitidis	0.9996334758110516			107.417	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	73	16317.791	6799.744	292000	Orthoflavivirus encephalitidis	0.9996382025542676			105.426	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	74	16592.1754	6895.314	296000	Orthoflavivirus encephalitidis	0.999643694808298			95.509	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	75	17080.9848	6999.754	300000	Orthoflavivirus encephalitidis	0.999649047859832			104.376	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	76	17308.2066	7105.434	304000	Orthoflavivirus encephalitidis	0.9996542818183882			105.613	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	77	17559.153	7201.319	308000	Orthoflavivirus encephalitidis	0.9996505734949166			95.817	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	78	17796.5686	7304.611	312000	Orthoflavivirus encephalitidis	0.999636802203832			103.221	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	79	17913.7126	7389.121	313867	Orthoflavivirus encephalitidis	0.9996392284398448			84.452	2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	1		117.632	4000	Orthonairovirus	0.1948955916473325			117.632								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	2		218.266	8000	Orthonairovirus	0.2099737532808387			100.509								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	3		333.115	12000	Orthonairovirus	0.2241977450130083			114.787								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	4		2441.532	16000	Orthonairovirus	0.2258271763572092			2108.371								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	5		2540.506	20000	Orthonairovirus	0.2289405684754539			98.888								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	6		2644.447	24000	Orthonairovirus	0.2309883848345449			103.708								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	7		2749.287	28000	Orthonairovirus	0.2336769759450207			104.765								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	8		2848.02	32000	Orthonairovirus	0.2356118143459959			98.68								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	9		2960.957	36000	Orthonairovirus	0.2348473340422327			112.865								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	10		3066.702	40000	Orthonairovirus	0.2353104212860403			105.657								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	11		3172.552	44000	Orthonairovirus	0.236426204435372			105.792								
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	12		3223.022	44503	Orthonairovirus	0.2361479237662545			50.401								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	1		155.384	4000	Jingmenvirus	0.2859427725862075			155.384								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	2		296.401	8000	Jingmenvirus	0.2820177448107049			140.886								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	3		439.307	12000	Jingmenvirus	0.2839131572137155			142.835								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	4		2531.908	16000	Jingmenvirus	0.2822752431574255			2092.562								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	5		2687.484	20000	Jingmenvirus	0.2848690753054664			155.489								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	6		2840.112	24000	Jingmenvirus	0.2872002620932958			152.568								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	7		2986.655	28000	Jingmenvirus	0.2907865979664469			146.477								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	8		3128.115	32000	Jingmenvirus	0.2915286643155567			141.401								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	9		3280.724	36000	Jingmenvirus	0.2917208580419218			152.571								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	10		3450.462	40000	Jingmenvirus	0.291729281284664			169.666								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	11		3602.425	44000	Jingmenvirus	0.2918266059064974			151.896								
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	12		3696.497	44503	Jingmenvirus	0.2917950088881329			93.992								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	1		100.568	4000	Psychrobacter	0.2403769713844465			100.568								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	2		209.332	8000	Psychrobacter	0.2448245305609467			108.65								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	3		313.012	12000	Psychrobacter	0.2482303187502861			103.601								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	4		424.754	16000	Psychrobacter	0.2492530925042055			111.686								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	5		534.483	20000	Psychrobacter	0.2469481452377026			109.678								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	6		648.394	24000	Psychrobacter	0.246768746569752			113.814								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	7		748.116	28000	Psychrobacter	0.2470735409789075			99.677								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	8		849.917	32000	Psychrobacter	0.2473848609598971			101.748								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	9		945.464	36000	Psychrobacter	0.2458712958407013			95.478								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	10		1059.248	40000	Psychrobacter	0.2457810613997139			113.72								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	11		1166.064	44000	Psychrobacter	0.2460689562528519			106.77								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	12		1269.884	48000	Psychrobacter	0.2446114637500605			103.738								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	13		1384.752	52000	Psychrobacter	0.2447200444058378			114.797								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	14		1484.602	56000	Psychrobacter	0.2437262706113565			99.781								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	15		1590.477	60000	Psychrobacter	0.2433859415021178			105.792								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	16		1694.286	64000	Psychrobacter	0.244275701057123			103.74								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	17		1793.118	68000	Psychrobacter	0.2441753944561583			98.765								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	18		1902.048	72000	Psychrobacter	0.2444727944104009			108.862								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	19		2006.926	76000	Psychrobacter	0.2439072949627584			104.693								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	20		2117.826	80000	Psychrobacter	0.2436838923837704			110.827								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	21		2220.288	84000	Psychrobacter	0.2434447863914353			102.391								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	22		2326.204	88000	Psychrobacter	0.2439887866798819			105.853								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	23		2438.205	92000	Psychrobacter	0.2439732698020181			111.946								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	24		2541.057	96000	Psychrobacter	0.2441690877148522			102.793								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	25		2664.454	100000	Psychrobacter	0.2444756033542486			123.34								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	26		2768.369	104000	Psychrobacter	0.2445744920888373			103.873								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	27		2886.464	108000	Psychrobacter	0.2445254183152582			118.057								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	28		3001.849	112000	Psychrobacter	0.2448844107014608			115.33								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	29		3108.03	116000	Psychrobacter	0.2448084644384273			106.113								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	30		3221.47	120000	Psychrobacter	0.2446710429089126			113.377								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	31		3343.983	124000	Psychrobacter	0.2451725969659507			122.446								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	32		3453.385	128000	Psychrobacter	0.2452067065368917			109.337								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	33		3569.748	132000	Psychrobacter	0.2455789496554616			116.312								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	34		3680.074	136000	Psychrobacter	0.2453584224466716			110.261								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	35		3792.46	140000	Psychrobacter	0.2457096113262321			112.322								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	36		3915.046	144000	Psychrobacter	0.2456385925880163			122.516								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	37		4023.428	148000	Psychrobacter	0.2455164956913548			108.303								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	38		4156.171	152000	Psychrobacter	0.2454994406876814			132.679								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	39		4293.856	156000	Psychrobacter	0.2457926699222948			137.611								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	40		4411.445	160000	Psychrobacter	0.2457903842086743			117.5								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	41		4540.96	164000	Psychrobacter	0.2454565017323019			129.447								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	42		4675.128	168000	Psychrobacter	0.2456219490448152			134.105								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	43		4788.152	172000	Psychrobacter	0.2458562071727354			112.978								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	44		4908.375	176000	Psychrobacter	0.2458643493890344			120.151								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	45		5028.659	180000	Psychrobacter	0.2458213868738263			120.2								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	46		5175.911	184000	Psychrobacter	0.2460112034074423			147.191								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	47		5305.217	188000	Psychrobacter	0.2457549719048307			129.215								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	48		5444.625	192000	Psychrobacter	0.2457797882469806			139.324								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	49		5579.918	196000	Psychrobacter	0.2457148750510945			135.224								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	50		5733.356	200000	Psychrobacter	0.2456194654565413			153.383								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	51		5862.65	204000	Psychrobacter	0.2456603458631097			129.22								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	52		5999.905	208000	Psychrobacter	0.2458176095178534			137.182								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	53		6142.113	212000	Psychrobacter	0.245922911153789			142.16								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	54		6281.306	216000	Psychrobacter	0.245879677123681			139.131								
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	55		6373.969	216828	Psychrobacter	0.2459781449220886			92.605								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	1		117.802	4000	Psychrobacter	0.2399824796370947			117.802								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	2		235.73	8000	Psychrobacter	0.2442869715532589			117.807								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	3		355.648	12000	Psychrobacter	0.2476875905321972			119.823								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	4		478.493	16000	Psychrobacter	0.2487244720028788			122.754								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	5		591.413	20000	Psychrobacter	0.2464465761159314			112.849								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	6		714.716	24000	Psychrobacter	0.2463061890044811			123.253								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	7		834.008	28000	Psychrobacter	0.2466377167250277			119.24								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	8		966.909	32000	Psychrobacter	0.2469606901217503			132.82								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	9		1079.871	36000	Psychrobacter	0.2454286223741685			112.896								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	10		1205.064	40000	Psychrobacter	0.2453690396478524			125.158								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	11		1341.58	44000	Psychrobacter	0.2456756686372246			136.452								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	12		1475.1	48000	Psychrobacter	0.2442196913387836			133.461								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	13		1609.598	52000	Psychrobacter	0.2443166937635912			134.432								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	14		1734.14	56000	Psychrobacter	0.2433049880961942			124.496								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	15		1860.601	60000	Psychrobacter	0.242979740252523			126.393								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	16		1987.721	64000	Psychrobacter	0.2438766469448713			127.058								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	17		2116.733	68000	Psychrobacter	0.243776066160552			128.948								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	18		2245.13	72000	Psychrobacter	0.2440763782888797			128.34								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	19		2374.479	76000	Psychrobacter	0.2435148938936872			129.278								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	20		2511.082	80000	Psychrobacter	0.2432575621548598			136.538								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	21		2633.584	84000	Psychrobacter	0.2430229448277148			122.438								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	22		2778.319	88000	Psychrobacter	0.2435729145558733			144.664								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	23		2910.98	92000	Psychrobacter	0.2435463300022793			132.598								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	24		3050.673	96000	Psychrobacter	0.2437397976612673			139.626								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	25		3186.234	100000	Psychrobacter	0.2440520128446403			135.494								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	26		3326.329	104000	Psychrobacter	0.2441539618168412			140.038								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	27		3461.054	108000	Psychrobacter	0.2441078671631658			134.654								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	28		3599.409	112000	Psychrobacter	0.2444690920009637			138.291								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	29		3736.046	116000	Psychrobacter	0.2443935950254596			136.57								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	30		3869.769	120000	Psychrobacter	0.2442588544195442			133.644								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	31		4003.564	124000	Psychrobacter	0.2447641299646828			133.734								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	32		4138.387	128000	Psychrobacter	0.2448003474373793			134.75								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	33		4274.807	132000	Psychrobacter	0.2451719194105636			136.378								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	34		4410.989	136000	Psychrobacter	0.2449417998911392			136.113								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	35		4548.867	140000	Psychrobacter	0.2452945833483504			137.808								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	36		4685.709	144000	Psychrobacter	0.2452275510603347			136.753								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	37		4815.436	148000	Psychrobacter	0.2451021343726281			129.657								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	38		4971.701	152000	Psychrobacter	0.2450907121585774			156.195								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	39		5108.488	156000	Psychrobacter	0.245386897265081			136.706								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	40		5250.421	160000	Psychrobacter	0.24538461874298			141.868								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	41		5389.229	164000	Psychrobacter	0.2450528968976285			138.738								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	42		5530.047	168000	Psychrobacter	0.2452211373407623			140.783								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	43		5666.041	172000	Psychrobacter	0.2454499698225812			135.919								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	44		5814.038	176000	Psychrobacter	0.2454626545638817			147.932								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	45		5968.237	180000	Psychrobacter	0.2454138035136761			154.144								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	46		6145.612	184000	Psychrobacter	0.2456045789434891			177.308								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	47		6286.577	188000	Psychrobacter	0.2453443474208791			140.897								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	48		6438.183	192000	Psychrobacter	0.2453703745912808			151.514								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	49		6596.7	196000	Psychrobacter	0.2453123601128734			158.451								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	50		6755.684	200000	Psychrobacter	0.2452184176366845			158.926								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	51		6899.603	204000	Psychrobacter	0.245255209873867			143.856								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	52		7047.637	208000	Psychrobacter	0.2454148413771736			147.976								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	53		7197.636	212000	Psychrobacter	0.2455135567442598			149.937								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	54		7352.718	216000	Psychrobacter	0.2454654676041422			155.014								
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	55		7465.281	216828	Psychrobacter	0.2455640977580268			112.503								
+barcode79	barcode79	16S.rrnDB.dedup	1	5135.0	287.313	4000	Bacillus	0.2391554443503549	0.2660137304832513	8.0	287.313	8.0	8.0	8.0	0.0	0.0	1.0	1.0	1.0
+barcode79	barcode79	16S.rrnDB.dedup	2	9409.0	583.246	8000	Bacillus	0.2337016261271693	0.2654725418129177	8.0	295.9	8.0	8.0	8.0	0.0	0.0	1.0	1.0	1.0
+barcode79	barcode79	16S.rrnDB.dedup	3	13473.0	879.55	12000	Bacillus	0.2365940686315991	0.2797077411299841	8.0	296.29	9.0	8.0	8.0	1.0	0.0	0.8889	1.0	0.9412
+barcode79	barcode79	16S.rrnDB.dedup	4	17511.0	1172.993	16000	Bacillus	0.2354211871264638	0.2753267666124878	8.0	293.411	10.0	8.0	8.0	2.0	0.0	0.8	1.0	0.8889
+barcode79	barcode79	16S.rrnDB.dedup	5	21522.0	1473.472	20000	Bacillus	0.2341370850732155	0.2635009894300069	8.0	300.45	10.0	8.0	8.0	2.0	0.0	0.8	1.0	0.8889
+barcode79	barcode79	16S.rrnDB.dedup	6	25783.0	1767.904	24000	Bacillus	0.2334969369053846	0.2622668986699885	8.0	294.405	11.0	8.0	8.0	3.0	0.0	0.7273	1.0	0.8421
+barcode79	barcode79	16S.rrnDB.dedup	7	30841.0	2062.312	28000	Bacillus	0.233315746012309	0.2622554011175158	8.0	294.391	13.0	8.0	8.0	5.0	0.0	0.6154	1.0	0.7619
+barcode79	barcode79	16S.rrnDB.dedup	8	36344.0	2361.746	32000	Bacillus	0.2328350816231608	0.2605944317857558	8.0	299.399	14.0	8.0	8.0	6.0	0.0	0.5714	1.0	0.7273
+barcode79	barcode79	16S.rrnDB.dedup	9	41437.0	2656.854	36000	Bacillus	0.2325469491708766	0.2634266400892455	8.0	295.082	15.0	8.0	8.0	7.0	0.0	0.5333	1.0	0.6957
+barcode79	barcode79	16S.rrnDB.dedup	10	46458.0	2949.694	40000	Bacillus	0.2328117726955589	0.2630894483407119	8.0	292.814	16.0	8.0	8.0	8.0	0.0	0.5	1.0	0.6667
+barcode79	barcode79	16S.rrnDB.dedup	11	52305.0	3245.173	44000	Bacillus	0.2317540096777421	0.2642865776110356	8.0	295.453	16.0	8.0	8.0	8.0	0.0	0.5	1.0	0.6667
+barcode79	barcode79	16S.rrnDB.dedup	12	57903.0	3531.743	48000	Bacillus	0.2315648130944855	0.2645968995977809	8.0	286.539	16.0	8.0	8.0	8.0	0.0	0.5	1.0	0.6667
+barcode79	barcode79	16S.rrnDB.dedup	13	63190.0	3836.358	52000	Bacillus	0.2314617746509514	0.2645814716322872	8.0	304.587	16.0	8.0	8.0	8.0	0.0	0.5	1.0	0.6667
+barcode79	barcode79	16S.rrnDB.dedup	14	69780.0	4143.332	56000	Bacillus	0.230843794198156	0.2639933301594802	8.0	306.942	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	15	77328.0	4440.262	60000	Bacillus	0.2305843356074488	0.2626131908847491	8.0	296.915	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	16	83980.0	4734.773	64000	Bacillus	0.2300914473249854	0.2621777697599864	8.0	294.479	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	17	92037.0	5036.356	68000	Bacillus	0.2295477006220967	0.2622703327432591	8.0	301.561	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	18	99461.0	5329.969	72000	Bacillus	0.2295271525559966	0.2622678917834597	8.0	293.589	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	19	107780.0	5636.674	76000	Bacillus	0.2296179119707445	0.2629802957378279	8.0	306.671	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	20	116608.0	5930.494	80000	Bacillus	0.229758136734148	0.2626456986169934	8.0	293.795	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	21	126894.0	6217.043	84000	Bacillus	0.2292526527774818	0.262776935712518	8.0	286.506	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	22	137202.0	6505.696	88000	Bacillus	0.2285051016119612	0.2620745433888527	8.0	288.62	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	23	149727.0	6798.424	92000	Bacillus	0.2281363744763095	0.2611252878583918	8.0	292.693	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	24	163718.0	7083.101	96000	Bacillus	0.2277811498073118	0.2613720497781789	8.0	284.641	18.0	8.0	8.0	10.0	0.0	0.4444	1.0	0.6154
+barcode79	barcode79	16S.rrnDB.dedup	25	209031.0	7362.663	100000	Bacillus	0.2276561746364274	0.2616666617417615	8.0	279.531	19.0	8.0	8.0	11.0	0.0	0.4211	1.0	0.5926
+barcode79	barcode79	16S.rrnDB.dedup	26	258458.0	7401.188	100128	Bacillus	0.2276224708978886	0.2614435968512193	8.0	38.494	19.0	8.0	8.0	11.0	0.0	0.4211	1.0	0.5926
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	1	565.668	187.862	4000	Veillonella	0.2723086494109741	0.592859137344303	12.0	187.862	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	2	1008.805	367.717	8000	Veillonella	0.2709525308293674	0.577389463931084	13.0	179.82	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	3	1419.775	561.718	12000	Veillonella	0.2690608000356272	0.576758594351103	13.0	193.98	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	4	1808.37	738.645	16000	Veillonella	0.2703967372758977	0.5849146080738183	13.0	176.912	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	5	2188.454	919.529	20000	Veillonella	0.2747966639304742	0.5852157967043925	13.0	180.868	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	6	2545.565	1100.442	24000	Veillonella	0.27330416436363	0.5836320504733645	14.0	180.883	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	7	2901.789	1277.298	28000	Veillonella	0.2739219591046654	0.585352842857099	14.0	176.838	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	8	3262.131	1450.176	32000	Veillonella	0.2730743323808848	0.5871238693070231	14.0	172.865	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	9	3616.588	1633.09	36000	Veillonella	0.2723096206484402	0.587744695112433	14.0	182.898	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	10	3955.596	1819.064	40000	Veillonella	0.2720250021782791	0.5862909245924142	14.0	185.941	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	11	4310.738	2001.018	44000	Veillonella	0.2717795320977308	0.5853338311997451	14.0	181.929	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	12	4659.907	2184.985	48000	Veillonella	0.2723744638753829	0.5838967070493186	14.0	183.933	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	13	5007.924	2366.049	52000	Veillonella	0.2734312276861623	0.5842417942919531	14.0	181.035	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	14	5357.263	2555.126	56000	Veillonella	0.2728515148535257	0.5823258036203871	14.0	189.048	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	15	5896.354	2735.193	60000	Veillonella	0.2728187327368759	0.5821814551477469	14.0	180.038	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	16	6238.521	2916.167	64000	Veillonella	0.2716844462739585	0.581847584605778	14.0	180.945	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	17	6578.885	3103.207	68000	Veillonella	0.2712845122427499	0.5812548916261328	14.0	187.016	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	18	6914.138	3292.279	72000	Veillonella	0.2712809396766948	0.5816317632611029	14.0	189.046	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	19	6984.422	3350.696	72830	Veillonella	0.2710289443066437	0.5814301395113342	14.0	58.386	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	1	520.551	179.854	4000	Veillonella	0.2618116165189315	0.5788734270548852	11.0	179.854	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	2	938.312	362.794	8000	Veillonella	0.2695630659939016	0.5747160494130668	11.0	182.9	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	3	1320.647	545.652	12000	Veillonella	0.2724549743530224	0.5744108465130089	12.0	182.841	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	4	1668.094	733.552	16000	Veillonella	0.2693620588290242	0.5694953332632606	12.0	187.884	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	5	2016.901	913.432	20000	Veillonella	0.269083723317747	0.5695958451267258	12.0	179.868	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	6	2355.897	1089.318	24000	Veillonella	0.2681456419475888	0.5748049026251199	12.0	175.87	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	7	2691.66	1262.201	28000	Veillonella	0.2698842901925078	0.5778138937379047	12.0	172.848	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	8	3020.178	1442.127	32000	Veillonella	0.2673996559844124	0.5749861383913151	12.0	179.895	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	9	3348.827	1626.104	36000	Veillonella	0.2679492307317199	0.5755895486906122	12.0	183.946	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	10	3672.67	1800.015	40000	Veillonella	0.2677997574587555	0.5784217666545721	12.0	173.894	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	11	4003.84	1989.004	44000	Veillonella	0.267614732632769	0.5751354079417177	12.0	188.962	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	12	4324.824	2176.932	48000	Veillonella	0.267119146007595	0.5746698029208172	13.0	187.915	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	13	4639.525	2364.977	52000	Veillonella	0.2671448865094495	0.5749569291829201	13.0	188.018	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	14	4958.903	2549.047	56000	Veillonella	0.2673250344768446	0.5762438730494609	13.0	184.04	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	15	5291.177	2733.105	60000	Veillonella	0.2675856896028785	0.5780851002458234	13.0	184.027	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	16	5792.507	2913.073	64000	Veillonella	0.2678093793871658	0.5785732598685753	13.0	179.947	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	17	6116.406	3094.098	68000	Veillonella	0.2679365910802182	0.5793048273261112	13.0	180.996	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	18	6429.402	3280.173	72000	Veillonella	0.2677296476610966	0.5796144227354414	13.0	186.044	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	19	6739.303	3469.27	76000	Veillonella	0.2673540242912915	0.5790004547110856	13.0	189.063	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	20	6984.381	3614.195	79122	Veillonella	0.2677051855457696	0.5799530090390153	13.0	144.893	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	1	521.799	177.843	4000	Veillonella	0.2549037215770119	0.5806387917025664	12.0	177.843	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	2	923.466	355.735	8000	Veillonella	0.2553181504200012	0.5827850516134006	12.0	177.851	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	3	1303.736	540.684	12000	Veillonella	0.2618775328693848	0.5734464929878332	12.0	184.916	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	4	1666.965	723.582	16000	Veillonella	0.2661883248635995	0.5798975217637193	12.0	182.867	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	5	2036.955	900.457	20000	Veillonella	0.2684510124004414	0.5824370525231897	13.0	176.844	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	6	2391.028	1082.35	24000	Veillonella	0.270078141543309	0.5815929012548475	13.0	181.877	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	7	2732.644	1260.725	28000	Veillonella	0.2686222276502337	0.5825439986865959	13.0	178.354	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	8	3067.816	1439.813	32000	Veillonella	0.2684979040246051	0.5855397146969418	13.0	178.954	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	9	3409.111	1626.816	36000	Veillonella	0.2681494854587389	0.5835678524421006	13.0	186.986	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	10	3739.495	1814.846	40000	Veillonella	0.2677518455660728	0.5836518635852487	13.0	187.998	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	11	4078.132	2003.796	44000	Veillonella	0.2676107953748838	0.5826212999365314	13.0	188.918	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	12	4405.777	2189.759	48000	Veillonella	0.2667464807938209	0.5827475515438019	13.0	185.946	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	13	4726.747	2371.744	52000	Veillonella	0.2666944100446847	0.581576085036414	13.0	181.962	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	14	5060.214	2558.717	56000	Veillonella	0.2677818086315194	0.5822954023826011	13.0	186.953	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	15	5386.721	2741.705	60000	Veillonella	0.2672063538187879	0.5831257866782874	13.0	182.958	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	16	5887.829	2924.714	64000	Veillonella	0.2666376553859783	0.5840393934216723	13.0	182.981	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	17	6198.952	3112.802	68000	Veillonella	0.2666257629062765	0.5833917980827936	13.0	188.058	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	18	6522.035	3303.884	72000	Veillonella	0.266757570034891	0.5839285497462617	13.0	191.064	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	19	6831.047	3499.977	76000	Veillonella	0.2672384938780737	0.5841882082351584	13.0	196.081	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	20	7011.417	3621.752	78281	Veillonella	0.2672456548130758	0.5834170642727592	13.0	121.754	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	1	536.9	178.84	4000	Veillonella	0.2564536087976862	0.5776575960755274	11.0	178.84	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	2	922.246	364.848	8000	Veillonella	0.2616719353870644	0.5710364844347624	11.0	185.976	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	3	1272.912	549.773	12000	Veillonella	0.2606345279970881	0.5701941804273248	12.0	184.892	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	4	1616.088	733.704	16000	Veillonella	0.2620447014860015	0.5675608062677524	12.0	183.902	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	5	1957.397	907.759	20000	Veillonella	0.2633983493963643	0.5780120281655305	12.0	174.022	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	6	2275.202	1083.126	24000	Veillonella	0.264438941019431	0.5806851897072882	12.0	175.336	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	7	2587.385	1264.078	28000	Veillonella	0.266627415464562	0.579527989440344	12.0	180.918	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	8	2908.22	1448.053	32000	Veillonella	0.2674234568641675	0.5812200088151813	12.0	183.943	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	9	3229.832	1637.108	36000	Veillonella	0.2670191362435299	0.5801229559363719	12.0	189.031	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	10	3549.765	1821.046	40000	Veillonella	0.267387199607328	0.5788084836038607	12.0	183.914	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	11	3857.45	2007.017	44000	Veillonella	0.2672435767429086	0.5800539695550355	12.0	185.955	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	12	4170.75	2191.481	48000	Veillonella	0.2669744818961526	0.5807418769761655	12.0	184.431	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	13	4468.536	2382.11	52000	Veillonella	0.2673039948633416	0.5792082003672114	12.0	190.612	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	14	4776.583	2568.72	56000	Veillonella	0.2680931840175134	0.5794207181330682	12.0	186.579	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	15	5078.559	2753.304	60000	Veillonella	0.2683429603801949	0.5783391805656095	12.0	184.553	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	16	5387.46	2939.413	64000	Veillonella	0.2686615118327703	0.5793401776474332	12.0	186.091	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	17	5857.183	3128.526	68000	Veillonella	0.2694692410778149	0.5795118205293021	12.0	189.081	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	18	6143.521	3319.574	72000	Veillonella	0.2699130362580991	0.579369140250792	12.0	191.028	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	19	6441.206	3510.659	76000	Veillonella	0.2699249148878451	0.5785740468695189	12.0	191.057	12.0	15.0	12.0	0.0	3.0	1.0	0.8	0.8889
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	20	6742.373	3710.82	80000	Veillonella	0.2698641506398069	0.5781425020242306	12.0	200.145	12.0	15.0	12.0	0.0	3.0	1.0	0.8	0.8889
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	21	7036.443	3906.195	84000	Veillonella	0.2704668529777134	0.577872489318243	12.0	195.344	12.0	15.0	12.0	0.0	3.0	1.0	0.8	0.8889
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	22	7052.414	3946.534	84233	Veillonella	0.270642168310139	0.5778979875231731	12.0	40.316	12.0	15.0	12.0	0.0	3.0	1.0	0.8	0.8889

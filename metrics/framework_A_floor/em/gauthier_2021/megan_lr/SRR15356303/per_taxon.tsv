@@ -1,0 +1,6 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Bat coronavirus BM48-31/BGR/2008	FP	821.0	0.0
+Viruses	species	Betacoronavirus hipposideri	FP	101.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	3770.0	1.0
+Viruses	genus	Betacoronavirus	TP	17005.0	1.0
+Viruses	family	Coronaviridae	TP	17043.0	1.0

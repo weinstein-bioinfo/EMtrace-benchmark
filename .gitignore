@@ -1,0 +1,28 @@
+# run outputs, logs, regenerated figures and tables (scripts write here)
+results/
+logs/
+figures/
+tables/
+work/
+.nextflow*
+
+# inputs not shipped (downloaded or generated)
+data/sra/*.fastq*
+data/petersen_2026/fastq/
+data/petersen_2026/mixed/
+data/mock_community.16S/
+data/comparators/*
+!data/comparators/spaghetti.tsv
+jobs/assets/pbsim_profile/
+
+# Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+Rplots.pdf

@@ -1,0 +1,16 @@
+# Fallback / override truth-reference map for ViMOP Framework B scoring.
+# Used by jobs/framework_B/framework_B.vimop.metrics.bash ONLY for `sra` sets and ONLY
+# when the parallel EMtrace reference is absent, i.e. when
+#   results/framework_b/<emtrace_batch>/<sample>/assembly/refaccs.fetched.fa
+# does not exist. Mutant sets ignore this file (reference = the mutated template
+# under data/petersen_2026/mutants/<virus>/<base>.fasta).
+#
+# Columns (tab-separated): sample_id <TAB> reference_path
+# Petersen truth accessions (same as EMtrace --refaccs): Zika NC_012532.1,
+# WNV NC_001563.2, SARS-CoV-2 OX637002.1, DENV-2 NC_001474.2.
+sample_id	reference
+SRR15356294	data/petersen_2026/refs/OX637002.1.fa
+SRR32419728	data/petersen_2026/refs/NC_001474.2.fa
+# Zika (SRR31174237 -> NC_012532.1) and WNV (ERR14941561 -> NC_001563.2) have no
+# cached refs/ fasta; they resolve via the EMtrace refaccs.fetched.fa auto-path
+# (present for all 4 Petersen samples). Add explicit paths here only if that dir is removed.

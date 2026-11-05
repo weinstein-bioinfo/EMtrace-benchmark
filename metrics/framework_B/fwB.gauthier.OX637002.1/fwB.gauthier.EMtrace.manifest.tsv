@@ -1,0 +1,17 @@
+sample_id	consensus	reference
+SRR15356303	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356303/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356303.fasta
+SRR15356328	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356328/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356328.fasta
+SRR15356305	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356305/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356305.fasta
+SRR15356306	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356306/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356306.fasta
+SRR15356327	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356327/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356327.fasta
+SRR15356326	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356326/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356326.fasta
+SRR15356325	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356325/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356325.fasta
+SRR15356329	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356329/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356329.fasta
+SRR15356307	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356307/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356307.fasta
+SRR15356298	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356298/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356298.fasta
+SRR15356308	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356308/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356308.fasta
+SRR15356322	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356322/assembly/consensus.fa	data/sra/refs/gauthier_2021/SRR15356322.fasta
+SRR15356310	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356310/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356310.fasta
+SRR15356311	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356311/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356311.fasta
+SRR15356321	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356321/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356321.fasta
+SRR15356320	results/framework_b/sra_gauthier_2021_v20260924_refauto/SRR15356320/assembly.medaka/consensus.fa	data/sra/refs/gauthier_2021/SRR15356320.fasta

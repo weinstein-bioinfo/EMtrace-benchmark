@@ -1,0 +1,98 @@
+# Framework 16S — scoring manifest (all libraries, all panels)
+#
+# One row per scored run. Columns:
+#   label     cell name; unique per library, not globally
+#   key_settings  the settings that define the row; copied into metrics.tsv. EMtrace rows:
+#             reference, minimap2 -N, EM temperature T, hit mode, and any further change.
+#             Common to every EMtrace row (emtrace.config.16S.yaml): minimap2 -s 200
+#             -m 80, report.min_qcov 0.4, chopper Q10 1,200-1,800 bp, porechop_abi with read
+#             splitting, no host filtering, no tail trim in the pipeline (the scorer applies it)
+#   library   selects the truth table: barcode79 -> ZymoBIOMICS,
+#             synthgut -> synthetic gut mock (Curry et al. 2022)
+#   panel     A     EMtrace configuration sweep (roadmap section 6)
+#             B.1   comparator on its own database (section 7.1)
+#             B.2   comparator on the Emu reference (section 7.2)
+#             diag  reference diagnostic; never enters a headline table
+#   format    emtrace | emu | table | long
+#   taxonomy  ncbi | silva
+#   path      abundance table, repo-relative
+#   notes     free text
+#
+# Score every library in one pass:
+#   python3 jobs/framework_16S/framework_16S.score.py \
+#     --manifest jobs/framework_16S/framework_16S.manifest.tsv
+# One library only:  --library synthgut
+#
+# Rows whose path does not exist are skipped with a warning, so a cell can be
+# committed ahead of its run.
+label	key_settings	library	panel	format	taxonomy	path	notes
+EMtrace.rrnDB	ref rrnDB; -N 5; T 10; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/rrnDB/barcode79/results/reports/abund_table.tsv	rrnDB 5.10, 265,316 seqs
+EMtrace.rrnDB.dedup.tophits	ref rrnDB.dedup; -N 5; T 10; top hits only (--tophits)	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/rrnDB.dedup.tophits/barcode79/results/reports/abund_table.tsv	axis 9, --tophits re-annotation
+EMtrace.silva	ref SILVA 144 (SILVA taxonomy); -N 5; T 10; all hits	barcode79	A	emtrace	silva	results/framework_16S/barcode79/emtrace/silva/barcode79/results/reports/abund_table.tsv	config 2, SILVA reference + SILVA taxonomy
+EMtrace.rrnDB.dedup.N0	ref rrnDB.dedup; -N 0; T 10; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/sweep.secondary.N0/barcode79/results/reports/abund_table.tsv	axis 6, minimap2 -N 0
+EMtrace.rrnDB.dedup.N5	ref rrnDB.dedup; -N 5; T 10; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/rrnDB.dedup/barcode79/results/reports/abund_table.tsv	rrnDB de-duplicated, 78,966 seqs; Section B base
+EMtrace.rrnDB.dedup.N25	ref rrnDB.dedup; -N 25; T 10; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/sweep.secondary.N25/barcode79/results/reports/abund_table.tsv	axis 6, minimap2 -N 25
+EMtrace.rrnDB.dedup.N50	ref rrnDB.dedup; -N 50; T 10; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/sweep.secondary.N50/barcode79/results/reports/abund_table.tsv	axis 6, minimap2 -N 50
+EMtrace.rrnDB.dedup.temp100	ref rrnDB.dedup; -N 25; T 100; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/tuned.N25.temp100.0/barcode79/results/reports/abund_table.tsv	tuned: -N 25, em.temp=100
+EMtrace.rrnDB.dedup.temp50	ref rrnDB.dedup; -N 25; T 50; all hits	barcode79	A	emtrace	ncbi	results/framework_16S/barcode79/emtrace/tuned.N25.temp50.0/barcode79/results/reports/abund_table.tsv	tuned: -N 25, em.temp=50
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	barcode79	B.1	table	ncbi	results/framework_16S/barcode79/bracken.std16s.tsv	Bracken -r 1500 -l S -t 10, std16s DB
+Emu	Emu defaults; Emu DB	barcode79	B.1	emu	ncbi	results/framework_16S/barcode79/emu/barcode79_rel-abundance.tsv	Emu defaults, own DB
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	barcode79	B.1	table	ncbi	results/framework_16S/barcode79/kraken2.std16s.tsv	Kraken 2 defaults, std16s DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	barcode79	B.1	table	silva	data/comparators/spaghetti.tsv	genus only by design; built by framework_16S.spaghetti2table.py
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	barcode79	B.2	table	ncbi	results/framework_16S/barcode79/bracken.emu.tsv	Bracken -r 1500 -l S -t 10, emu DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	barcode79	B.2	table	ncbi	results/framework_16S/barcode79/kraken2.emu.tsv	Kraken 2 defaults, emu DB
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	barcode79	B.2	emtrace	ncbi	results/framework_16S/barcode79/emtrace/emu.N25.T10/barcode79/results/reports/abund_table.tsv	PANEL B.2: --anns 16S.emu (Emu reference), -N 25, em.temp 10
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	barcode79	B.2	table	ncbi	results/framework_16S/barcode79/spaghetti.emu.tsv	Emu FASTA substituted for SILVA; chimera removal skipped
+EMtrace.rrnDB.dedup	ref rrnDB.dedup; -N 25; T 10; all hits	synthgut	A	emtrace	ncbi	results/framework_16S/synthgut/emtrace/rrnDB.dedup.N25/results/reports/abund_table.tsv	FROZEN baseline: rrnDB.dedup, no named Romboutsia
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	synthgut	B.1	table	ncbi	results/framework_16S/synthgut/bracken.std16s.tsv	Bracken -r 1500 -l S -t 10, std16s DB
+Emu	Emu defaults; Emu DB	synthgut	B.1	emu	ncbi	results/framework_16S/synthgut/emu/synthgut_rel-abundance.tsv	Emu defaults, own DB
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	synthgut	B.1	table	ncbi	results/framework_16S/synthgut/kraken2.std16s.tsv	Kraken 2 defaults, std16s DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	synthgut	B.1	table	silva	results/framework_16S/synthgut/spaghetti.tsv	genus only by design; chimera removal skipped
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	synthgut	B.2	table	ncbi	results/framework_16S/synthgut/bracken.emu.tsv	Bracken -r 1500 -l S -t 10, emu DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	synthgut	B.2	table	ncbi	results/framework_16S/synthgut/kraken2.emu.tsv	Kraken 2 defaults, emu DB
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	synthgut	B.2	emtrace	ncbi	results/framework_16S/synthgut/emtrace/emu.N25/results/reports/abund_table.tsv	PANEL B.2: --anns 16S.emu (Emu reference), -N 25, em.temp 10
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	synthgut	B.2	table	ncbi	results/framework_16S/synthgut/spaghetti.emu.tsv	Emu FASTA substituted for SILVA; chimera removal skipped
+EMtrace.emu.noQ	ref Emu DB; -N 25; T 10; all hits; chopper quality filter and trimming off	synthgut	diag	emtrace	ncbi	results/framework_16S/synthgut/emtrace/emu.N25.T10.noQ/synthgut/results/reports/abund_table.tsv	MATCHED READS (the project notes): as EMtrace.emu, chopper quality filter and quality trimming off, length 1200-1800 kept (465,168 reads)
+Emu.emtracereads	Emu defaults; Emu DB; on EMtrace's filtered reads	synthgut	diag	emu	ncbi	results/framework_16S/synthgut/emu.emtracereads/synthgut_rel-abundance.tsv	MATCHED READS (the project notes): Emu defaults, own DB, on EMtrace.emu's filtered reads (324,400)
+EMtrace.refseq16S	ref RefSeq 16S; -N 25; T 10; all hits	synthgut	diag	emtrace	ncbi	results/framework_16S/synthgut/emtrace/refseq.N25/results/reports/abund_table.tsv	DIAGNOSTIC: reference sweep, -N 25. NCBI 16S RefSeq, 28,037 seqs; contains R. hominis NR_178864.1
+EMtrace.silva	ref SILVA 144 (SILVA taxonomy); -N 25; T 10; all hits	synthgut	diag	emtrace	silva	results/framework_16S/synthgut/emtrace/silva.N25/results/reports/abund_table.tsv	DIAGNOSTIC: reference sweep, -N 25. SILVA 144, indexed on the fly; species are silva_derived
+Emu	Emu defaults; Emu DB	gutmock_sup_r1	diag	emu	ncbi	results/framework_16S/gutmock_sup_r1/emu/gutmock_sup_r1_rel-abundance.tsv	R10.4.1 gut mock (the project notes): Emu defaults, own DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	gutmock_sup_r1	diag	table	silva	results/framework_16S/gutmock_sup_r1/spaghetti.tsv	R10.4.1 gut mock: genus only; chimera removal skipped
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/spaghetti.emu.tsv	R10.4.1 gut mock: Emu reference; chimera removal skipped
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/kraken2.std16s.tsv	R10.4.1 gut mock: Kraken 2 defaults, std16s DB
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/bracken.std16s.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, std16s DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/kraken2.emu.tsv	R10.4.1 gut mock: Kraken 2 defaults, emu DB
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/bracken.emu.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, emu DB
+Emu	Emu defaults; Emu DB	gutmock_sup_r2	diag	emu	ncbi	results/framework_16S/gutmock_sup_r2/emu/gutmock_sup_r2_rel-abundance.tsv	R10.4.1 gut mock (the project notes): Emu defaults, own DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	gutmock_sup_r2	diag	table	silva	results/framework_16S/gutmock_sup_r2/spaghetti.tsv	R10.4.1 gut mock: genus only; chimera removal skipped
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/spaghetti.emu.tsv	R10.4.1 gut mock: Emu reference; chimera removal skipped
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/kraken2.std16s.tsv	R10.4.1 gut mock: Kraken 2 defaults, std16s DB
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/bracken.std16s.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, std16s DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/kraken2.emu.tsv	R10.4.1 gut mock: Kraken 2 defaults, emu DB
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/bracken.emu.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, emu DB
+Emu	Emu defaults; Emu DB	gutmock_sup_r3	diag	emu	ncbi	results/framework_16S/gutmock_sup_r3/emu/gutmock_sup_r3_rel-abundance.tsv	R10.4.1 gut mock (the project notes): Emu defaults, own DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	gutmock_sup_r3	diag	table	silva	results/framework_16S/gutmock_sup_r3/spaghetti.tsv	R10.4.1 gut mock: genus only; chimera removal skipped
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/spaghetti.emu.tsv	R10.4.1 gut mock: Emu reference; chimera removal skipped
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/kraken2.std16s.tsv	R10.4.1 gut mock: Kraken 2 defaults, std16s DB
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/bracken.std16s.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, std16s DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/kraken2.emu.tsv	R10.4.1 gut mock: Kraken 2 defaults, emu DB
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/bracken.emu.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, emu DB
+Emu	Emu defaults; Emu DB	gutmock_sup_r4	diag	emu	ncbi	results/framework_16S/gutmock_sup_r4/emu/gutmock_sup_r4_rel-abundance.tsv	R10.4.1 gut mock (the project notes): Emu defaults, own DB
+Spaghetti	Spaghetti defaults; SILVA 138; genus only; chimera removal skipped	gutmock_sup_r4	diag	table	silva	results/framework_16S/gutmock_sup_r4/spaghetti.tsv	R10.4.1 gut mock: genus only; chimera removal skipped
+Spaghetti.emu	Spaghetti; Emu DB; chimera removal skipped	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/spaghetti.emu.tsv	R10.4.1 gut mock: Emu reference; chimera removal skipped
+Kraken2.std16s	Kraken 2 defaults; Kraken2 standard 16S DB	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/kraken2.std16s.tsv	R10.4.1 gut mock: Kraken 2 defaults, std16s DB
+Bracken.std16s	Bracken -r 1500 -l S -t 10; Kraken2 standard 16S DB	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/bracken.std16s.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, std16s DB
+Kraken2.emu	Kraken 2 defaults; Emu DB	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/kraken2.emu.tsv	R10.4.1 gut mock: Kraken 2 defaults, emu DB
+Bracken.emu	Bracken -r 1500 -l S -t 10; Emu DB	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/bracken.emu.tsv	R10.4.1 gut mock: Bracken -r 1500 -l S -t 10, emu DB
+EMtrace.rrnDB.dedup	ref rrnDB.dedup; -N 25; T 10; all hits	gutmock_sup_r1	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r1/emtrace/rrnDB.dedup.N25.T10/gutmock_sup_r1/results/reports/abund_table.tsv	R10.4.1 gut mock (the project notes): frozen, rrnDB.dedup, -N 25, em.temp 10 (Roihu)
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	gutmock_sup_r1	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r1/emtrace/emu.N25.T10/gutmock_sup_r1/results/reports/abund_table.tsv	R10.4.1 gut mock: frozen, Emu reference, -N 25, em.temp 10 (Roihu)
+EMtrace.rrnDB.dedup	ref rrnDB.dedup; -N 25; T 10; all hits	gutmock_sup_r2	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r2/emtrace/rrnDB.dedup.N25.T10/gutmock_sup_r2/results/reports/abund_table.tsv	R10.4.1 gut mock (the project notes): frozen, rrnDB.dedup, -N 25, em.temp 10 (Roihu)
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	gutmock_sup_r2	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r2/emtrace/emu.N25.T10/gutmock_sup_r2/results/reports/abund_table.tsv	R10.4.1 gut mock: frozen, Emu reference, -N 25, em.temp 10 (Roihu)
+EMtrace.rrnDB.dedup	ref rrnDB.dedup; -N 25; T 10; all hits	gutmock_sup_r3	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r3/emtrace/rrnDB.dedup.N25.T10/gutmock_sup_r3/results/reports/abund_table.tsv	R10.4.1 gut mock (the project notes): frozen, rrnDB.dedup, -N 25, em.temp 10 (Roihu)
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	gutmock_sup_r3	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r3/emtrace/emu.N25.T10/gutmock_sup_r3/results/reports/abund_table.tsv	R10.4.1 gut mock: frozen, Emu reference, -N 25, em.temp 10 (Roihu)
+EMtrace.rrnDB.dedup	ref rrnDB.dedup; -N 25; T 10; all hits	gutmock_sup_r4	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r4/emtrace/rrnDB.dedup.N25.T10/gutmock_sup_r4/results/reports/abund_table.tsv	R10.4.1 gut mock (the project notes): frozen, rrnDB.dedup, -N 25, em.temp 10 (Roihu)
+EMtrace.emu	ref Emu DB; -N 25; T 10; all hits	gutmock_sup_r4	diag	emtrace	ncbi	results/framework_16S/gutmock_sup_r4/emtrace/emu.N25.T10/gutmock_sup_r4/results/reports/abund_table.tsv	R10.4.1 gut mock: frozen, Emu reference, -N 25, em.temp 10 (Roihu)
+wf16s	ONT wf-16s (minimap2); ncbi_16s_18s; >=95% identity, >=90% ref. coverage	gutmock_sup_r1	diag	table	ncbi	results/framework_16S/gutmock_sup_r1/wf16s.tsv	R10.4.1 gut mock: ONT wf-16s (minimap2 classifier, ncbi_16s_18s, >=95% identity, >=90% ref. coverage); species table from per-read assignments
+wf16s	ONT wf-16s (minimap2); ncbi_16s_18s; >=95% identity, >=90% ref. coverage	gutmock_sup_r2	diag	table	ncbi	results/framework_16S/gutmock_sup_r2/wf16s.tsv	R10.4.1 gut mock: ONT wf-16s (minimap2 classifier, ncbi_16s_18s, >=95% identity, >=90% ref. coverage); species table from per-read assignments
+wf16s	ONT wf-16s (minimap2); ncbi_16s_18s; >=95% identity, >=90% ref. coverage	gutmock_sup_r3	diag	table	ncbi	results/framework_16S/gutmock_sup_r3/wf16s.tsv	R10.4.1 gut mock: ONT wf-16s (minimap2 classifier, ncbi_16s_18s, >=95% identity, >=90% ref. coverage); species table from per-read assignments
+wf16s	ONT wf-16s (minimap2); ncbi_16s_18s; >=95% identity, >=90% ref. coverage	gutmock_sup_r4	diag	table	ncbi	results/framework_16S/gutmock_sup_r4/wf16s.tsv	R10.4.1 gut mock: ONT wf-16s (minimap2 classifier, ncbi_16s_18s, >=95% identity, >=90% ref. coverage); species table from per-read assignments

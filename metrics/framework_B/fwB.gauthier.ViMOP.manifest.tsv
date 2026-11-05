@@ -1,0 +1,17 @@
+sample_id	consensus	reference
+SRR15356298	results/vimop_out/gauthier/SRR15356298//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356298.fasta
+SRR15356303	results/vimop_out/gauthier/SRR15356303//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356303.fasta
+SRR15356305	results/vimop_out/gauthier/SRR15356305//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356305.fasta
+SRR15356306	results/vimop_out/gauthier/SRR15356306//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356306.fasta
+SRR15356307	results/vimop_out/gauthier/SRR15356307//consensus/PH136329.consensus.fasta	data/sra/refs/gauthier_2021/SRR15356307.fasta
+SRR15356308	results/vimop_out/gauthier/SRR15356308//consensus/PH136329.consensus.fasta	data/sra/refs/gauthier_2021/SRR15356308.fasta
+SRR15356310	results/vimop_out/gauthier/SRR15356310//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356310.fasta
+SRR15356311	results/vimop_out/gauthier/SRR15356311//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356311.fasta
+SRR15356320	results/vimop_out/gauthier/SRR15356320//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356320.fasta
+SRR15356321	results/vimop_out/gauthier/SRR15356321//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356321.fasta
+SRR15356322	results/vimop_out/gauthier/SRR15356322//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356322.fasta
+SRR15356325	results/vimop_out/gauthier/SRR15356325//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356325.fasta
+SRR15356326	results/vimop_out/gauthier/SRR15356326//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356326.fasta
+SRR15356327	results/vimop_out/gauthier/SRR15356327//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356327.fasta
+SRR15356328	results/vimop_out/gauthier/SRR15356328//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356328.fasta
+SRR15356329	results/vimop_out/gauthier/SRR15356329//selected_consensus/COVID.fasta	data/sra/refs/gauthier_2021/SRR15356329.fasta

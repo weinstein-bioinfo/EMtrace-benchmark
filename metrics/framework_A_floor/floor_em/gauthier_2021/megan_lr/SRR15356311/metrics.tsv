@@ -1,0 +1,4 @@
+taxgroup	rank	n_pred	n_true	TP	FP	FN	Pr	Rc	F1	mean_accuracy
+Viruses	species	0	1	0	0	1	0.0	0.0	0.0	0.0
+Viruses	genus	0	1	0	0	1	0.0	0.0	0.0	0.0
+Viruses	family	0	1	0	0	1	0.0	0.0	0.0	0.0

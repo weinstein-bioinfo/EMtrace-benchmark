@@ -1,0 +1,89 @@
+1: WNV-51
+Identifiers: BioSample: SAMEA118252080; SRA: ERS24433287
+Organism: West Nile virus
+Attributes:
+    /ENA first public="2025-05-06"
+    /ENA-CHECKLIST="ERC000033"
+    /INSDC center name="UAntwerp"
+    /INSDC status="public"
+    /Submitter Id="WNV-51"
+    /collecting institution="Institute of Tropical Medicine Antwerp"
+    /collection date="2021"
+    /collector name="ITM"
+    /definition for seropositive sample="NA"
+    /geographic location="not collected"
+    /geographic location (latitude)="not provided"
+    /geographic location (longitude)="not provided"
+    /geographic location (region and locality)="not provided"
+    /host age="0000"
+    /host behaviour="other"
+    /host common name="NA"
+    /host disease outcome="dead"
+    /host habitat="other"
+    /host health state="missing: lab stock"
+    /host="NA"
+    /host sex="missing: lab stock"
+    /host subject id="NA"
+    /isolate="NA"
+    /isolation source host-associated="NA"
+    /isolation source non-host-associated="NA"
+    /receipt date="0000"
+    /sample capture status="other"
+    /sample name="WNV-51"
+    /scientific_name="West Nile virus"
+    /serotype (required for a seropositive sample)="NA"
+    /virus identifier="B956 (Lineage II)"
+Description:
+Viral culture
+Accession: SAMEA118252080	ID: 48374341
+
+2: Pathogen: clinical or host-associated sample from Dengue virus
+Identifiers: BioSample: SAMN46927330; Sample name: DENV2_DF-2; SRA: SRS24138332
+Organism: Dengue virus
+Attributes:
+    /strain="DENV-2"
+    /isolate="R0908/08"
+    /collected by="Tropical Pediatrics Department, Faculty of Tropical Medicine, Mahidol University"
+    /collection date="2008-08-01"
+    /geographic location="Thailand: Ratchaburi"
+    /host="Homo sapiens"
+    /host disease="Dengue fever"
+    /isolation source="serum form DF patient"
+    /latitude and longitude="13.528289 N 99.813423 E"
+    /genotype="genotype V (Asian I)"
+    /host age="11"
+    /host sex="male"
+    /passage history="three passages on Aedes aegypti C6/36"
+Accession: SAMN46927330	ID: 46927330
+
+3: Viral sample from Zika virus
+Identifiers: BioSample: SAMN44513083; Sample name: ZIKV-R116265 V1C2; SRA: SRS23062755
+Organism: Zika virus
+Attributes:
+    /isolate="KX766029"
+    /lab host="C6/C36 Mosquito cells"
+    /collection date="2024-08-13"
+    /geographic location="USA"
+    /isolation source="lab"
+Accession: SAMN44513083	ID: 44513083
+
+4: Metagenome or environmental sample from human nasopharyngeal metagenome
+Identifiers: BioSample: SAMN20554099; Sample name: P5; SRA: SRS9691824
+Organism: human nasopharyngeal metagenome
+Attributes:
+    /collected by="University of Oxford"
+    /collection date="2020-04"
+    /geographic location="United Kingdom:Oxford"
+    /host="Homo sapiens"
+    /host disease="COVID-19"
+    /isolate="Community"
+    /isolation source="Oropharynx"
+    /collection device="Swab"
+    /SARS-CoV-2 diagnostic gene name 1="E (orf4)"
+    /SARS-CoV-2 diagnostic pcr Ct value 1="29.9"
+    /voc_pcr_result="not done"
+    /dual_barcode_reads="369,374"
+    /latitude and longitude="missing"
+Accession: SAMN20554099	ID: 20554099
+
+

@@ -1,0 +1,17 @@
+sample_id	consensus	reference
+SRR15356298	results/vimop_out/gauthier/SRR15356298//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356298/assembly/refaccs.fetched.fa
+SRR15356303	results/vimop_out/gauthier/SRR15356303//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356303/assembly/refaccs.fetched.fa
+SRR15356305	results/vimop_out/gauthier/SRR15356305//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356305/assembly/refaccs.fetched.fa
+SRR15356306	results/vimop_out/gauthier/SRR15356306//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356306/assembly/refaccs.fetched.fa
+SRR15356307	results/vimop_out/gauthier/SRR15356307//consensus/PH136329.consensus.fasta	results/framework_b/sra_gauthier_2021/SRR15356307/assembly/refaccs.fetched.fa
+SRR15356308	results/vimop_out/gauthier/SRR15356308//consensus/PH136329.consensus.fasta	results/framework_b/sra_gauthier_2021/SRR15356308/assembly/refaccs.fetched.fa
+SRR15356310	results/vimop_out/gauthier/SRR15356310//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356310/assembly/refaccs.fetched.fa
+SRR15356311	results/vimop_out/gauthier/SRR15356311//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356311/assembly/refaccs.fetched.fa
+SRR15356320	results/vimop_out/gauthier/SRR15356320//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356320/assembly/refaccs.fetched.fa
+SRR15356321	results/vimop_out/gauthier/SRR15356321//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356321/assembly/refaccs.fetched.fa
+SRR15356322	results/vimop_out/gauthier/SRR15356322//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356322/assembly/refaccs.fetched.fa
+SRR15356325	results/vimop_out/gauthier/SRR15356325//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356325/assembly/refaccs.fetched.fa
+SRR15356326	results/vimop_out/gauthier/SRR15356326//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356326/assembly/refaccs.fetched.fa
+SRR15356327	results/vimop_out/gauthier/SRR15356327//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356327/assembly/refaccs.fetched.fa
+SRR15356328	results/vimop_out/gauthier/SRR15356328//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356328/assembly/refaccs.fetched.fa
+SRR15356329	results/vimop_out/gauthier/SRR15356329//selected_consensus/COVID.fasta	results/framework_b/sra_gauthier_2021/SRR15356329/assembly/refaccs.fetched.fa

@@ -1,0 +1,5 @@
+taxid	species	genus	family	order	class	division
+1	vA	GA	FA	OV	CV	Viruses
+2	vB	GB	FB	OV	CV	Viruses
+3	vC	GC	FC	OV	CV	Viruses
+100	bD	BG	BF	OB	CB	Bacteria

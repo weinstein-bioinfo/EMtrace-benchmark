@@ -1,0 +1,9 @@
+0.01	../outputs/bacteria/Smitis_SK637_reads.fastq.gz
+0.01	../outputs/bacteria/Cpseudodiphtheriticum_ref_reads.fastq.gz
+0.01	../outputs/bacteria/Capnocytophaga_sputigena_reads.fastq.gz
+0.02	../outputs/bacteria/Mcatarrhalis_ref_reads.fastq.gz
+0.05	../outputs/bacteria/Spyogenes_SF370_reads.fastq.gz
+0.05	../outputs/bacteria/Dpigrum_KPL3250_reads.fastq.gz
+0.05	../outputs/bacteria/Saureus_NCTC8325_reads.fastq.gz
+0.05	../outputs/bacteria/Pputida_KT2440_reads.fastq.gz
+0.75	../outputs/human/reads.fastq.gz

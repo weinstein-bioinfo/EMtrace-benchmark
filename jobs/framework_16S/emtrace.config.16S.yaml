@@ -1,0 +1,524 @@
+# EMtrace — 16S bacteriome profiling configuration
+# ============================================================================
+# Benchmark profile for the ZymoBIOMICS mock community (the project notes).  Ports the legacy LazypipeNP `config.16S.yaml` parameter set onto the
+# current EMtrace config keys.
+#
+# Do NOT use emtrace.config.yaml for 16S: its chopper window (400 bp, no max)
+# and virome score thresholds are wrong for full-length 16S amplicons.
+#
+# Legacy key                 -> EMtrace key
+#   par_chopper --quality      preprocess.chopper.quality          10
+#   par_chopper --minlength    preprocess.chopper.minlength        1200
+#   par_chopper --maxlength    preprocess.chopper.maxlength        1800
+#   min_minimap_DPpeak_score   annotation.minimap.s (needs c:true) 200
+#   min_qcov                   report.min_qcov                     0 (runs: 0.40)
+#   nospnorep                  em.exclude_no_species               true
+#   score2prob_temp            em.temp                             10.0
+#   hostgen 0                  drop `flt` from --pipe (see below)
+#
+# No host depletion for the mock: run with `--pipe pore,chop,ann,em,rep,plot`
+# (omit `flt`) rather than `--pipe main`.  bgfilter settings below are left at
+# their defaults and are unused on that pipeline.
+#
+# min_readn / min_prob / tail have no config-level equivalent — they are
+# benchmark *variables* applied in the scoring layer (the project notes).
+# ============================================================================
+# Environment variables: $data, $databases, $hostgenomes
+
+
+# Preprocess settings (emtrace run -p preprocess)
+# Three sub-steps run in order: porechop → chop → flt
+# Each sub-step is activated by including pore/chop/flt in the pipeline.
+preprocess:
+  # Optional read subsampling applied before any preprocessing step
+  subsample:
+    active: false
+    size: 10000              # fraction (0.0–1.0) or absolute count (>1)
+
+  # Step 1: Adapter removal (Porechop_ABI, fallback to Porechop)
+  # emtrace run -p pore
+  porechop_abi:
+    verbosity: 1                        # output detail: 0=none, 1=some, 2=lots, 3=full
+    # ab initio options
+    ab_initio: false                    # infer adapters from reads (recommended)
+    custom_adapters: null               # path to custom adapter file, null = skip
+    discard_database: false             # ignore built-in adapter database
+    window_size: 3                      # smoothing window for drop-cut algorithm
+    # consensus mode options
+    number_of_run: 10                   # sampling iterations for initial consensus
+    consensus_run: 20                   # additional runs if no stable consensus found
+    all_above_x: 10                     # min % of total adapters for consensus selection
+    best_of_x: 0                        # keep only best N consensus seqs, 0 = all
+    # adapter search
+    adapter_threshold: 90.0             # min % identity to label adapter as present
+    check_reads: 10000                  # reads sampled for adapter detection
+    scoring_scheme: '3,-6,-5,-2'        # alignment scores: match,mismatch,gap-open,gap-extend
+    # end adapter trimming
+    end_size: 150                       # bp searched at each read end for adapters
+    min_trim_size: 4                    # ignore adapter alignments smaller than this
+    extra_end_trim: 2                   # extra bases removed next to end adapters
+    end_threshold: 75.0                 # min % identity for end adapter removal
+    # middle adapter settings
+    no_split: false                     # skip splitting reads at middle adapters
+    discard_middle: false               # discard reads with middle adapters instead of splitting
+    middle_threshold: 90.0              # min % identity for middle adapter detection
+    extra_middle_trim_good_side: 10     # extra bases removed on good side of middle adapter
+    extra_middle_trim_bad_side: 100     # extra bases removed on bad side of middle adapter
+    min_split_read_size: 200            # min bp for post-split read pieces
+  # Step 2: Quality / length filtering (Chopper)
+  # emtrace run -p chop
+  chopper:
+    quality: 10                         # min Phred average quality score
+    minlength: 1200                     # 16S: full-length amplicon window (legacy par_chopper)
+    maxlength: 1800                     # 16S: full-length amplicon window (legacy par_chopper)
+    contam: null                        # path to contaminant FASTA, null = skip
+    trim_approach: 'trim-by-quality'    # fixed-crop|trim-by-quality|best-read-segment|split-by-low-quality
+    cutoff: 10                          # quality threshold for end trimming
+    headcrop: 0                         # trim N bases from read start
+    tailcrop: 0                         # trim N bases from read end
+  # Step 3: Host / background read filtering
+  # emtrace run -p flt
+  bgfilter:
+    aligner: 'minimap2'                 # aligner for host filtering: bwa | minimap2
+    bgfilter: 'Homo_sapiens'            # CSV of host genomes to filter against
+    minimap:
+      c: true
+      m: 80                             # minimap chain threhold
+      s: 100                            # minimap DP alignemnt score threshold
+      save_mmi_index: true              # build and reuse *.mmi index alongside the FASTA
+      params: ''                        # additional parameters
+    bwa_mem:
+      T: 100                             # minimum score (-T flag)
+      min_score: 100                    # post-alignment: min AS tag to call a read as host
+      min_mapq: 0                       # post-alignment: min MAPQ to call a read as host
+      params: ''                        # additional parameters
+
+# read annotation settings
+annotation:
+  blastn:
+    bitscore: 200
+    evalue: 10
+    max_target_seqs: 5
+    save_hits: false            # write raw BLAST tabular to disk for debugging
+  minimap:
+    c: true                     # must stay true: `s` below is only applied on full DP alignment
+    m: 80                       # -m chain score threshold (always applied)
+    s: 200                      # 16S: legacy min_minimap_DPpeak_score (vs 100 for virome)
+    f: 0.0002                   # -f ignore top FLOAT fraction of most frequent minimizers (0.0002-)
+    evalue: 10
+    max_target_seqs: 5
+    preset: "map-ont"
+    secondary: "yes"
+    save_hits: false            # write raw PAF to disk for debugging
+  # diamond blastp/blastx
+  diamond_blastp:
+    bitscore: 200
+    evalue: 10
+    mode: 'very-sensitive'
+    max_target_seqs: 5
+    save_hits: false            # write raw Diamond tabular to disk for debugging
+  orfipy:
+    min_len: 300
+    max_len: INF
+    table: 1
+    partial_5: False
+    partial_3: True
+    strand: 'b'
+  ann1: ''
+  ann2: ''
+  anns: '16S.silva'
+  anns.options:
+    abv:             "--ann1 minimap.refseq.abv"
+    abv.1g:          "--ann1 minimap.refseq.abv.1g"
+    vi.2round:       "--ann1 minimap.refseq.vi --ann2 vi:blastn.refseq.abv"
+    vi.2round1g:     "--ann1 minimap.refseq.vi --ann2 vi:blastn.refseq.abv.1g"
+    vi.chain1:       "--ann1 minimap.refseq.abv,diamond.nrclust.vi"
+    vi.chain2:       "--ann1 minimap.refseq.abv,diamond.uniref.vi"
+    # 16S strategies — select with --anns, or override with --ann1
+    16S.silva:       "--ann1 minimap.silva"
+    16S.rrnDB:       "--ann1 minimap.rrnDB"
+    16S.rrnDB.dedup: "--ann1 minimap.rrnDB.dedup"
+    16S.refseq:      "--ann1 minimap.refseq16S"
+    # Chain order matters: rrnDB first.  The legacy RefSeq-first order pushed
+    # 47.8 % of reads into Other (the project notes).
+    16S.chain1:      "--ann1 minimap.rrnDB,minimap.refseq16S"
+    # Emu's own reference, for the database-controlled panel of the benchmark.
+    16S.emu:         "--ann1 minimap.emu"
+
+# em (EM abundance estimation)
+em:
+  temp: 10.0             # 16S: legacy score2prob_temp (score -> P-value, Frith 2020)
+  max_iter: 1000         # max EM iterations
+  log_L_threshold: 0.01  # convergence threshold (log-likelihood change)
+  # Benchmark axis 5 (the project notes): drop `{genus} sp.` bins.
+  # NB: this config value ALWAYS wins over the CLI --nospnorep flag
+  # (steps/em.py reads em.exclude_no_species last), so toggle it here.
+  exclude_no_species: false  # exclude reads with no species-level assignment
+
+
+# assembly settings
+assembly:
+  aligner: 'minimap2'                 # aligner for host filtering: bwa | minimap2
+  bgfilter: 'Homo_sapiens'            # CSV of host genomes to filter against
+  database: "minimap.assembly"
+  minimap:
+    c: true
+    m: 80                             # minimap chain threhold
+    s: 100                            # minimap DP alignemnt score threshold
+    params: ''                        # additional parameters
+  bwa_mem:
+    T: 80                             # minimum score (-T flag)
+    min_score: 80                    # post-alignment: min AS tag to call a read as host
+    min_mapq: 0                       # post-alignment: min MAPQ to call a read as host
+    params: ''                        # additional parameters
+  refseqs:                  ""  # CSV of fasta for refbased assembly
+  refaccs:                  ""  # CSV of Entrez accessions for refbased assembly
+  # consensus sequence
+  min_coverage:             5
+  min_af:                   0.5
+  min_ac:                   5
+  vcf_flt:                  "INFO/AD>5"
+
+
+# reporting settings
+report:
+  min_qcov: 0                      # as EMtrace's 16S profile. The benchmark runs used 0.40,
+                                   # the legacy value; 0, 0.2 and 0.4 scored identically on
+                                   # barcode79 (16S sweep, axis 7)
+  # Pinned off. This is a 16S run, and the shipped 16S profile turns the trim
+  # on -- but the benchmark applies its own tail at scoring time
+  # (framework_16S.score.py, axis 4, swept over 0.0 and 0.01). Trimming here
+  # too would double-trim and make the scored cell mean something else.
+  tail: 0
+  tail_viruses: false
+  min_bitscore: 0                   # min bitscore for annotation/abundance tables
+  export_excel: true                # export annot/abund tables as .xlsx (requires openpyxl)
+  sort_reads: false                  # sort reads into taxonomy directory hierarchy
+  toptaxrank: "auto"                # "auto" resolves to domain on the 16S databases (group: 16S)
+  # abundance plots generated during reporting (plot step)
+  sankey: false                      # generate Sankey diagram (sankey.html/.png)
+  sunburst: false                    # generate sunburst chart (sunburst.html/.png)
+  stacked_bar: true                 # generate stacked bar chart (stacked_bar.html/.png)
+  heatmap_genus: false              # generate genus-level heatmap (heatmap_genus.pdf)
+  heatmap_species: false            # generate species-level heatmap (heatmap_species.pdf)
+
+# -----------------------------------------------------------------------------
+# Statistics step settings
+# -----------------------------------------------------------------------------
+stats:
+  output_format: "csv"         # output format for stats file: "csv" or "yaml"
+  plot_histograms: true        # generate read-length histogram plots (requires matplotlib)
+
+# -----------------------------------------------------------------------------
+# Runtime settings
+# Override threads on CLI: -t N
+# -----------------------------------------------------------------------------
+runtime:
+  num_threads: 8           # Threads for BLAST, Diamond
+  output_root: results     # Root directory for all reference sets (-o/--outdir default)
+  temp_dir: $TMPDIR        # Temp file directory (macOS/Linux system temp)
+  entrez_email: "your.email@helsinki.fi"  # Required for NCBI Entrez accession fetch (assembly.refaccs)
+  mode: online             # online: fall back to Entrez when ref not in local DB; offline: abort with warning
+
+# -----------------------------------------------------------------------------
+# Output/Pack format
+# -----------------------------------------------------------------------------
+output:
+  fasta_wrap: false        # false = single-line FASTA (default); true = wrapped
+  fasta_line_width: 80     # Characters per line when fasta_wrap is true
+  pack_reads: 0            # Include all reads (FASTQ) in the packed *.tar.gz
+  pack_reads_vi: 0         # 16S: no viral reads to pack
+  pack_assembly_bam: 0     # Include assembly BAM + index in the packed *.tar.gz
+  realtime_abund_table: true  # Write abund_table.tsv after each realtime batch
+
+# -----------------------------------------------------------------------------
+# Database paths
+# Default subpaths are resolved under $EMTRACE_DB_DIR when set.
+# Override individual paths here when they differ from the defaults.
+# -----------------------------------------------------------------------------
+databases:
+  # All paths default to $EMTRACE_DB_DIR/<subpath> when EMTRACE_DB_DIR is set.
+  #
+  ## genomic database for ref-based assembly
+  minimap.assembly:
+    search: minimap
+    db: $EMTRACE_DB_DIR/minimap.refseq.vi.fa
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.vi.234.mmi.tar.gz"
+  ## genomic databases:
+  minimap.refseq.abv:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.refseq.abv.fa
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.abv.234.tar.gz"
+  minimap.refseq.abv.1g:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.refseq.abv.1g.fa
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.abv.1g.234.mmi.tar.gz"
+  minimap.refseq.abv.1g.k11w5:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.refseq.abv.1g.k11w5.fa.mmi
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.abv.1g.k11w5.234.mmi.tar.gz"
+  minimap.refseq.vi:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.refseq.vi.fa
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.vi.234.mmi.tar.gz"
+  blastn.refseq.abv:
+    search: Blastn
+    db: $EMTRACE_DB_DIR/blastn.refseq.abv
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastn.refseq.abv.234.tar.gz"
+  blastn.refseq.abv.1g:
+    search: Blastn
+    db: $EMTRACE_DB_DIR/blastn.refseq.abv.1g
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastn.refseq.abv.1g.234.tar.gz"
+  blastn.refseq.vi:
+    search: Blastn
+    db: $EMTRACE_DB_DIR/blastn.refseq.vi
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastn.refseq.vi.234.tar.gz"
+  #blastp.nrclust.vi:
+  #  search: Blastp
+  #  db: $EMTRACE_DB_DIR/nr_cluster_seq.vi
+  #  url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastp.nrclust.vi.v20260311.tar.gz"
+  #blastp.uniref.vi:
+  #  search: Blastp
+  #  db: $EMTRACE_DB_DIR/blastp.uniref100.vi
+  #  url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastp.uniref100.vi.v2026_01.tar.gz"
+  diamond.nrclust.vi:
+    search: "Diamondp"
+    db: $EMTRACE_DB_DIR/nr_cluster_seq.vi.dmnd
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/diamond.nrclust.vi.v20260311.dmnd.gz"
+  diamond.uniref.vi:
+    search: "Diamondp"
+    db: $EMTRACE_DB_DIR/diamond.uniref100.vi.dmnd
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/diamond.uniref100.vi.v2026_01.dmnd.gz"
+  ## 16S databases:
+  minimap.silva:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.SILVA_SSURef.fasta
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.SILVA_144_SSURef.tar.gz"
+  minimap.emu:
+    # Emu's own prebuilt database, repackaged unchanged (Lazypipe-db
+    # db_16S.py --target emu): 49,243 sequences, 17,555 species, 74.1 Mbp.
+    # Copy dated 2022-02-11. Scoring EMtrace on Emu's own sequences is what
+    # makes a EMtrace-vs-Emu difference a method difference rather than a
+    # database difference. Do not rebuild or re-dereplicate it.
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.emu.fasta.mmi
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.emu.default.v20220211.tar.gz"
+  minimap.rrnDB:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.rrnDB_16S_rRNA.fasta.mmi
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.rrnDB-5.10_16S_rRNA.tar.gz"
+  minimap.rrnDB.dedup:
+    # rrnDB 5.10 de-duplicated (one representative per named species, else genus,
+    # else family, per cluster of identical sequences); Lazypipe-db db_emu_dedup.bash
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.rrnDB_16S_rRNA.dedup.fasta.mmi
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.rrnDB-5.10_16S_rRNA.dedup.tar.gz"
+  minimap.refseq16S:
+    search: Minimap2
+    db: $EMTRACE_DB_DIR/minimap.refseq.16SrRNA.fna.mmi
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/minimap.refseq.16SrRNA.v20260911.tar.gz"
+  blastn.silva:
+    search: Blastn
+    db: $EMTRACE_DB_DIR/blastn.SILVA_SSURef
+    group: 16S
+    url: "https://a3s.fi/swift/v1/lazypipe-db/2026/blastn.SILVA_144_SSURef.tar.gz"
+
+# Taxonomy sources. There is no taxonomy switch (axis 2 was dropped): SILVA
+# databases report through SILVA taxonomy, all others through NCBI taxonomy.
+taxonomy:
+  ncbi:
+    toptaxrank: "division"
+    taxgroups: "all"
+    db: $EMTRACE_DB_DIR/taxonomy/ncbi/taxonomy.db
+    url: "ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz"
+  silva:
+    toptaxrank: "domain"
+    taxgroups: "all"
+    db: $EMTRACE_DB_DIR/taxonomy/silva/taxonomy.db
+    # NB: release 144 drops the underscore before the version (…ref144, not …ref_144)
+    url: "https://ftp.arb-silva.de/release_144/Exports/taxonomy/taxmap_slv_ssu_ref144.txt.gz"
+    # SILVA's per-path rank declarations. Required from release 144 on: 144
+    # inserted a "kingdom" level, so positional rank assignment shifts every
+    # rank down one and lands the family name in the genus column.
+    tax_slv_url: "https://ftp.arb-silva.de/release_144/Exports/taxonomy/tax_slv_ssu_144.txt.gz"
+    # taxmap_slv: $EMTRACE_DB_DIR/taxonomy/silva/taxmap_slv_ssu_ref144.txt
+    # tax_slv:    $EMTRACE_DB_DIR/taxonomy/silva/tax_slv_ssu_144.txt
+
+# -----------------------------------------------------------------------------
+# Host Databases, for Minimap2, Genomic + RNA directly from NCBI
+# Indexed on the first usage by Minimap2
+# -----------------------------------------------------------------------------
+host.databases:
+  kitome:
+    db: $EMTRACE_DB_DIR/host/kitome/kitome.fasta.gz
+    name: Laboratory protocol associated sequences (kitome)
+    search: minimap2
+    url: https://a3s.fi/swift/v1/lazypipe-db/2026/kitome.20260507.tar.gz
+  Aedes_aegypti:
+    accession: "GCF_002204515.2"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_002204515.2_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/204/515/GCF_002204515.2_AaegL5.0/GCF_002204515.2_AaegL5.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/204/515/GCF_002204515.2_AaegL5.0/GCF_002204515.2_AaegL5.0_rna.fna.gz"
+  Aedes_albopictus:
+    accession: "GCF_035046485.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_035046485.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/035/046/485/GCF_035046485.1_AalbF5/GCF_035046485.1_AalbF5_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/035/046/485/GCF_035046485.1_AalbF5/GCF_035046485.1_AalbF5_rna.fna.gz"
+  Bos_taurus:
+    accession: "GCF_002263795.3"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_002263795.3_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/263/795/GCF_002263795.3_ARS-UCD2.0/GCF_002263795.3_ARS-UCD2.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/263/795/GCF_002263795.3_ARS-UCD2.0/GCF_002263795.3_ARS-UCD2.0_rna.fna.gz"
+  Canis_lupus_fam:
+    accession: "GCF_011100685.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_011100685.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/100/685/GCF_011100685.1_UU_Cfam_GSD_1.0/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/100/685/GCF_011100685.1_UU_Cfam_GSD_1.0/GCF_011100685.1_UU_Cfam_GSD_1.0_rna.fna.gz"
+  Chlorocebus_aethiops:
+    accession: "GCA_023783515.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCA_023783515.1_genomic.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/023/783/515/GCA_023783515.1_ASM2378351v1/GCA_023783515.1_ASM2378351v1_genomic.fna.gz"
+  Chrysops_caecutiens:
+    accession: "GCA_963971475.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCA_963971475.1_genomic.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/963/971/475/GCA_963971475.1_idChrCaec1.1/GCA_963971475.1_idChrCaec1.1_genomic.fna.gz"
+  Culex_laticinctus:
+    accession: "GCA_964187845.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCA_964187845.1_genomic.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/964/187/845/GCA_964187845.1_idCulLati1.1/GCA_964187845.1_idCulLati1.1_genomic.fna.gz"
+  Culex_pipiens_pallens:
+    accession: "GCF_016801865.2"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_016801865.2_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/801/865/GCF_016801865.2_TS_CPP_V2/GCF_016801865.2_TS_CPP_V2_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/801/865/GCF_016801865.2_TS_CPP_V2/GCF_016801865.2_TS_CPP_V2_rna.fna.gz"
+  Equus_caballus:
+    accession: "GCF_002863925.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_002863925.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/863/925/GCF_002863925.1_EquCab3.0/GCF_002863925.1_EquCab3.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/863/925/GCF_002863925.1_EquCab3.0/GCF_002863925.1_EquCab3.0_rna.fna.gz"
+  Felis_catus:
+    accession: "GCF_018350175.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_018350175.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/350/175/GCF_018350175.1_F.catus_Fca126_mat1.0/GCF_018350175.1_F.catus_Fca126_mat1.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/350/175/GCF_018350175.1_F.catus_Fca126_mat1.0/GCF_018350175.1_F.catus_Fca126_mat1.0_rna.fna.gz"
+  Homo_sapiens:
+    accession: "GCF_000001405.40"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_000001405.40_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/GCF_000001405.40_GRCh38.p14_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/GCF_000001405.40_GRCh38.p14_rna.fna.gz"
+  Homo_sapiens_bwa:
+    accession: "GCF_000001405.40"
+    search: bwa
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_000001405.40_genomic+rna.fna.gz"
+    url: "https://a3s.fi/lazypipe-hostgen/GCF_000001405.40_genomic+rna.tar.gz"
+  Ixodes_persulcatus:
+    accession: "GCA_013358835.2"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCA_013358835.2_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/013/358/835/GCA_013358835.2_BIME_Iper_1.3/GCA_013358835.2_BIME_Iper_1.3_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/013/358/835/GCA_013358835.2_BIME_Iper_1.3/GCA_013358835.2_BIME_Iper_1.3_rna_from_genomic.fna.gz"
+  Ixodes_scapularis:
+    accession: "GCF_016920785.2"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_016920785.2_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/920/785/GCF_016920785.2_ASM1692078v2/GCF_016920785.2_ASM1692078v2_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/920/785/GCF_016920785.2_ASM1692078v2/GCF_016920785.2_ASM1692078v2_rna.fna.gz"
+  Macaca_mulatta:
+    accession: "GCA_003339765.3"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCA_003339765.3_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/339/765/GCF_003339765.1_Mmul_10/GCF_003339765.1_Mmul_10_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/339/765/GCF_003339765.1_Mmul_10/GCF_003339765.1_Mmul_10_rna.fna.gz"
+  Mus_musculus:
+    accession: "GCF_000001635.27"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_000001635.27_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.27_GRCm39/GCF_000001635.27_GRCm39_rna.fna.gz"
+  Myodes_glareolus:
+    accession: "GCF_902806735.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_902806735.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/806/735/GCF_902806735.1_Bank_vole1_10x/GCF_902806735.1_Bank_vole1_10x_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/806/735/GCF_902806735.1_Bank_vole1_10x/GCF_902806735.1_Bank_vole1_10x_rna.fna.gz"
+  Myotis_daubentonii:
+    accession: "GCF_963259705.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_963259705.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/963/259/705/GCF_963259705.1_mMyoDau2.1/GCF_963259705.1_mMyoDau2.1_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/963/259/705/GCF_963259705.1_mMyoDau2.1/GCF_963259705.1_mMyoDau2.1_rna.fna.gz"
+  Neovison_vison:
+    accession: "GCF_020171115.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_020171115.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/171/115/GCF_020171115.1_ASM_NN_V1/GCF_020171115.1_ASM_NN_V1_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/171/115/GCF_020171115.1_ASM_NN_V1/GCF_020171115.1_ASM_NN_V1_rna.fna.gz"
+  Ovis_aries:
+    accession: "GCF_016772045.2"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_016772045.2_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/772/045/GCF_016772045.2_ARS-UI_Ramb_v3.0/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/772/045/GCF_016772045.2_ARS-UI_Ramb_v3.0/GCF_016772045.2_ARS-UI_Ramb_v3.0_rna.fna.gz"
+  Rattus_norvegicus:
+    accession: "GCF_036323735.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_036323735.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/036/323/735/GCF_036323735.1_GRCr8/GCF_036323735.1_GRCr8_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/036/323/735/GCF_036323735.1_GRCr8/GCF_036323735.1_GRCr8_rna.fna.gz"
+  Sorex_araneus:
+    accession: "GCF_027595985.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_027595985.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/027/595/985/GCF_027595985.1_mSorAra2.pri/GCF_027595985.1_mSorAra2.pri_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/027/595/985/GCF_027595985.1_mSorAra2.pri/GCF_027595985.1_mSorAra2.pri_rna.fna.gz"
+  Sus_scrofa:
+    accession: "GCF_000003025.6"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_000003025.6_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/025/GCF_000003025.6_Sscrofa11.1/GCF_000003025.6_Sscrofa11.1_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/025/GCF_000003025.6_Sscrofa11.1/GCF_000003025.6_Sscrofa11.1_rna.fna.gz"
+  Vulpes_lagopus:
+    accession: "GCF_018345385.1"
+    db: "$EMTRACE_DB_DIR/hostgenomes/GCF_018345385.1_genomic+rna.fna.gz"
+    search: "Minimap2"
+    urls:
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/345/385/GCF_018345385.1_ASM1834538v1/GCF_018345385.1_ASM1834538v1_genomic.fna.gz"
+    - "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/345/385/GCF_018345385.1_ASM1834538v1/GCF_018345385.1_ASM1834538v1_rna.fna.gz"

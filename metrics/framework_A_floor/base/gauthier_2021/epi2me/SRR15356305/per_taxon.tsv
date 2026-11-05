@@ -1,0 +1,4 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Betacoronavirus pandemicum	TP	146199.0	1.0
+Viruses	genus	Betacoronavirus	TP	146199.0	1.0
+Viruses	family	Coronaviridae	TP	146199.0	1.0

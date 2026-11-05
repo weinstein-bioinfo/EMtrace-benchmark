@@ -1,0 +1,1662 @@
+library	pipeline	rank	taxon	rel_abundance
+barcode79	Expected	species	Bacillus subtilis	17.4
+barcode79	Expected	species	Enterococcus faecalis	9.9
+barcode79	Expected	species	Escherichia coli	10.1
+barcode79	Expected	species	Limosilactobacillus fermentum	18.4
+barcode79	Expected	species	Listeria monocytogenes	14.1
+barcode79	Expected	species	Pseudomonas aeruginosa	4.2
+barcode79	Expected	species	Salmonella enterica	10.4
+barcode79	Expected	species	Staphylococcus aureus	15.5
+barcode79	Expected	genus	Bacillus	17.4
+barcode79	Expected	genus	Enterococcus	9.9
+barcode79	Expected	genus	Escherichia	10.1
+barcode79	Expected	genus	Limosilactobacillus	18.4
+barcode79	Expected	genus	Listeria	14.1
+barcode79	Expected	genus	Pseudomonas	4.2
+barcode79	Expected	genus	Salmonella	10.4
+barcode79	Expected	genus	Staphylococcus	15.5
+barcode79	EMtrace.rrnDB	species	Bacillus subtilis	25.927013242990533
+barcode79	EMtrace.rrnDB	species	Enterococcus faecalis	10.553707054158243
+barcode79	EMtrace.rrnDB	species	Escherichia coli	5.850148254284818
+barcode79	EMtrace.rrnDB	species	Limosilactobacillus fermentum	17.541325389421466
+barcode79	EMtrace.rrnDB	species	Listeria monocytogenes	15.967560771181514
+barcode79	EMtrace.rrnDB	species	Pseudomonas aeruginosa	1.211692744357416
+barcode79	EMtrace.rrnDB	species	Salmonella enterica	5.3640675363948125
+barcode79	EMtrace.rrnDB	species	Staphylococcus aureus	15.44802740367155
+barcode79	EMtrace.rrnDB	species	Other	2.136457603539645
+barcode79	EMtrace.rrnDB	genus	Bacillus	26.44931782978527
+barcode79	EMtrace.rrnDB	genus	Enterococcus	10.553707054158243
+barcode79	EMtrace.rrnDB	genus	Escherichia	5.8925244589059975
+barcode79	EMtrace.rrnDB	genus	Limosilactobacillus	17.571235788857965
+barcode79	EMtrace.rrnDB	genus	Listeria	16.912960481495702
+barcode79	EMtrace.rrnDB	genus	Pseudomonas	1.211692744357416
+barcode79	EMtrace.rrnDB	genus	Salmonella	5.3640675363948125
+barcode79	EMtrace.rrnDB	genus	Staphylococcus	15.701391493609734
+barcode79	EMtrace.rrnDB	genus	Other	0.3431026124348625
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Bacillus subtilis	25.319408263384602
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Enterococcus faecalis	10.807427472383747
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Escherichia coli	5.894295119111053
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Limosilactobacillus fermentum	18.029698715948502
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Listeria monocytogenes	16.88383437546665
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Pseudomonas aeruginosa	1.2384485958184344
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Salmonella enterica	5.587906897033705
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Staphylococcus aureus	14.776329955934035
+barcode79	EMtrace.rrnDB.dedup.tophits	species	Other	1.4626506049192702
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Bacillus	26.417016191245374
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Enterococcus	10.514663879562605
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Escherichia	5.870840518417843
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Limosilactobacillus	17.570012533889464
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Listeria	16.870783119076396
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Pseudomonas	1.204900125438912
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Salmonella	5.436535471807312
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Staphylococcus	15.690634315745184
+barcode79	EMtrace.rrnDB.dedup.tophits	genus	Other	0.42461384481690506
+barcode79	EMtrace.silva	species	Bacillus subtilis	22.156396388464202
+barcode79	EMtrace.silva	species	Enterococcus faecalis	10.3557007123034
+barcode79	EMtrace.silva	species	Escherichia coli	6.02625244515302
+barcode79	EMtrace.silva	species	Limosilactobacillus fermentum	19.728440383273345
+barcode79	EMtrace.silva	species	Listeria monocytogenes	19.248747703025764
+barcode79	EMtrace.silva	species	Pseudomonas aeruginosa	0.04921418978226285
+barcode79	EMtrace.silva	species	Salmonella enterica	6.072610923165471
+barcode79	EMtrace.silva	species	Staphylococcus aureus	16.309955273987946
+barcode79	EMtrace.silva	species	Other	0.05268198084458749
+barcode79	EMtrace.silva	genus	Bacillus	26.182299709623646
+barcode79	EMtrace.silva	genus	Enterococcus	10.317504598178092
+barcode79	EMtrace.silva	genus	Escherichia	6.105962359569162
+barcode79	EMtrace.silva	genus	Limosilactobacillus	17.79229589316772
+barcode79	EMtrace.silva	genus	Listeria	17.12661240483029
+barcode79	EMtrace.silva	genus	Pseudomonas	1.2628294797309771
+barcode79	EMtrace.silva	genus	Salmonella	5.398118763812876
+barcode79	EMtrace.silva	genus	Staphylococcus	15.483920638387108
+barcode79	EMtrace.silva	genus	Other	0.3304561527001314
+barcode79	EMtrace.rrnDB.dedup.N0	species	Bacillus subtilis	25.23089079877417
+barcode79	EMtrace.rrnDB.dedup.N0	species	Enterococcus faecalis	10.835259827944252
+barcode79	EMtrace.rrnDB.dedup.N0	species	Escherichia coli	5.887723102797652
+barcode79	EMtrace.rrnDB.dedup.N0	species	Limosilactobacillus fermentum	18.092358050511706
+barcode79	EMtrace.rrnDB.dedup.N0	species	Listeria monocytogenes	16.84629191140223
+barcode79	EMtrace.rrnDB.dedup.N0	species	Pseudomonas aeruginosa	1.2164325867728698
+barcode79	EMtrace.rrnDB.dedup.N0	species	Salmonella enterica	5.6280751493397725
+barcode79	EMtrace.rrnDB.dedup.N0	species	Staphylococcus aureus	14.396823256420923
+barcode79	EMtrace.rrnDB.dedup.N0	species	Other	1.8661453160364183
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Bacillus	26.40305569112838
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Enterococcus	10.501700601344806
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Escherichia	5.877688990449831
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Limosilactobacillus	17.564119607066125
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Listeria	16.867766315540823
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Pseudomonas	1.2042655688293995
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Salmonella	5.454817061959555
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Staphylococcus	15.70256861031478
+barcode79	EMtrace.rrnDB.dedup.N0	genus	Other	0.42401755336630065
+barcode79	EMtrace.rrnDB.dedup.N5	species	Bacillus subtilis	25.608448028891196
+barcode79	EMtrace.rrnDB.dedup.N5	species	Enterococcus faecalis	10.628661099261878
+barcode79	EMtrace.rrnDB.dedup.N5	species	Escherichia coli	5.927606119568997
+barcode79	EMtrace.rrnDB.dedup.N5	species	Limosilactobacillus fermentum	17.71853611598945
+barcode79	EMtrace.rrnDB.dedup.N5	species	Listeria monocytogenes	16.748933446524735
+barcode79	EMtrace.rrnDB.dedup.N5	species	Pseudomonas aeruginosa	1.2262932635161463
+barcode79	EMtrace.rrnDB.dedup.N5	species	Salmonella enterica	5.526413741549121
+barcode79	EMtrace.rrnDB.dedup.N5	species	Staphylococcus aureus	15.757975790160806
+barcode79	EMtrace.rrnDB.dedup.N5	species	Other	0.8571323945376859
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Bacillus	26.391384291447732
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Enterococcus	10.521632114085037
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Escherichia	5.883908847359906
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Limosilactobacillus	17.568830327676118
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Listeria	16.880318340724944
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Pseudomonas	1.2139446786570012
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Salmonella	5.470763603784691
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Staphylococcus	15.733541150931291
+barcode79	EMtrace.rrnDB.dedup.N5	genus	Other	0.33567664533327674
+barcode79	EMtrace.rrnDB.dedup.N25	species	Bacillus subtilis	25.898848860129213
+barcode79	EMtrace.rrnDB.dedup.N25	species	Enterococcus faecalis	10.620729352007316
+barcode79	EMtrace.rrnDB.dedup.N25	species	Escherichia coli	5.923447847865442
+barcode79	EMtrace.rrnDB.dedup.N25	species	Limosilactobacillus fermentum	17.665957133537784
+barcode79	EMtrace.rrnDB.dedup.N25	species	Listeria monocytogenes	16.9747011051613
+barcode79	EMtrace.rrnDB.dedup.N25	species	Pseudomonas aeruginosa	1.2199103251071959
+barcode79	EMtrace.rrnDB.dedup.N25	species	Salmonella enterica	5.516756098532635
+barcode79	EMtrace.rrnDB.dedup.N25	species	Staphylococcus aureus	15.777002170745533
+barcode79	EMtrace.rrnDB.dedup.N25	species	Other	0.40264710691357597
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Bacillus	26.383951628465947
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Enterococcus	10.54037815746188
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Escherichia	5.878633966009613
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Limosilactobacillus	17.561000205520294
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Listeria	16.9025140467535
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Pseudomonas	1.2106810858890675
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Salmonella	5.4750190456579055
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Staphylococcus	15.701062441785108
+barcode79	EMtrace.rrnDB.dedup.N25	genus	Other	0.3467594224566917
+barcode79	EMtrace.rrnDB.dedup.N50	species	Bacillus subtilis	25.899735952659555
+barcode79	EMtrace.rrnDB.dedup.N50	species	Enterococcus faecalis	10.631826418116777
+barcode79	EMtrace.rrnDB.dedup.N50	species	Escherichia coli	5.917683215721848
+barcode79	EMtrace.rrnDB.dedup.N50	species	Limosilactobacillus fermentum	17.645356031971428
+barcode79	EMtrace.rrnDB.dedup.N50	species	Listeria monocytogenes	16.994208162216523
+barcode79	EMtrace.rrnDB.dedup.N50	species	Pseudomonas aeruginosa	1.223221331677127
+barcode79	EMtrace.rrnDB.dedup.N50	species	Salmonella enterica	5.518216335774366
+barcode79	EMtrace.rrnDB.dedup.N50	species	Staphylococcus aureus	15.805573108260168
+barcode79	EMtrace.rrnDB.dedup.N50	species	Other	0.3641794436022092
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Bacillus	26.368219533517156
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Enterococcus	10.552830701352978
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Escherichia	5.873714135638817
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Limosilactobacillus	17.54293273293165
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Listeria	16.925558211358315
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Pseudomonas	1.2141326537720827
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Salmonella	5.477215341442913
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Staphylococcus	15.719983405743937
+barcode79	EMtrace.rrnDB.dedup.N50	genus	Other	0.3254132842421572
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Bacillus subtilis	21.364488533520355
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Enterococcus faecalis	11.285062834957342
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Escherichia coli	6.318342074786932
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Limosilactobacillus fermentum	18.775810115889627
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Listeria monocytogenes	18.065754114774414
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Pseudomonas aeruginosa	1.2641091328133187
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Salmonella enterica	5.888583717848649
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Staphylococcus aureus	16.769212873273887
+barcode79	EMtrace.rrnDB.dedup.temp100	species	Other	0.2686366021354888
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Bacillus	26.41576976209799
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Enterococcus	10.552300444642935
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Escherichia	5.908079100689591
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Limosilactobacillus	17.586266470346416
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Listeria	16.892707463499434
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Pseudomonas	1.1820279212750702
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Salmonella	5.506225839672636
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Staphylococcus	15.725196351623602
+barcode79	EMtrace.rrnDB.dedup.temp100	genus	Other	0.23142664615232478
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Bacillus subtilis	22.333888041886603
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Enterococcus faecalis	11.151493104874113
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Escherichia coli	6.238844156324592
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Limosilactobacillus fermentum	18.54069173482456
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Listeria monocytogenes	17.83203207942093
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Pseudomonas aeruginosa	1.2675403435886907
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Salmonella enterica	5.81413626719777
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Staphylococcus aureus	16.559651116271578
+barcode79	EMtrace.rrnDB.dedup.temp50	species	Other	0.2617231556111692
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Bacillus	26.412065831461017
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Enterococcus	10.556122651241443
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Escherichia	5.905756610059509
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Limosilactobacillus	17.580215444447976
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Listeria	16.879992300669073
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Pseudomonas	1.1998672470568672
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Salmonella	5.503723579468025
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Staphylococcus	15.720589259466578
+barcode79	EMtrace.rrnDB.dedup.temp50	genus	Other	0.24166707612950467
+barcode79	Bracken.std16s	species	Salmonella enterica	7.575757575757576
+barcode79	Bracken.std16s	species	Staphylococcus aureus	18.634377482692088
+barcode79	Bracken.std16s	species	Other	73.78986494155033
+barcode79	Bracken.std16s	genus	Bacillus	37.119793440018164
+barcode79	Bracken.std16s	genus	Enterococcus	0.5731472023606855
+barcode79	Bracken.std16s	genus	Pseudomonas	1.8130745658835545
+barcode79	Bracken.std16s	genus	Salmonella	7.575757575757576
+barcode79	Bracken.std16s	genus	Staphylococcus	22.232152990579955
+barcode79	Bracken.std16s	genus	Other	30.68607422540007
+barcode79	Emu	species	Bacillus subtilis	25.639786571054863
+barcode79	Emu	species	Enterococcus faecalis	10.410492415198084
+barcode79	Emu	species	Escherichia coli	5.906030741397502
+barcode79	Emu	species	Limosilactobacillus fermentum	17.660582790012207
+barcode79	Emu	species	Listeria monocytogenes	16.77544405391056
+barcode79	Emu	species	Pseudomonas aeruginosa	1.2244781818750226
+barcode79	Emu	species	Salmonella enterica	5.592388655395026
+barcode79	Emu	species	Staphylococcus aureus	15.62825335492922
+barcode79	Emu	species	Other	1.1625432362275312
+barcode79	Emu	genus	Bacillus	26.01862058672713
+barcode79	Emu	genus	Enterococcus	10.460097698818743
+barcode79	Emu	genus	Escherichia	5.919905238539996
+barcode79	Emu	genus	Limosilactobacillus	17.665942839468293
+barcode79	Emu	genus	Listeria	16.850930734149646
+barcode79	Emu	genus	Pseudomonas	1.2248498153420935
+barcode79	Emu	genus	Salmonella	5.594085965168263
+barcode79	Emu	genus	Staphylococcus	15.716020331169272
+barcode79	Emu	genus	Other	0.5495467906165674
+barcode79	Kraken2.std16s	species	Salmonella enterica	5.93407673036302
+barcode79	Kraken2.std16s	species	Staphylococcus aureus	29.02195804882841
+barcode79	Kraken2.std16s	species	Other	65.04396522080856
+barcode79	Kraken2.std16s	genus	Bacillus	33.66912544903673
+barcode79	Kraken2.std16s	genus	Enterococcus	10.303874819426511
+barcode79	Kraken2.std16s	genus	Pseudomonas	1.5251268808406735
+barcode79	Kraken2.std16s	genus	Salmonella	3.139741508252049
+barcode79	Kraken2.std16s	genus	Staphylococcus	19.219411170627566
+barcode79	Kraken2.std16s	genus	Other	32.14272017181648
+barcode79	Spaghetti	genus	Bacillus	25.377011494252873
+barcode79	Spaghetti	genus	Enterococcus	10.885057471264368
+barcode79	Spaghetti	genus	Escherichia	6.272413793103448
+barcode79	Spaghetti	genus	Limosilactobacillus	15.731034482758622
+barcode79	Spaghetti	genus	Listeria	15.871264367816092
+barcode79	Spaghetti	genus	Pseudomonas	1.2701149425287355
+barcode79	Spaghetti	genus	Salmonella	5.271264367816092
+barcode79	Spaghetti	genus	Staphylococcus	15.87241379310345
+barcode79	Spaghetti	genus	Other	3.4494252873563216
+barcode79	Bracken.emu	species	Bacillus subtilis	7.767367602882172
+barcode79	Bracken.emu	species	Enterococcus faecalis	10.028779698758482
+barcode79	Bracken.emu	species	Escherichia coli	5.409322941831397
+barcode79	Bracken.emu	species	Limosilactobacillus fermentum	18.185828624246373
+barcode79	Bracken.emu	species	Listeria monocytogenes	16.84137554355818
+barcode79	Bracken.emu	species	Pseudomonas aeruginosa	0.7194924689620402
+barcode79	Bracken.emu	species	Salmonella enterica	5.245467722622524
+barcode79	Bracken.emu	species	Staphylococcus aureus	13.190345146314309
+barcode79	Bracken.emu	species	Other	22.612020250824532
+barcode79	Bracken.emu	genus	Bacillus	0.45375291473226476
+barcode79	Bracken.emu	genus	Enterococcus	10.126462617902234
+barcode79	Bracken.emu	genus	Escherichia	5.44398462281789
+barcode79	Bracken.emu	genus	Limosilactobacillus	18.416906497489656
+barcode79	Bracken.emu	genus	Listeria	17.12707182320442
+barcode79	Bracken.emu	genus	Pseudomonas	0.06302123815725899
+barcode79	Bracken.emu	genus	Salmonella	5.245467722622524
+barcode79	Bracken.emu	genus	Staphylococcus	14.46337415709094
+barcode79	Bracken.emu	genus	Other	28.659958405982817
+barcode79	Kraken2.emu	species	Bacillus subtilis	7.5449975492151795
+barcode79	Kraken2.emu	species	Enterococcus faecalis	10.883764405485199
+barcode79	Kraken2.emu	species	Escherichia coli	5.46696000091192
+barcode79	Kraken2.emu	species	Limosilactobacillus fermentum	19.736227159255417
+barcode79	Kraken2.emu	species	Listeria monocytogenes	15.852588142761064
+barcode79	Kraken2.emu	species	Pseudomonas aeruginosa	0.6850798499891709
+barcode79	Kraken2.emu	species	Salmonella enterica	5.465820100995133
+barcode79	Kraken2.emu	species	Staphylococcus aureus	13.229678434233474
+barcode79	Kraken2.emu	species	Other	21.134884357153446
+barcode79	Kraken2.emu	genus	Bacillus	2.00545192153509
+barcode79	Kraken2.emu	genus	Enterococcus	10.306269709765353
+barcode79	Kraken2.emu	genus	Escherichia	5.17291143300016
+barcode79	Kraken2.emu	genus	Limosilactobacillus	19.669677695226895
+barcode79	Kraken2.emu	genus	Listeria	17.449355924955903
+barcode79	Kraken2.emu	genus	Pseudomonas	0.16676465872040194
+barcode79	Kraken2.emu	genus	Salmonella	5.125875247207227
+barcode79	Kraken2.emu	genus	Staphylococcus	14.602597680260837
+barcode79	Kraken2.emu	genus	Other	25.50109572932813
+barcode79	EMtrace.emu	species	Bacillus subtilis	26.274739874892532
+barcode79	EMtrace.emu	species	Enterococcus faecalis	10.452424584411567
+barcode79	EMtrace.emu	species	Escherichia coli	5.9181707285973735
+barcode79	EMtrace.emu	species	Limosilactobacillus fermentum	17.637115269407246
+barcode79	EMtrace.emu	species	Listeria monocytogenes	16.868579672138807
+barcode79	EMtrace.emu	species	Pseudomonas aeruginosa	1.17083606356421
+barcode79	EMtrace.emu	species	Salmonella enterica	5.575608951384593
+barcode79	EMtrace.emu	species	Staphylococcus aureus	15.77214353632434
+barcode79	EMtrace.emu	species	Other	0.3303813192793044
+barcode79	EMtrace.emu	genus	Bacillus	26.307182046628085
+barcode79	EMtrace.emu	genus	Enterococcus	10.45690996667303
+barcode79	EMtrace.emu	genus	Escherichia	5.920710355436293
+barcode79	EMtrace.emu	genus	Limosilactobacillus	17.673390749719182
+barcode79	EMtrace.emu	genus	Listeria	16.925495666134605
+barcode79	EMtrace.emu	genus	Pseudomonas	1.1713384969726677
+barcode79	EMtrace.emu	genus	Salmonella	5.57800157687406
+barcode79	EMtrace.emu	genus	Staphylococcus	15.831501496037687
+barcode79	EMtrace.emu	genus	Other	0.1354696455243981
+barcode79	Spaghetti.emu	species	Bacillus subtilis	24.571566497706975
+barcode79	Spaghetti.emu	species	Enterococcus faecalis	10.360562279461629
+barcode79	Spaghetti.emu	species	Escherichia coli	5.906692872659564
+barcode79	Spaghetti.emu	species	Limosilactobacillus fermentum	17.575256025654287
+barcode79	Spaghetti.emu	species	Listeria monocytogenes	15.904049285656816
+barcode79	Spaghetti.emu	species	Pseudomonas aeruginosa	1.1103065411537534
+barcode79	Spaghetti.emu	species	Salmonella enterica	5.5090054365941405
+barcode79	Spaghetti.emu	species	Staphylococcus aureus	15.177637552728065
+barcode79	Spaghetti.emu	species	Other	3.8849235083847686
+barcode79	Spaghetti.emu	genus	Bacillus	26.343919175200853
+barcode79	Spaghetti.emu	genus	Enterococcus	10.374354907302047
+barcode79	Spaghetti.emu	genus	Escherichia	5.992896796662183
+barcode79	Spaghetti.emu	genus	Limosilactobacillus	17.575256025654287
+barcode79	Spaghetti.emu	genus	Listeria	16.929301288461318
+barcode79	Spaghetti.emu	genus	Pseudomonas	1.1390411824879603
+barcode79	Spaghetti.emu	genus	Salmonella	5.5090054365941405
+barcode79	Spaghetti.emu	genus	Staphylococcus	15.846580002988404
+barcode79	Spaghetti.emu	genus	Other	0.2896451846488052
+gutmock_sup_r1	Expected	species	Akkermansia muciniphila	0.97
+gutmock_sup_r1	Expected	species	Bacteroides fragilis	9.94
+gutmock_sup_r1	Expected	species	Bifidobacterium adolescentis	8.78
+gutmock_sup_r1	Expected	species	Clostridioides difficile	2.62
+gutmock_sup_r1	Expected	species	Clostridium perfringens	0.0002
+gutmock_sup_r1	Expected	species	Enterococcus faecalis	0.0009
+gutmock_sup_r1	Expected	species	Escherichia coli	12.12
+gutmock_sup_r1	Expected	species	Faecalibacterium prausnitzii	17.63
+gutmock_sup_r1	Expected	species	Fusobacterium nucleatum	7.49
+gutmock_sup_r1	Expected	species	Limosilactobacillus fermentum	9.63
+gutmock_sup_r1	Expected	species	Methanobrevibacter smithii	0.066
+gutmock_sup_r1	Expected	species	Prevotella corporis	4.98
+gutmock_sup_r1	Expected	species	Roseburia hominis	9.89
+gutmock_sup_r1	Expected	species	Salmonella enterica	0.009
+gutmock_sup_r1	Expected	species	Veillonella rogosae	15.87
+gutmock_sup_r1	Expected	genus	Akkermansia	0.97
+gutmock_sup_r1	Expected	genus	Bacteroides	9.94
+gutmock_sup_r1	Expected	genus	Bifidobacterium	8.78
+gutmock_sup_r1	Expected	genus	Clostridioides	2.62
+gutmock_sup_r1	Expected	genus	Clostridium	0.0002
+gutmock_sup_r1	Expected	genus	Enterococcus	0.0009
+gutmock_sup_r1	Expected	genus	Escherichia	12.12
+gutmock_sup_r1	Expected	genus	Faecalibacterium	17.63
+gutmock_sup_r1	Expected	genus	Fusobacterium	7.49
+gutmock_sup_r1	Expected	genus	Limosilactobacillus	9.63
+gutmock_sup_r1	Expected	genus	Methanobrevibacter	0.066
+gutmock_sup_r1	Expected	genus	Prevotella	4.98
+gutmock_sup_r1	Expected	genus	Roseburia	9.89
+gutmock_sup_r1	Expected	genus	Salmonella	0.009
+gutmock_sup_r1	Expected	genus	Veillonella	15.87
+gutmock_sup_r1	Emu	species	Akkermansia muciniphila	0.8110188596250097
+gutmock_sup_r1	Emu	species	Bacteroides fragilis	20.881611116440503
+gutmock_sup_r1	Emu	species	Bifidobacterium adolescentis	2.3507850910096635
+gutmock_sup_r1	Emu	species	Clostridioides difficile	5.223305136659316
+gutmock_sup_r1	Emu	species	Escherichia coli	10.411289020155223
+gutmock_sup_r1	Emu	species	Faecalibacterium prausnitzii	18.67679953717172
+gutmock_sup_r1	Emu	species	Fusobacterium nucleatum	2.274860592959558
+gutmock_sup_r1	Emu	species	Limosilactobacillus fermentum	1.1505470942342653
+gutmock_sup_r1	Emu	species	Prevotella corporis	9.123280354773737
+gutmock_sup_r1	Emu	species	Roseburia hominis	2.6127684890669167
+gutmock_sup_r1	Emu	species	Veillonella rogosae	1.3333508401480265
+gutmock_sup_r1	Emu	species	Other	25.15038386775607
+gutmock_sup_r1	Emu	genus	Akkermansia	0.8110188596250097
+gutmock_sup_r1	Emu	genus	Bacteroides	20.881611116440503
+gutmock_sup_r1	Emu	genus	Bifidobacterium	2.3890691153019907
+gutmock_sup_r1	Emu	genus	Clostridioides	5.223305136659316
+gutmock_sup_r1	Emu	genus	Escherichia	10.411289020155223
+gutmock_sup_r1	Emu	genus	Faecalibacterium	18.67679953717172
+gutmock_sup_r1	Emu	genus	Fusobacterium	2.274860592959558
+gutmock_sup_r1	Emu	genus	Limosilactobacillus	1.1505470942342653
+gutmock_sup_r1	Emu	genus	Prevotella	9.123280354773737
+gutmock_sup_r1	Emu	genus	Roseburia	2.631046788679796
+gutmock_sup_r1	Emu	genus	Veillonella	26.33506907684322
+gutmock_sup_r1	Emu	genus	Other	0.09210330715566727
+gutmock_sup_r1	Spaghetti	genus	Akkermansia	0.8377431846583457
+gutmock_sup_r1	Spaghetti	genus	Bacteroides	20.693645185676598
+gutmock_sup_r1	Spaghetti	genus	Bifidobacterium	2.36512026165975
+gutmock_sup_r1	Spaghetti	genus	Clostridioides	5.13754107718654
+gutmock_sup_r1	Spaghetti	genus	Escherichia	10.396963759507537
+gutmock_sup_r1	Spaghetti	genus	Faecalibacterium	18.68954132403536
+gutmock_sup_r1	Spaghetti	genus	Fusobacterium	2.309579277041517
+gutmock_sup_r1	Spaghetti	genus	Limosilactobacillus	1.0614499282595615
+gutmock_sup_r1	Spaghetti	genus	Prevotella	8.5887961491584
+gutmock_sup_r1	Spaghetti	genus	Roseburia	2.610426277056945
+gutmock_sup_r1	Spaghetti	genus	Veillonella	27.199654411651263
+gutmock_sup_r1	Spaghetti	genus	Other	0.10953916410818149
+gutmock_sup_r1	Spaghetti.emu	species	Akkermansia muciniphila	0.839869935738392
+gutmock_sup_r1	Spaghetti.emu	species	Bacteroides fragilis	20.63614368710607
+gutmock_sup_r1	Spaghetti.emu	species	Bifidobacterium adolescentis	2.3639641860966853
+gutmock_sup_r1	Spaghetti.emu	species	Clostridioides difficile	5.187160006780601
+gutmock_sup_r1	Spaghetti.emu	species	Escherichia coli	10.355827464517422
+gutmock_sup_r1	Spaghetti.emu	species	Faecalibacterium prausnitzii	18.686720808740812
+gutmock_sup_r1	Spaghetti.emu	species	Fusobacterium nucleatum	2.302322355950748
+gutmock_sup_r1	Spaghetti.emu	species	Limosilactobacillus fermentum	1.1372917661925381
+gutmock_sup_r1	Spaghetti.emu	species	Prevotella corporis	8.602117396865513
+gutmock_sup_r1	Spaghetti.emu	species	Roseburia hominis	2.627483009970566
+gutmock_sup_r1	Spaghetti.emu	species	Salmonella enterica	0.03390300658026537
+gutmock_sup_r1	Spaghetti.emu	species	Veillonella rogosae	0.155645621118491
+gutmock_sup_r1	Spaghetti.emu	species	Other	27.071550754341896
+gutmock_sup_r1	Spaghetti.emu	genus	Akkermansia	0.839869935738392
+gutmock_sup_r1	Spaghetti.emu	genus	Bacteroides	20.63614368710607
+gutmock_sup_r1	Spaghetti.emu	genus	Bifidobacterium	2.3639641860966853
+gutmock_sup_r1	Spaghetti.emu	genus	Clostridioides	5.187160006780601
+gutmock_sup_r1	Spaghetti.emu	genus	Escherichia	10.509932039882264
+gutmock_sup_r1	Spaghetti.emu	genus	Faecalibacterium	18.686720808740812
+gutmock_sup_r1	Spaghetti.emu	genus	Fusobacterium	2.302322355950748
+gutmock_sup_r1	Spaghetti.emu	genus	Limosilactobacillus	1.1372917661925381
+gutmock_sup_r1	Spaghetti.emu	genus	Prevotella	8.602117396865513
+gutmock_sup_r1	Spaghetti.emu	genus	Roseburia	2.627483009970566
+gutmock_sup_r1	Spaghetti.emu	genus	Salmonella	0.03390300658026537
+gutmock_sup_r1	Spaghetti.emu	genus	Veillonella	27.073091800095543
+gutmock_sup_r1	Kraken2.std16s	species	Akkermansia muciniphila	1.2252690766422591
+gutmock_sup_r1	Kraken2.std16s	species	Bacteroides fragilis	25.79569057759688
+gutmock_sup_r1	Kraken2.std16s	species	Bifidobacterium adolescentis	1.3931141556343496
+gutmock_sup_r1	Kraken2.std16s	species	Faecalibacterium prausnitzii	26.530012798187276
+gutmock_sup_r1	Kraken2.std16s	species	Salmonella enterica	0.2916308247487569
+gutmock_sup_r1	Kraken2.std16s	species	Other	44.76428256719048
+gutmock_sup_r1	Kraken2.std16s	genus	Akkermansia	0.9530337151995822
+gutmock_sup_r1	Kraken2.std16s	genus	Bacteroides	24.764189431769967
+gutmock_sup_r1	Kraken2.std16s	genus	Bifidobacterium	2.832990632853553
+gutmock_sup_r1	Kraken2.std16s	genus	Faecalibacterium	20.63546460393616
+gutmock_sup_r1	Kraken2.std16s	genus	Fusobacterium	2.69101471980156
+gutmock_sup_r1	Kraken2.std16s	genus	Prevotella	10.959887724795196
+gutmock_sup_r1	Kraken2.std16s	genus	Roseburia	1.623747511341754
+gutmock_sup_r1	Kraken2.std16s	genus	Salmonella	0.22683507947387316
+gutmock_sup_r1	Kraken2.std16s	genus	Veillonella	31.386468226769804
+gutmock_sup_r1	Kraken2.std16s	genus	Other	3.9263683540585532
+gutmock_sup_r1	Bracken.std16s	species	Akkermansia muciniphila	0.9061006640600756
+gutmock_sup_r1	Bracken.std16s	species	Bacteroides fragilis	22.6137280456774
+gutmock_sup_r1	Bracken.std16s	species	Bifidobacterium adolescentis	1.9968348538447218
+gutmock_sup_r1	Bracken.std16s	species	Faecalibacterium prausnitzii	21.198721529200025
+gutmock_sup_r1	Bracken.std16s	species	Salmonella enterica	4.547570284863154
+gutmock_sup_r1	Bracken.std16s	species	Other	48.737044622354624
+gutmock_sup_r1	Bracken.std16s	genus	Akkermansia	0.9061006640600756
+gutmock_sup_r1	Bracken.std16s	genus	Bacteroides	23.54155030099919
+gutmock_sup_r1	Bracken.std16s	genus	Bifidobacterium	2.63296716936635
+gutmock_sup_r1	Bracken.std16s	genus	Faecalibacterium	21.198721529200025
+gutmock_sup_r1	Bracken.std16s	genus	Prevotella	10.080369887668342
+gutmock_sup_r1	Bracken.std16s	genus	Roseburia	0.18928815242350897
+gutmock_sup_r1	Bracken.std16s	genus	Salmonella	4.547570284863154
+gutmock_sup_r1	Bracken.std16s	genus	Veillonella	29.839260224663317
+gutmock_sup_r1	Bracken.std16s	genus	Other	7.064171786756035
+gutmock_sup_r1	Kraken2.emu	species	Akkermansia muciniphila	0.9097019241289839
+gutmock_sup_r1	Kraken2.emu	species	Bacteroides fragilis	23.667880644606658
+gutmock_sup_r1	Kraken2.emu	species	Bifidobacterium adolescentis	2.396173624896447
+gutmock_sup_r1	Kraken2.emu	species	Clostridioides difficile	5.8583553464526315
+gutmock_sup_r1	Kraken2.emu	species	Escherichia coli	4.854869718805196
+gutmock_sup_r1	Kraken2.emu	species	Faecalibacterium prausnitzii	21.13259452615784
+gutmock_sup_r1	Kraken2.emu	species	Fusobacterium nucleatum	2.560295106053738
+gutmock_sup_r1	Kraken2.emu	species	Limosilactobacillus fermentum	1.2598277505978712
+gutmock_sup_r1	Kraken2.emu	species	Prevotella corporis	10.36935148569017
+gutmock_sup_r1	Kraken2.emu	species	Roseburia hominis	2.8760335745658594
+gutmock_sup_r1	Kraken2.emu	species	Salmonella enterica	1.4192600465792393
+gutmock_sup_r1	Kraken2.emu	species	Veillonella rogosae	8.484299044969285
+gutmock_sup_r1	Kraken2.emu	species	Other	14.211357206496084
+gutmock_sup_r1	Kraken2.emu	genus	Akkermansia	0.8331663183210696
+gutmock_sup_r1	Kraken2.emu	genus	Bacteroides	21.7410599249864
+gutmock_sup_r1	Kraken2.emu	genus	Bifidobacterium	2.429352649812466
+gutmock_sup_r1	Kraken2.emu	genus	Clostridioides	5.3654765654078505
+gutmock_sup_r1	Kraken2.emu	genus	Escherichia	4.532310247086781
+gutmock_sup_r1	Kraken2.emu	genus	Faecalibacterium	19.354653992613162
+gutmock_sup_r1	Kraken2.emu	genus	Fusobacterium	2.359206344661723
+gutmock_sup_r1	Kraken2.emu	genus	Limosilactobacillus	1.18246628682681
+gutmock_sup_r1	Kraken2.emu	genus	Prevotella	9.521287256277379
+gutmock_sup_r1	Kraken2.emu	genus	Roseburia	2.6340653362727973
+gutmock_sup_r1	Kraken2.emu	genus	Salmonella	1.2998539811607066
+gutmock_sup_r1	Kraken2.emu	genus	Veillonella	27.28118647464712
+gutmock_sup_r1	Kraken2.emu	genus	Other	1.4659146219257309
+gutmock_sup_r1	Bracken.emu	species	Akkermansia muciniphila	0.9884678747940692
+gutmock_sup_r1	Bracken.emu	species	Bacteroides fragilis	25.71714872874879
+gutmock_sup_r1	Bracken.emu	species	Bifidobacterium adolescentis	2.603644762988502
+gutmock_sup_r1	Bracken.emu	species	Clostridioides difficile	6.365597241800981
+gutmock_sup_r1	Bracken.emu	species	Escherichia coli	7.479746598957184
+gutmock_sup_r1	Bracken.emu	species	Faecalibacterium prausnitzii	22.96234650724367
+gutmock_sup_r1	Bracken.emu	species	Fusobacterium nucleatum	2.798960580172897
+gutmock_sup_r1	Bracken.emu	species	Limosilactobacillus fermentum	1.368909118701065
+gutmock_sup_r1	Bracken.emu	species	Roseburia hominis	3.1250530749503214
+gutmock_sup_r1	Bracken.emu	species	Salmonella enterica	1.8716350481495951
+gutmock_sup_r1	Bracken.emu	species	Other	24.718490463492927
+gutmock_sup_r1	Bracken.emu	genus	Akkermansia	0.9884678747940692
+gutmock_sup_r1	Bracken.emu	genus	Bacteroides	25.71714872874879
+gutmock_sup_r1	Bracken.emu	genus	Bifidobacterium	2.690263081913755
+gutmock_sup_r1	Bracken.emu	genus	Clostridioides	6.365597241800981
+gutmock_sup_r1	Bracken.emu	genus	Escherichia	7.539190543317652
+gutmock_sup_r1	Bracken.emu	genus	Faecalibacterium	22.96234650724367
+gutmock_sup_r1	Bracken.emu	genus	Fusobacterium	2.798960580172897
+gutmock_sup_r1	Bracken.emu	genus	Limosilactobacillus	1.368909118701065
+gutmock_sup_r1	Bracken.emu	genus	Roseburia	3.1250530749503214
+gutmock_sup_r1	Bracken.emu	genus	Salmonella	1.8716350481495951
+gutmock_sup_r1	Bracken.emu	genus	Veillonella	21.907641094447936
+gutmock_sup_r1	Bracken.emu	genus	Other	2.664787105759269
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Akkermansia muciniphila	0.8410218375936767
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Bacteroides fragilis	20.66194638159561
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Bifidobacterium adolescentis	2.4000225317269606
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Clostridioides difficile	5.168036211625546
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Escherichia coli	10.543267358632905
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Faecalibacterium prausnitzii	18.57783138246354
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Fusobacterium nucleatum	2.30459251127779
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Limosilactobacillus fermentum	1.1294181795630578
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Prevotella corporis	8.615447815396715
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Roseburia hominis	2.6552691978266734
+gutmock_sup_r1	EMtrace.rrnDB.dedup	species	Veillonella rogosae	27.103146592297534
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Akkermansia	0.8410218375936767
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Bacteroides	20.66194638159561
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Bifidobacterium	2.4000225317269606
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Clostridioides	5.168036211625546
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Escherichia	10.543267358632905
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Faecalibacterium	18.57783138246354
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Fusobacterium	2.30459251127779
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Limosilactobacillus	1.1294181795630578
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Prevotella	8.615447815396715
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Roseburia	2.6552691978266734
+gutmock_sup_r1	EMtrace.rrnDB.dedup	genus	Veillonella	27.103146592297534
+gutmock_sup_r1	EMtrace.emu	species	Akkermansia muciniphila	0.8410187742435645
+gutmock_sup_r1	EMtrace.emu	species	Bacteroides fragilis	20.677637480432747
+gutmock_sup_r1	EMtrace.emu	species	Bifidobacterium adolescentis	2.40334320703645
+gutmock_sup_r1	EMtrace.emu	species	Clostridioides difficile	5.185682091072805
+gutmock_sup_r1	EMtrace.emu	species	Escherichia coli	10.532645775339654
+gutmock_sup_r1	EMtrace.emu	species	Faecalibacterium prausnitzii	18.553706566761846
+gutmock_sup_r1	EMtrace.emu	species	Fusobacterium nucleatum	2.3103848776043305
+gutmock_sup_r1	EMtrace.emu	species	Limosilactobacillus fermentum	1.1294145721683946
+gutmock_sup_r1	EMtrace.emu	species	Prevotella corporis	8.615736048008408
+gutmock_sup_r1	EMtrace.emu	species	Roseburia hominis	2.6588988842623547
+gutmock_sup_r1	EMtrace.emu	species	Other	27.09153172306945
+gutmock_sup_r1	EMtrace.emu	genus	Akkermansia	0.8410187742435645
+gutmock_sup_r1	EMtrace.emu	genus	Bacteroides	20.677637480432747
+gutmock_sup_r1	EMtrace.emu	genus	Bifidobacterium	2.40334320703645
+gutmock_sup_r1	EMtrace.emu	genus	Clostridioides	5.185682091072805
+gutmock_sup_r1	EMtrace.emu	genus	Escherichia	10.532645775339654
+gutmock_sup_r1	EMtrace.emu	genus	Faecalibacterium	18.553706566761846
+gutmock_sup_r1	EMtrace.emu	genus	Fusobacterium	2.3103848776043305
+gutmock_sup_r1	EMtrace.emu	genus	Limosilactobacillus	1.1294145721683946
+gutmock_sup_r1	EMtrace.emu	genus	Prevotella	8.615736048008408
+gutmock_sup_r1	EMtrace.emu	genus	Roseburia	2.6588988842623547
+gutmock_sup_r1	EMtrace.emu	genus	Veillonella	27.09153172306945
+gutmock_sup_r1	wf16s	species	Akkermansia muciniphila	0.8392055296749129
+gutmock_sup_r1	wf16s	species	Bacteroides fragilis	20.875868216141672
+gutmock_sup_r1	wf16s	species	Bifidobacterium adolescentis	2.352802677385177
+gutmock_sup_r1	wf16s	species	Clostridioides difficile	5.12268545769496
+gutmock_sup_r1	wf16s	species	Escherichia coli	6.014026000235448
+gutmock_sup_r1	wf16s	species	Faecalibacterium prausnitzii	0.1547232639881603
+gutmock_sup_r1	wf16s	species	Limosilactobacillus fermentum	1.1200618893055954
+gutmock_sup_r1	wf16s	species	Prevotella corporis	8.533324363868754
+gutmock_sup_r1	wf16s	species	Roseburia hominis	2.5848875733674173
+gutmock_sup_r1	wf16s	species	Veillonella rogosae	1.713728326129732
+gutmock_sup_r1	wf16s	species	Other	50.68868670220817
+gutmock_sup_r1	wf16s	genus	Akkermansia	0.8392055296749129
+gutmock_sup_r1	wf16s	genus	Bacteroides	20.875868216141672
+gutmock_sup_r1	wf16s	genus	Bifidobacterium	2.352802677385177
+gutmock_sup_r1	wf16s	genus	Clostridioides	5.12268545769496
+gutmock_sup_r1	wf16s	genus	Escherichia	10.606952456231816
+gutmock_sup_r1	wf16s	genus	Faecalibacterium	18.533156186407897
+gutmock_sup_r1	wf16s	genus	Fusobacterium	2.2888952422596325
+gutmock_sup_r1	wf16s	genus	Limosilactobacillus	1.1200618893055954
+gutmock_sup_r1	wf16s	genus	Prevotella	8.533324363868754
+gutmock_sup_r1	wf16s	genus	Roseburia	2.5848875733674173
+gutmock_sup_r1	wf16s	genus	Veillonella	27.142160407662164
+gutmock_sup_r2	Expected	species	Akkermansia muciniphila	0.97
+gutmock_sup_r2	Expected	species	Bacteroides fragilis	9.94
+gutmock_sup_r2	Expected	species	Bifidobacterium adolescentis	8.78
+gutmock_sup_r2	Expected	species	Clostridioides difficile	2.62
+gutmock_sup_r2	Expected	species	Clostridium perfringens	0.0002
+gutmock_sup_r2	Expected	species	Enterococcus faecalis	0.0009
+gutmock_sup_r2	Expected	species	Escherichia coli	12.12
+gutmock_sup_r2	Expected	species	Faecalibacterium prausnitzii	17.63
+gutmock_sup_r2	Expected	species	Fusobacterium nucleatum	7.49
+gutmock_sup_r2	Expected	species	Limosilactobacillus fermentum	9.63
+gutmock_sup_r2	Expected	species	Methanobrevibacter smithii	0.066
+gutmock_sup_r2	Expected	species	Prevotella corporis	4.98
+gutmock_sup_r2	Expected	species	Roseburia hominis	9.89
+gutmock_sup_r2	Expected	species	Salmonella enterica	0.009
+gutmock_sup_r2	Expected	species	Veillonella rogosae	15.87
+gutmock_sup_r2	Expected	genus	Akkermansia	0.97
+gutmock_sup_r2	Expected	genus	Bacteroides	9.94
+gutmock_sup_r2	Expected	genus	Bifidobacterium	8.78
+gutmock_sup_r2	Expected	genus	Clostridioides	2.62
+gutmock_sup_r2	Expected	genus	Clostridium	0.0002
+gutmock_sup_r2	Expected	genus	Enterococcus	0.0009
+gutmock_sup_r2	Expected	genus	Escherichia	12.12
+gutmock_sup_r2	Expected	genus	Faecalibacterium	17.63
+gutmock_sup_r2	Expected	genus	Fusobacterium	7.49
+gutmock_sup_r2	Expected	genus	Limosilactobacillus	9.63
+gutmock_sup_r2	Expected	genus	Methanobrevibacter	0.066
+gutmock_sup_r2	Expected	genus	Prevotella	4.98
+gutmock_sup_r2	Expected	genus	Roseburia	9.89
+gutmock_sup_r2	Expected	genus	Salmonella	0.009
+gutmock_sup_r2	Expected	genus	Veillonella	15.87
+gutmock_sup_r2	Emu	species	Akkermansia muciniphila	0.7769889778925168
+gutmock_sup_r2	Emu	species	Bacteroides fragilis	20.67927914086891
+gutmock_sup_r2	Emu	species	Bifidobacterium adolescentis	2.305522806620593
+gutmock_sup_r2	Emu	species	Clostridioides difficile	5.489513215362393
+gutmock_sup_r2	Emu	species	Escherichia coli	10.612896301843714
+gutmock_sup_r2	Emu	species	Faecalibacterium prausnitzii	18.51178171023387
+gutmock_sup_r2	Emu	species	Fusobacterium nucleatum	2.2804204912241524
+gutmock_sup_r2	Emu	species	Limosilactobacillus fermentum	1.1136002094933648
+gutmock_sup_r2	Emu	species	Prevotella corporis	9.423345220262485
+gutmock_sup_r2	Emu	species	Roseburia hominis	2.659520219950344
+gutmock_sup_r2	Emu	species	Salmonella enterica	0.015791815147553356
+gutmock_sup_r2	Emu	species	Veillonella rogosae	1.4657298360946556
+gutmock_sup_r2	Emu	species	Other	24.665610055005452
+gutmock_sup_r2	Emu	genus	Akkermansia	0.7769889778925168
+gutmock_sup_r2	Emu	genus	Bacteroides	20.67927914086891
+gutmock_sup_r2	Emu	genus	Bifidobacterium	2.347149706084598
+gutmock_sup_r2	Emu	genus	Clostridioides	5.489513215362393
+gutmock_sup_r2	Emu	genus	Escherichia	10.612896301843714
+gutmock_sup_r2	Emu	genus	Faecalibacterium	18.51178171023387
+gutmock_sup_r2	Emu	genus	Fusobacterium	2.2804204912241524
+gutmock_sup_r2	Emu	genus	Limosilactobacillus	1.1136002094933648
+gutmock_sup_r2	Emu	genus	Prevotella	9.423345220262485
+gutmock_sup_r2	Emu	genus	Roseburia	2.6814481339100955
+gutmock_sup_r2	Emu	genus	Salmonella	0.015791815147553356
+gutmock_sup_r2	Emu	genus	Veillonella	25.96696906228641
+gutmock_sup_r2	Emu	genus	Other	0.10081601538994142
+gutmock_sup_r2	Spaghetti	genus	Akkermansia	0.8018130441642641
+gutmock_sup_r2	Spaghetti	genus	Bacteroides	20.47276847827646
+gutmock_sup_r2	Spaghetti	genus	Bifidobacterium	2.3236800206549333
+gutmock_sup_r2	Spaghetti	genus	Clostridioides	5.44630434470789
+gutmock_sup_r2	Spaghetti	genus	Escherichia	10.648765724285326
+gutmock_sup_r2	Spaghetti	genus	Faecalibacterium	18.628168165583716
+gutmock_sup_r2	Spaghetti	genus	Fusobacterium	2.2763457980119624
+gutmock_sup_r2	Spaghetti	genus	Limosilactobacillus	1.035615416612878
+gutmock_sup_r2	Spaghetti	genus	Prevotella	8.751093707417128
+gutmock_sup_r2	Spaghetti	genus	Roseburia	2.6134228380452402
+gutmock_sup_r2	Spaghetti	genus	Salmonella	0.014343703831203293
+gutmock_sup_r2	Spaghetti	genus	Veillonella	26.845676090480087
+gutmock_sup_r2	Spaghetti	genus	Other	0.14200266792891258
+gutmock_sup_r2	Spaghetti.emu	species	Akkermansia muciniphila	0.8060013457216073
+gutmock_sup_r2	Spaghetti.emu	species	Bacteroides fragilis	20.377661021316804
+gutmock_sup_r2	Spaghetti.emu	species	Bifidobacterium adolescentis	2.330675294555554
+gutmock_sup_r2	Spaghetti.emu	species	Clostridioides difficile	5.526048302815994
+gutmock_sup_r2	Spaghetti.emu	species	Escherichia coli	10.596841849078753
+gutmock_sup_r2	Spaghetti.emu	species	Faecalibacterium prausnitzii	18.59815893831155
+gutmock_sup_r2	Spaghetti.emu	species	Fusobacterium nucleatum	2.2633892141844787
+gutmock_sup_r2	Spaghetti.emu	species	Limosilactobacillus fermentum	1.1195258478761936
+gutmock_sup_r2	Spaghetti.emu	species	Prevotella corporis	8.760075016821519
+gutmock_sup_r2	Spaghetti.emu	species	Roseburia hominis	2.649926271635338
+gutmock_sup_r2	Spaghetti.emu	species	Salmonella enterica	0.03579046828248701
+gutmock_sup_r2	Spaghetti.emu	species	Veillonella rogosae	0.15747806044294285
+gutmock_sup_r2	Spaghetti.emu	species	Other	26.778428368956778
+gutmock_sup_r2	Spaghetti.emu	genus	Akkermansia	0.8060013457216073
+gutmock_sup_r2	Spaghetti.emu	genus	Bacteroides	20.377661021316804
+gutmock_sup_r2	Spaghetti.emu	genus	Bifidobacterium	2.330675294555554
+gutmock_sup_r2	Spaghetti.emu	genus	Clostridioides	5.526048302815994
+gutmock_sup_r2	Spaghetti.emu	genus	Escherichia	10.775794190491188
+gutmock_sup_r2	Spaghetti.emu	genus	Faecalibacterium	18.59815893831155
+gutmock_sup_r2	Spaghetti.emu	genus	Fusobacterium	2.2633892141844787
+gutmock_sup_r2	Spaghetti.emu	genus	Limosilactobacillus	1.1195258478761936
+gutmock_sup_r2	Spaghetti.emu	genus	Prevotella	8.760075016821519
+gutmock_sup_r2	Spaghetti.emu	genus	Roseburia	2.649926271635338
+gutmock_sup_r2	Spaghetti.emu	genus	Salmonella	0.03579046828248701
+gutmock_sup_r2	Spaghetti.emu	genus	Veillonella	26.741206281942993
+gutmock_sup_r2	Spaghetti.emu	genus	Other	0.015747806044294283
+gutmock_sup_r2	Kraken2.std16s	species	Akkermansia muciniphila	1.1940065553301076
+gutmock_sup_r2	Kraken2.std16s	species	Bacteroides fragilis	25.80380833463399
+gutmock_sup_r2	Kraken2.std16s	species	Bifidobacterium adolescentis	1.4476353987825814
+gutmock_sup_r2	Kraken2.std16s	species	Faecalibacterium prausnitzii	26.632979553613232
+gutmock_sup_r2	Kraken2.std16s	species	Salmonella enterica	0.31996254097081317
+gutmock_sup_r2	Kraken2.std16s	species	Other	44.60160761666927
+gutmock_sup_r2	Kraken2.std16s	genus	Akkermansia	0.9236620483564248
+gutmock_sup_r2	Kraken2.std16s	genus	Bacteroides	24.606839928763318
+gutmock_sup_r2	Kraken2.std16s	genus	Bifidobacterium	2.8162636964592958
+gutmock_sup_r2	Kraken2.std16s	genus	Faecalibacterium	20.602795134172478
+gutmock_sup_r2	Kraken2.std16s	genus	Fusobacterium	2.7045790696972443
+gutmock_sup_r2	Kraken2.std16s	genus	Prevotella	11.304295330375199
+gutmock_sup_r2	Kraken2.std16s	genus	Roseburia	1.6345196051797521
+gutmock_sup_r2	Kraken2.std16s	genus	Salmonella	0.24751728093211386
+gutmock_sup_r2	Kraken2.std16s	genus	Veillonella	31.069455763832295
+gutmock_sup_r2	Kraken2.std16s	genus	Other	4.090072142231881
+gutmock_sup_r2	Bracken.std16s	species	Akkermansia muciniphila	0.8788557642598656
+gutmock_sup_r2	Bracken.std16s	species	Bacteroides fragilis	22.48262393015107
+gutmock_sup_r2	Bracken.std16s	species	Bifidobacterium adolescentis	2.019070595668907
+gutmock_sup_r2	Bracken.std16s	species	Faecalibacterium prausnitzii	21.286403584352918
+gutmock_sup_r2	Bracken.std16s	species	Salmonella enterica	4.592452179906944
+gutmock_sup_r2	Bracken.std16s	species	Other	48.74059394566029
+gutmock_sup_r2	Bracken.std16s	genus	Akkermansia	0.8788557642598656
+gutmock_sup_r2	Bracken.std16s	genus	Bacteroides	23.410305014647594
+gutmock_sup_r2	Bracken.std16s	genus	Bifidobacterium	2.635131253949107
+gutmock_sup_r2	Bracken.std16s	genus	Faecalibacterium	21.286403584352918
+gutmock_sup_r2	Bracken.std16s	genus	Prevotella	10.39692113274743
+gutmock_sup_r2	Bracken.std16s	genus	Roseburia	0.19673731977712677
+gutmock_sup_r2	Bracken.std16s	genus	Salmonella	4.592452179906944
+gutmock_sup_r2	Bracken.std16s	genus	Veillonella	29.560859325636162
+gutmock_sup_r2	Bracken.std16s	genus	Other	7.042334424722845
+gutmock_sup_r2	Kraken2.emu	species	Akkermansia muciniphila	0.8791840252837236
+gutmock_sup_r2	Kraken2.emu	species	Bacteroides fragilis	23.3975003591438
+gutmock_sup_r2	Kraken2.emu	species	Bifidobacterium adolescentis	2.3373078580663695
+gutmock_sup_r2	Kraken2.emu	species	Clostridioides difficile	6.1686539290331845
+gutmock_sup_r2	Kraken2.emu	species	Escherichia coli	4.881482545611263
+gutmock_sup_r2	Kraken2.emu	species	Faecalibacterium prausnitzii	20.99123689125126
+gutmock_sup_r2	Kraken2.emu	species	Fusobacterium nucleatum	2.554230713977877
+gutmock_sup_r2	Kraken2.emu	species	Limosilactobacillus fermentum	1.203850021548628
+gutmock_sup_r2	Kraken2.emu	species	Prevotella corporis	10.655078293348657
+gutmock_sup_r2	Kraken2.emu	species	Roseburia hominis	2.9176842407700043
+gutmock_sup_r2	Kraken2.emu	species	Salmonella enterica	1.4279557534836949
+gutmock_sup_r2	Kraken2.emu	species	Veillonella rogosae	8.59646602499641
+gutmock_sup_r2	Kraken2.emu	species	Other	13.98936934348513
+gutmock_sup_r2	Kraken2.emu	genus	Akkermansia	0.8072813612979818
+gutmock_sup_r2	Kraken2.emu	genus	Bacteroides	21.54201292705448
+gutmock_sup_r2	Kraken2.emu	genus	Bifidobacterium	2.387547816910698
+gutmock_sup_r2	Kraken2.emu	genus	Clostridioides	5.664160401002507
+gutmock_sup_r2	Kraken2.emu	genus	Escherichia	4.589104339796861
+gutmock_sup_r2	Kraken2.emu	genus	Faecalibacterium	19.274502044585148
+gutmock_sup_r2	Kraken2.emu	genus	Fusobacterium	2.3585278986941036
+gutmock_sup_r2	Kraken2.emu	genus	Limosilactobacillus	1.1462867695554677
+gutmock_sup_r2	Kraken2.emu	genus	Prevotella	9.798179659675505
+gutmock_sup_r2	Kraken2.emu	genus	Roseburia	2.693576045376599
+gutmock_sup_r2	Kraken2.emu	genus	Salmonella	1.3111726685133889
+gutmock_sup_r2	Kraken2.emu	genus	Veillonella	26.901464186782746
+gutmock_sup_r2	Kraken2.emu	genus	Other	1.526183880754518
+gutmock_sup_r2	Bracken.emu	species	Akkermansia muciniphila	0.9616895565542601
+gutmock_sup_r2	Bracken.emu	species	Bacteroides fragilis	25.593199032024888
+gutmock_sup_r2	Bracken.emu	species	Bifidobacterium adolescentis	2.556648543323172
+gutmock_sup_r2	Bracken.emu	species	Clostridioides difficile	6.747540777522863
+gutmock_sup_r2	Bracken.emu	species	Escherichia coli	7.676231182626732
+gutmock_sup_r2	Bracken.emu	species	Faecalibacterium prausnitzii	22.96112385681511
+gutmock_sup_r2	Bracken.emu	species	Fusobacterium nucleatum	2.8096420377761713
+gutmock_sup_r2	Bracken.emu	species	Limosilactobacillus fermentum	1.3168232816870424
+gutmock_sup_r2	Bracken.emu	species	Roseburia hominis	3.1914893617021276
+gutmock_sup_r2	Bracken.emu	species	Salmonella enterica	1.896665514315346
+gutmock_sup_r2	Bracken.emu	species	Other	24.288946855652288
+gutmock_sup_r2	Bracken.emu	genus	Akkermansia	0.9618558159272006
+gutmock_sup_r2	Bracken.emu	genus	Bacteroides	25.59762365033712
+gutmock_sup_r2	Bracken.emu	genus	Bifidobacterium	2.665535071589105
+gutmock_sup_r2	Bracken.emu	genus	Clostridioides	6.74870730978987
+gutmock_sup_r2	Bracken.emu	genus	Escherichia	7.7671428795951405
+gutmock_sup_r2	Bracken.emu	genus	Faecalibacterium	22.96509343517689
+gutmock_sup_r2	Bracken.emu	genus	Fusobacterium	2.8101277759441747
+gutmock_sup_r2	Bracken.emu	genus	Limosilactobacillus	1.3170509374950885
+gutmock_sup_r2	Bracken.emu	genus	Roseburia	3.192041114621151
+gutmock_sup_r2	Bracken.emu	genus	Salmonella	1.8969934147453127
+gutmock_sup_r2	Bracken.emu	genus	Veillonella	21.354142109481824
+gutmock_sup_r2	Bracken.emu	genus	Other	2.7236864852971228
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Akkermansia muciniphila	0.7918597198580137
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Bacteroides fragilis	20.387014618259766
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Bifidobacterium adolescentis	2.3650160157140965
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Clostridioides difficile	5.53315397757867
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Escherichia coli	10.781601202565144
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Faecalibacterium prausnitzii	18.525132849290475
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Fusobacterium nucleatum	2.2602887248632806
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Limosilactobacillus fermentum	1.1092025275556776
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Prevotella corporis	8.823392814530946
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Roseburia hominis	2.648232226372043
+gutmock_sup_r2	EMtrace.rrnDB.dedup	species	Veillonella rogosae	26.77510532341189
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Akkermansia	0.7918597198580137
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Bacteroides	20.387014618259766
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Bifidobacterium	2.3650160157140965
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Clostridioides	5.53315397757867
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Escherichia	10.781601202565144
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Faecalibacterium	18.525132849290475
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Fusobacterium	2.2602887248632806
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Limosilactobacillus	1.1092025275556776
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Prevotella	8.823392814530946
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Roseburia	2.648232226372043
+gutmock_sup_r2	EMtrace.rrnDB.dedup	genus	Veillonella	26.77510532341189
+gutmock_sup_r2	EMtrace.emu	species	Akkermansia muciniphila	0.790324593059092
+gutmock_sup_r2	EMtrace.emu	species	Bacteroides fragilis	20.390279477758767
+gutmock_sup_r2	EMtrace.emu	species	Bifidobacterium adolescentis	2.37059008908189
+gutmock_sup_r2	EMtrace.emu	species	Clostridioides difficile	5.552798294407736
+gutmock_sup_r2	EMtrace.emu	species	Escherichia coli	10.783137272879392
+gutmock_sup_r2	EMtrace.emu	species	Faecalibacterium prausnitzii	18.502645802686796
+gutmock_sup_r2	EMtrace.emu	species	Fusobacterium nucleatum	2.261703394295033
+gutmock_sup_r2	EMtrace.emu	species	Limosilactobacillus fermentum	1.1106456600604095
+gutmock_sup_r2	EMtrace.emu	species	Prevotella corporis	8.82220348691069
+gutmock_sup_r2	EMtrace.emu	species	Roseburia hominis	2.6553890756752847
+gutmock_sup_r2	EMtrace.emu	species	Other	26.760282853184897
+gutmock_sup_r2	EMtrace.emu	genus	Akkermansia	0.790324593059092
+gutmock_sup_r2	EMtrace.emu	genus	Bacteroides	20.390279477758767
+gutmock_sup_r2	EMtrace.emu	genus	Bifidobacterium	2.37059008908189
+gutmock_sup_r2	EMtrace.emu	genus	Clostridioides	5.552798294407736
+gutmock_sup_r2	EMtrace.emu	genus	Escherichia	10.783137272879392
+gutmock_sup_r2	EMtrace.emu	genus	Faecalibacterium	18.502645802686796
+gutmock_sup_r2	EMtrace.emu	genus	Fusobacterium	2.261703394295033
+gutmock_sup_r2	EMtrace.emu	genus	Limosilactobacillus	1.1106456600604095
+gutmock_sup_r2	EMtrace.emu	genus	Prevotella	8.82220348691069
+gutmock_sup_r2	EMtrace.emu	genus	Roseburia	2.6553890756752847
+gutmock_sup_r2	EMtrace.emu	genus	Veillonella	26.760282853184897
+gutmock_sup_r2	wf16s	species	Akkermansia muciniphila	0.7942351374637737
+gutmock_sup_r2	wf16s	species	Bacteroides fragilis	20.66891203885016
+gutmock_sup_r2	wf16s	species	Bifidobacterium adolescentis	2.2808803947677605
+gutmock_sup_r2	wf16s	species	Clostridioides difficile	5.445288634761495
+gutmock_sup_r2	wf16s	species	Escherichia coli	5.945014490483278
+gutmock_sup_r2	wf16s	species	Faecalibacterium prausnitzii	0.1394219472076447
+gutmock_sup_r2	wf16s	species	Limosilactobacillus fermentum	1.0777786480770737
+gutmock_sup_r2	wf16s	species	Prevotella corporis	8.764784209289575
+gutmock_sup_r2	wf16s	species	Roseburia hominis	2.5722565990444113
+gutmock_sup_r2	wf16s	species	Salmonella enterica	0.015665387326701655
+gutmock_sup_r2	wf16s	species	Veillonella rogosae	1.771755306649957
+gutmock_sup_r2	wf16s	species	Other	50.524007206078174
+gutmock_sup_r2	wf16s	genus	Akkermansia	0.7942351374637737
+gutmock_sup_r2	wf16s	genus	Bacteroides	20.66891203885016
+gutmock_sup_r2	wf16s	genus	Bifidobacterium	2.2808803947677605
+gutmock_sup_r2	wf16s	genus	Clostridioides	5.445288634761495
+gutmock_sup_r2	wf16s	genus	Escherichia	10.79501840683011
+gutmock_sup_r2	wf16s	genus	Faecalibacterium	18.425628573666483
+gutmock_sup_r2	wf16s	genus	Fusobacterium	2.255815775045038
+gutmock_sup_r2	wf16s	genus	Limosilactobacillus	1.0777786480770737
+gutmock_sup_r2	wf16s	genus	Prevotella	8.764784209289575
+gutmock_sup_r2	wf16s	genus	Roseburia	2.5722565990444113
+gutmock_sup_r2	wf16s	genus	Salmonella	0.015665387326701655
+gutmock_sup_r2	wf16s	genus	Veillonella	26.90373619487742
+gutmock_sup_r3	Expected	species	Akkermansia muciniphila	0.97
+gutmock_sup_r3	Expected	species	Bacteroides fragilis	9.94
+gutmock_sup_r3	Expected	species	Bifidobacterium adolescentis	8.78
+gutmock_sup_r3	Expected	species	Clostridioides difficile	2.62
+gutmock_sup_r3	Expected	species	Clostridium perfringens	0.0002
+gutmock_sup_r3	Expected	species	Enterococcus faecalis	0.0009
+gutmock_sup_r3	Expected	species	Escherichia coli	12.12
+gutmock_sup_r3	Expected	species	Faecalibacterium prausnitzii	17.63
+gutmock_sup_r3	Expected	species	Fusobacterium nucleatum	7.49
+gutmock_sup_r3	Expected	species	Limosilactobacillus fermentum	9.63
+gutmock_sup_r3	Expected	species	Methanobrevibacter smithii	0.066
+gutmock_sup_r3	Expected	species	Prevotella corporis	4.98
+gutmock_sup_r3	Expected	species	Roseburia hominis	9.89
+gutmock_sup_r3	Expected	species	Salmonella enterica	0.009
+gutmock_sup_r3	Expected	species	Veillonella rogosae	15.87
+gutmock_sup_r3	Expected	genus	Akkermansia	0.97
+gutmock_sup_r3	Expected	genus	Bacteroides	9.94
+gutmock_sup_r3	Expected	genus	Bifidobacterium	8.78
+gutmock_sup_r3	Expected	genus	Clostridioides	2.62
+gutmock_sup_r3	Expected	genus	Clostridium	0.0002
+gutmock_sup_r3	Expected	genus	Enterococcus	0.0009
+gutmock_sup_r3	Expected	genus	Escherichia	12.12
+gutmock_sup_r3	Expected	genus	Faecalibacterium	17.63
+gutmock_sup_r3	Expected	genus	Fusobacterium	7.49
+gutmock_sup_r3	Expected	genus	Limosilactobacillus	9.63
+gutmock_sup_r3	Expected	genus	Methanobrevibacter	0.066
+gutmock_sup_r3	Expected	genus	Prevotella	4.98
+gutmock_sup_r3	Expected	genus	Roseburia	9.89
+gutmock_sup_r3	Expected	genus	Salmonella	0.009
+gutmock_sup_r3	Expected	genus	Veillonella	15.87
+gutmock_sup_r3	Emu	species	Akkermansia muciniphila	0.836573884551904
+gutmock_sup_r3	Emu	species	Bacteroides fragilis	20.659705518249925
+gutmock_sup_r3	Emu	species	Bifidobacterium adolescentis	2.285612224443806
+gutmock_sup_r3	Emu	species	Clostridioides difficile	5.395759304535002
+gutmock_sup_r3	Emu	species	Escherichia coli	10.40856528442578
+gutmock_sup_r3	Emu	species	Faecalibacterium prausnitzii	19.035087811729117
+gutmock_sup_r3	Emu	species	Fusobacterium nucleatum	2.3434302087596754
+gutmock_sup_r3	Emu	species	Limosilactobacillus fermentum	1.1218276708975978
+gutmock_sup_r3	Emu	species	Prevotella corporis	9.235826540631367
+gutmock_sup_r3	Emu	species	Roseburia hominis	2.5208488816790533
+gutmock_sup_r3	Emu	species	Veillonella rogosae	1.5235912714641238
+gutmock_sup_r3	Emu	species	Other	24.633171398632637
+gutmock_sup_r3	Emu	genus	Akkermansia	0.836573884551904
+gutmock_sup_r3	Emu	genus	Bacteroides	20.659705518249925
+gutmock_sup_r3	Emu	genus	Bifidobacterium	2.31784691612159
+gutmock_sup_r3	Emu	genus	Clostridioides	5.395759304535002
+gutmock_sup_r3	Emu	genus	Escherichia	10.40856528442578
+gutmock_sup_r3	Emu	genus	Faecalibacterium	19.035087811729117
+gutmock_sup_r3	Emu	genus	Fusobacterium	2.3434302087596754
+gutmock_sup_r3	Emu	genus	Limosilactobacillus	1.1218276708975978
+gutmock_sup_r3	Emu	genus	Prevotella	9.235826540631367
+gutmock_sup_r3	Emu	genus	Roseburia	2.5530735518138803
+gutmock_sup_r3	Emu	genus	Veillonella	26.010436751154646
+gutmock_sup_r3	Emu	genus	Other	0.08186655712950563
+gutmock_sup_r3	Spaghetti	genus	Akkermansia	0.8632185721045613
+gutmock_sup_r3	Spaghetti	genus	Bacteroides	20.447669166463527
+gutmock_sup_r3	Spaghetti	genus	Bifidobacterium	2.289966876496652
+gutmock_sup_r3	Spaghetti	genus	Clostridioides	5.289723110454695
+gutmock_sup_r3	Spaghetti	genus	Escherichia	10.487675475702261
+gutmock_sup_r3	Spaghetti	genus	Faecalibacterium	19.01231735470827
+gutmock_sup_r3	Spaghetti	genus	Fusobacterium	2.374568032234474
+gutmock_sup_r3	Spaghetti	genus	Limosilactobacillus	1.0367226372617904
+gutmock_sup_r3	Spaghetti	genus	Prevotella	8.676637175755317
+gutmock_sup_r3	Spaghetti	genus	Roseburia	2.4692066132293267
+gutmock_sup_r3	Spaghetti	genus	Veillonella	26.89313009937051
+gutmock_sup_r3	Spaghetti	genus	Other	0.1591648862186151
+gutmock_sup_r3	Spaghetti.emu	species	Akkermansia muciniphila	0.865341910342555
+gutmock_sup_r3	Spaghetti.emu	species	Bacteroides fragilis	20.35559248699838
+gutmock_sup_r3	Spaghetti.emu	species	Bifidobacterium adolescentis	2.2779695984183155
+gutmock_sup_r3	Spaghetti.emu	species	Clostridioides difficile	5.346781472513933
+gutmock_sup_r3	Spaghetti.emu	species	Escherichia coli	10.374074127136492
+gutmock_sup_r3	Spaghetti.emu	species	Faecalibacterium prausnitzii	19.034656656972164
+gutmock_sup_r3	Spaghetti.emu	species	Fusobacterium nucleatum	2.3782575681600022
+gutmock_sup_r3	Spaghetti.emu	species	Limosilactobacillus fermentum	1.1160618346967721
+gutmock_sup_r3	Spaghetti.emu	species	Prevotella corporis	8.68493817963008
+gutmock_sup_r3	Spaghetti.emu	species	Roseburia hominis	2.5129299846702673
+gutmock_sup_r3	Spaghetti.emu	species	Salmonella enterica	0.032951761486554244
+gutmock_sup_r3	Spaghetti.emu	species	Veillonella rogosae	0.10745139615180734
+gutmock_sup_r3	Spaghetti.emu	species	Other	26.91299302282268
+gutmock_sup_r3	Spaghetti.emu	genus	Akkermansia	0.865341910342555
+gutmock_sup_r3	Spaghetti.emu	genus	Bacteroides	20.35559248699838
+gutmock_sup_r3	Spaghetti.emu	genus	Bifidobacterium	2.2951618218026044
+gutmock_sup_r3	Spaghetti.emu	genus	Clostridioides	5.346781472513933
+gutmock_sup_r3	Spaghetti.emu	genus	Escherichia	10.571784696055818
+gutmock_sup_r3	Spaghetti.emu	genus	Faecalibacterium	19.034656656972164
+gutmock_sup_r3	Spaghetti.emu	genus	Fusobacterium	2.3782575681600022
+gutmock_sup_r3	Spaghetti.emu	genus	Limosilactobacillus	1.1160618346967721
+gutmock_sup_r3	Spaghetti.emu	genus	Prevotella	8.68493817963008
+gutmock_sup_r3	Spaghetti.emu	genus	Roseburia	2.5129299846702673
+gutmock_sup_r3	Spaghetti.emu	genus	Salmonella	0.032951761486554244
+gutmock_sup_r3	Spaghetti.emu	genus	Veillonella	26.80554162667087
+gutmock_sup_r3	Kraken2.std16s	species	Akkermansia muciniphila	1.3032250315296379
+gutmock_sup_r3	Kraken2.std16s	species	Bacteroides fragilis	25.505975617080058
+gutmock_sup_r3	Kraken2.std16s	species	Bifidobacterium adolescentis	1.355273957520069
+gutmock_sup_r3	Kraken2.std16s	species	Faecalibacterium prausnitzii	27.59594018377275
+gutmock_sup_r3	Kraken2.std16s	species	Salmonella enterica	0.23021640341921407
+gutmock_sup_r3	Kraken2.std16s	species	Other	44.009368806678275
+gutmock_sup_r3	Kraken2.std16s	genus	Akkermansia	0.995961079493299
+gutmock_sup_r3	Kraken2.std16s	genus	Bacteroides	24.7246190563613
+gutmock_sup_r3	Kraken2.std16s	genus	Bifidobacterium	2.770638271831589
+gutmock_sup_r3	Kraken2.std16s	genus	Faecalibacterium	21.089590600330457
+gutmock_sup_r3	Kraken2.std16s	genus	Fusobacterium	2.7920567896701547
+gutmock_sup_r3	Kraken2.std16s	genus	Prevotella	11.114680864084207
+gutmock_sup_r3	Kraken2.std16s	genus	Roseburia	1.5344838137200907
+gutmock_sup_r3	Kraken2.std16s	genus	Salmonella	0.19123676641576404
+gutmock_sup_r3	Kraken2.std16s	genus	Veillonella	31.202190808396058
+gutmock_sup_r3	Kraken2.std16s	genus	Other	3.5845419496970807
+gutmock_sup_r3	Bracken.std16s	species	Akkermansia muciniphila	0.9409146094698503
+gutmock_sup_r3	Bracken.std16s	species	Bacteroides fragilis	22.457651615887148
+gutmock_sup_r3	Bracken.std16s	species	Bifidobacterium adolescentis	2.014800254379372
+gutmock_sup_r3	Bracken.std16s	species	Faecalibacterium prausnitzii	21.732092270335894
+gutmock_sup_r3	Bracken.std16s	species	Salmonella enterica	3.996357749898826
+gutmock_sup_r3	Bracken.std16s	species	Other	48.85818350002891
+gutmock_sup_r3	Bracken.std16s	genus	Akkermansia	0.9409146094698503
+gutmock_sup_r3	Bracken.std16s	genus	Bacteroides	23.35520610510493
+gutmock_sup_r3	Bracken.std16s	genus	Bifidobacterium	2.581372492339712
+gutmock_sup_r3	Bracken.std16s	genus	Faecalibacterium	21.732092270335894
+gutmock_sup_r3	Bracken.std16s	genus	Prevotella	10.16216684974273
+gutmock_sup_r3	Bracken.std16s	genus	Roseburia	0.18211250505868068
+gutmock_sup_r3	Bracken.std16s	genus	Salmonella	3.996357749898826
+gutmock_sup_r3	Bracken.std16s	genus	Veillonella	29.476209747355032
+gutmock_sup_r3	Bracken.std16s	genus	Other	7.573567670694341
+gutmock_sup_r3	Kraken2.emu	species	Akkermansia muciniphila	0.9498535340352098
+gutmock_sup_r3	Kraken2.emu	species	Bacteroides fragilis	23.38669915020737
+gutmock_sup_r3	Kraken2.emu	species	Bifidobacterium adolescentis	2.3376548043736767
+gutmock_sup_r3	Kraken2.emu	species	Clostridioides difficile	6.06456103715305
+gutmock_sup_r3	Kraken2.emu	species	Escherichia coli	4.718814350764234
+gutmock_sup_r3	Kraken2.emu	species	Faecalibacterium prausnitzii	21.527596508019375
+gutmock_sup_r3	Kraken2.emu	species	Fusobacterium nucleatum	2.640737840424606
+gutmock_sup_r3	Kraken2.emu	species	Limosilactobacillus fermentum	1.215232460338177
+gutmock_sup_r3	Kraken2.emu	species	Prevotella corporis	10.436787609849475
+gutmock_sup_r3	Kraken2.emu	species	Roseburia hominis	2.8060558600887497
+gutmock_sup_r3	Kraken2.emu	species	Salmonella enterica	1.3849009542040083
+gutmock_sup_r3	Kraken2.emu	species	Veillonella rogosae	8.542881174047972
+gutmock_sup_r3	Kraken2.emu	species	Other	13.988224716494098
+gutmock_sup_r3	Kraken2.emu	genus	Akkermansia	0.8730539560673918
+gutmock_sup_r3	Kraken2.emu	genus	Bacteroides	21.53710812539987
+gutmock_sup_r3	Kraken2.emu	genus	Bifidobacterium	2.3725741096182555
+gutmock_sup_r3	Kraken2.emu	genus	Clostridioides	5.574216250799744
+gutmock_sup_r3	Kraken2.emu	genus	Escherichia	4.442578374920025
+gutmock_sup_r3	Kraken2.emu	genus	Faecalibacterium	19.78700149285562
+gutmock_sup_r3	Kraken2.emu	genus	Fusobacterium	2.427223288547665
+gutmock_sup_r3	Kraken2.emu	genus	Limosilactobacillus	1.1622947323523138
+gutmock_sup_r3	Kraken2.emu	genus	Prevotella	9.608925143953934
+gutmock_sup_r3	Kraken2.emu	genus	Roseburia	2.5791746641074855
+gutmock_sup_r3	Kraken2.emu	genus	Salmonella	1.2729259970142888
+gutmock_sup_r3	Kraken2.emu	genus	Veillonella	26.919385796545104
+gutmock_sup_r3	Kraken2.emu	genus	Other	1.443538067818298
+gutmock_sup_r3	Bracken.emu	species	Akkermansia muciniphila	1.0339547585597246
+gutmock_sup_r3	Bracken.emu	species	Bacteroides fragilis	25.457386856935386
+gutmock_sup_r3	Bracken.emu	species	Bifidobacterium adolescentis	2.544633695875231
+gutmock_sup_r3	Bracken.emu	species	Clostridioides difficile	6.6015248859492655
+gutmock_sup_r3	Bracken.emu	species	Escherichia coli	7.420795908380559
+gutmock_sup_r3	Bracken.emu	species	Faecalibacterium prausnitzii	23.433676932548263
+gutmock_sup_r3	Bracken.emu	species	Fusobacterium nucleatum	2.8856019826674455
+gutmock_sup_r3	Bracken.emu	species	Limosilactobacillus fermentum	1.3228306682031288
+gutmock_sup_r3	Bracken.emu	species	Roseburia hominis	3.0545075691802555
+gutmock_sup_r3	Bracken.emu	species	Salmonella enterica	1.8453329965745315
+gutmock_sup_r3	Bracken.emu	species	Other	24.3997537451262
+gutmock_sup_r3	Bracken.emu	genus	Akkermansia	1.0339547585597246
+gutmock_sup_r3	Bracken.emu	genus	Bacteroides	25.457386856935386
+gutmock_sup_r3	Bracken.emu	genus	Bifidobacterium	2.631454324456582
+gutmock_sup_r3	Bracken.emu	genus	Clostridioides	6.6015248859492655
+gutmock_sup_r3	Bracken.emu	genus	Escherichia	7.4934095250122335
+gutmock_sup_r3	Bracken.emu	genus	Faecalibacterium	23.433676932548263
+gutmock_sup_r3	Bracken.emu	genus	Fusobacterium	2.8856019826674455
+gutmock_sup_r3	Bracken.emu	genus	Limosilactobacillus	1.3228306682031288
+gutmock_sup_r3	Bracken.emu	genus	Roseburia	3.0545075691802555
+gutmock_sup_r3	Bracken.emu	genus	Salmonella	1.8453329965745315
+gutmock_sup_r3	Bracken.emu	genus	Veillonella	21.528358774408435
+gutmock_sup_r3	Bracken.emu	genus	Other	2.711960725504743
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Akkermansia muciniphila	0.8567721901786303
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Bacteroides fragilis	20.423137051884783
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Bifidobacterium adolescentis	2.307375814242352
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Clostridioides difficile	5.366212780863982
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Escherichia coli	10.573463187006462
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Faecalibacterium prausnitzii	18.987557417932006
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Fusobacterium nucleatum	2.3782798599798785
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Limosilactobacillus fermentum	1.1241441898152111
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Prevotella corporis	8.715615322184215
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Roseburia hominis	2.5404726567639098
+gutmock_sup_r3	EMtrace.rrnDB.dedup	species	Veillonella rogosae	26.726969529148548
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Akkermansia	0.8567721901786303
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Bacteroides	20.423137051884783
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Bifidobacterium	2.307375814242352
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Clostridioides	5.366212780863982
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Escherichia	10.573463187006462
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Faecalibacterium	18.987557417932006
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Fusobacterium	2.3782798599798785
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Limosilactobacillus	1.1241441898152111
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Prevotella	8.715615322184215
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Roseburia	2.5404726567639098
+gutmock_sup_r3	EMtrace.rrnDB.dedup	genus	Veillonella	26.726969529148548
+gutmock_sup_r3	EMtrace.emu	species	Akkermansia muciniphila	0.8555621975357232
+gutmock_sup_r3	EMtrace.emu	species	Bacteroides fragilis	20.427918675244463
+gutmock_sup_r3	EMtrace.emu	species	Bifidobacterium adolescentis	2.312020780682417
+gutmock_sup_r3	EMtrace.emu	species	Clostridioides difficile	5.3786705854030705
+gutmock_sup_r3	EMtrace.emu	species	Escherichia coli	10.570328251924503
+gutmock_sup_r3	EMtrace.emu	species	Faecalibacterium prausnitzii	18.970871805740163
+gutmock_sup_r3	EMtrace.emu	species	Fusobacterium nucleatum	2.379967229049525
+gutmock_sup_r3	EMtrace.emu	species	Limosilactobacillus fermentum	1.1286745092647918
+gutmock_sup_r3	EMtrace.emu	species	Prevotella corporis	8.716390276479641
+gutmock_sup_r3	EMtrace.emu	species	Roseburia hominis	2.5391350106441304
+gutmock_sup_r3	EMtrace.emu	species	Other	26.72046067803159
+gutmock_sup_r3	EMtrace.emu	genus	Akkermansia	0.8555621975357232
+gutmock_sup_r3	EMtrace.emu	genus	Bacteroides	20.427918675244463
+gutmock_sup_r3	EMtrace.emu	genus	Bifidobacterium	2.312020780682417
+gutmock_sup_r3	EMtrace.emu	genus	Clostridioides	5.3786705854030705
+gutmock_sup_r3	EMtrace.emu	genus	Escherichia	10.570328251924503
+gutmock_sup_r3	EMtrace.emu	genus	Faecalibacterium	18.970871805740163
+gutmock_sup_r3	EMtrace.emu	genus	Fusobacterium	2.379967229049525
+gutmock_sup_r3	EMtrace.emu	genus	Limosilactobacillus	1.1286745092647918
+gutmock_sup_r3	EMtrace.emu	genus	Prevotella	8.716390276479641
+gutmock_sup_r3	EMtrace.emu	genus	Roseburia	2.5391350106441304
+gutmock_sup_r3	EMtrace.emu	genus	Veillonella	26.72046067803159
+gutmock_sup_r3	wf16s	species	Akkermansia muciniphila	0.8666368003954708
+gutmock_sup_r3	wf16s	species	Bacteroides fragilis	20.626264810838364
+gutmock_sup_r3	wf16s	species	Bifidobacterium adolescentis	2.2229774612639615
+gutmock_sup_r3	wf16s	species	Clostridioides difficile	5.2307169449894175
+gutmock_sup_r3	wf16s	species	Escherichia coli	5.924335346731961
+gutmock_sup_r3	wf16s	species	Faecalibacterium prausnitzii	0.125129377597207
+gutmock_sup_r3	wf16s	species	Limosilactobacillus fermentum	1.0906338343657795
+gutmock_sup_r3	wf16s	species	Prevotella corporis	8.69571933944047
+gutmock_sup_r3	wf16s	species	Roseburia hominis	2.463967373673397
+gutmock_sup_r3	wf16s	species	Veillonella rogosae	1.654488437118626
+gutmock_sup_r3	wf16s	species	Other	51.099130273585345
+gutmock_sup_r3	wf16s	genus	Akkermansia	0.8666368003954708
+gutmock_sup_r3	wf16s	genus	Bacteroides	20.626264810838364
+gutmock_sup_r3	wf16s	genus	Bifidobacterium	2.2229774612639615
+gutmock_sup_r3	wf16s	genus	Clostridioides	5.2307169449894175
+gutmock_sup_r3	wf16s	genus	Escherichia	10.614369795930978
+gutmock_sup_r3	wf16s	genus	Faecalibacterium	18.981045216504718
+gutmock_sup_r3	wf16s	genus	Fusobacterium	2.332658767552871
+gutmock_sup_r3	wf16s	genus	Limosilactobacillus	1.0906338343657795
+gutmock_sup_r3	wf16s	genus	Prevotella	8.69571933944047
+gutmock_sup_r3	wf16s	genus	Roseburia	2.463967373673397
+gutmock_sup_r3	wf16s	genus	Veillonella	26.87500965504457
+gutmock_sup_r4	Expected	species	Akkermansia muciniphila	0.97
+gutmock_sup_r4	Expected	species	Bacteroides fragilis	9.94
+gutmock_sup_r4	Expected	species	Bifidobacterium adolescentis	8.78
+gutmock_sup_r4	Expected	species	Clostridioides difficile	2.62
+gutmock_sup_r4	Expected	species	Clostridium perfringens	0.0002
+gutmock_sup_r4	Expected	species	Enterococcus faecalis	0.0009
+gutmock_sup_r4	Expected	species	Escherichia coli	12.12
+gutmock_sup_r4	Expected	species	Faecalibacterium prausnitzii	17.63
+gutmock_sup_r4	Expected	species	Fusobacterium nucleatum	7.49
+gutmock_sup_r4	Expected	species	Limosilactobacillus fermentum	9.63
+gutmock_sup_r4	Expected	species	Methanobrevibacter smithii	0.066
+gutmock_sup_r4	Expected	species	Prevotella corporis	4.98
+gutmock_sup_r4	Expected	species	Roseburia hominis	9.89
+gutmock_sup_r4	Expected	species	Salmonella enterica	0.009
+gutmock_sup_r4	Expected	species	Veillonella rogosae	15.87
+gutmock_sup_r4	Expected	genus	Akkermansia	0.97
+gutmock_sup_r4	Expected	genus	Bacteroides	9.94
+gutmock_sup_r4	Expected	genus	Bifidobacterium	8.78
+gutmock_sup_r4	Expected	genus	Clostridioides	2.62
+gutmock_sup_r4	Expected	genus	Clostridium	0.0002
+gutmock_sup_r4	Expected	genus	Enterococcus	0.0009
+gutmock_sup_r4	Expected	genus	Escherichia	12.12
+gutmock_sup_r4	Expected	genus	Faecalibacterium	17.63
+gutmock_sup_r4	Expected	genus	Fusobacterium	7.49
+gutmock_sup_r4	Expected	genus	Limosilactobacillus	9.63
+gutmock_sup_r4	Expected	genus	Methanobrevibacter	0.066
+gutmock_sup_r4	Expected	genus	Prevotella	4.98
+gutmock_sup_r4	Expected	genus	Roseburia	9.89
+gutmock_sup_r4	Expected	genus	Salmonella	0.009
+gutmock_sup_r4	Expected	genus	Veillonella	15.87
+gutmock_sup_r4	Emu	species	Akkermansia muciniphila	0.7132498038562888
+gutmock_sup_r4	Emu	species	Bacteroides fragilis	20.56555403548949
+gutmock_sup_r4	Emu	species	Bifidobacterium adolescentis	2.168042174709016
+gutmock_sup_r4	Emu	species	Clostridioides difficile	5.283243499044661
+gutmock_sup_r4	Emu	species	Escherichia coli	10.643049423310625
+gutmock_sup_r4	Emu	species	Faecalibacterium prausnitzii	18.848799485467033
+gutmock_sup_r4	Emu	species	Fusobacterium nucleatum	2.425049544402706
+gutmock_sup_r4	Emu	species	Limosilactobacillus fermentum	1.1402633152524222
+gutmock_sup_r4	Emu	species	Prevotella corporis	9.21381947875742
+gutmock_sup_r4	Emu	species	Roseburia hominis	2.6500671731059904
+gutmock_sup_r4	Emu	species	Salmonella enterica	0.02275622178941005
+gutmock_sup_r4	Emu	species	Veillonella rogosae	1.8066681333820938
+gutmock_sup_r4	Emu	species	Other	24.519437711432847
+gutmock_sup_r4	Emu	genus	Akkermansia	0.7132498038562887
+gutmock_sup_r4	Emu	genus	Bacteroides	20.565554035489487
+gutmock_sup_r4	Emu	genus	Bifidobacterium	2.190863422991665
+gutmock_sup_r4	Emu	genus	Clostridioides	5.28324349904466
+gutmock_sup_r4	Emu	genus	Escherichia	10.643049423310625
+gutmock_sup_r4	Emu	genus	Faecalibacterium	18.84879948546703
+gutmock_sup_r4	Emu	genus	Fusobacterium	2.4250495444027056
+gutmock_sup_r4	Emu	genus	Limosilactobacillus	1.140263315252422
+gutmock_sup_r4	Emu	genus	Prevotella	9.213819478757419
+gutmock_sup_r4	Emu	genus	Roseburia	2.6758755141321635
+gutmock_sup_r4	Emu	genus	Salmonella	0.022756221789410044
+gutmock_sup_r4	Emu	genus	Veillonella	26.187132588536798
+gutmock_sup_r4	Emu	genus	Other	0.09034366696931584
+gutmock_sup_r4	Spaghetti	genus	Akkermansia	0.7461178974020553
+gutmock_sup_r4	Spaghetti	genus	Bacteroides	20.277167984269575
+gutmock_sup_r4	Spaghetti	genus	Bifidobacterium	2.1669741821658968
+gutmock_sup_r4	Spaghetti	genus	Clostridioides	5.159526471023959
+gutmock_sup_r4	Spaghetti	genus	Escherichia	10.708273289248629
+gutmock_sup_r4	Spaghetti	genus	Faecalibacterium	18.926344426337693
+gutmock_sup_r4	Spaghetti	genus	Fusobacterium	2.4646132712017343
+gutmock_sup_r4	Spaghetti	genus	Limosilactobacillus	1.078773349853874
+gutmock_sup_r4	Spaghetti	genus	Prevotella	8.5157102261249
+gutmock_sup_r4	Spaghetti	genus	Roseburia	2.6275740394068765
+gutmock_sup_r4	Spaghetti	genus	Salmonella	0.014814615291376546
+gutmock_sup_r4	Spaghetti	genus	Veillonella	27.13229451455199
+gutmock_sup_r4	Spaghetti	genus	Other	0.18181573312143945
+gutmock_sup_r4	Spaghetti.emu	species	Akkermansia muciniphila	0.7458868513881035
+gutmock_sup_r4	Spaghetti.emu	species	Bacteroides fragilis	20.215687858469988
+gutmock_sup_r4	Spaghetti.emu	species	Bifidobacterium adolescentis	2.152839486226674
+gutmock_sup_r4	Spaghetti.emu	species	Clostridioides difficile	5.207744298139322
+gutmock_sup_r4	Spaghetti.emu	species	Escherichia coli	10.668605433933813
+gutmock_sup_r4	Spaghetti.emu	species	Faecalibacterium prausnitzii	18.91913724856612
+gutmock_sup_r4	Spaghetti.emu	species	Fusobacterium nucleatum	2.462503702506934
+gutmock_sup_r4	Spaghetti.emu	species	Limosilactobacillus fermentum	1.148450332552441
+gutmock_sup_r4	Spaghetti.emu	species	Prevotella corporis	8.546732369335164
+gutmock_sup_r4	Spaghetti.emu	species	Roseburia hominis	2.6590731615370116
+gutmock_sup_r4	Spaghetti.emu	species	Salmonella enterica	0.030966421628025955
+gutmock_sup_r4	Spaghetti.emu	species	Veillonella rogosae	0.12925115114306485
+gutmock_sup_r4	Spaghetti.emu	species	Other	27.113121684573336
+gutmock_sup_r4	Spaghetti.emu	genus	Akkermansia	0.7458868513881035
+gutmock_sup_r4	Spaghetti.emu	genus	Bacteroides	20.215687858469988
+gutmock_sup_r4	Spaghetti.emu	genus	Bifidobacterium	2.152839486226674
+gutmock_sup_r4	Spaghetti.emu	genus	Clostridioides	5.207744298139322
+gutmock_sup_r4	Spaghetti.emu	genus	Escherichia	10.830169372862644
+gutmock_sup_r4	Spaghetti.emu	genus	Faecalibacterium	18.91913724856612
+gutmock_sup_r4	Spaghetti.emu	genus	Fusobacterium	2.462503702506934
+gutmock_sup_r4	Spaghetti.emu	genus	Limosilactobacillus	1.148450332552441
+gutmock_sup_r4	Spaghetti.emu	genus	Prevotella	8.546732369335164
+gutmock_sup_r4	Spaghetti.emu	genus	Roseburia	2.6590731615370116
+gutmock_sup_r4	Spaghetti.emu	genus	Salmonella	0.030966421628025955
+gutmock_sup_r4	Spaghetti.emu	genus	Veillonella	27.080808896787573
+gutmock_sup_r4	Kraken2.std16s	species	Akkermansia muciniphila	1.1258265740029598
+gutmock_sup_r4	Kraken2.std16s	species	Bacteroides fragilis	25.549332184403273
+gutmock_sup_r4	Kraken2.std16s	species	Bifidobacterium adolescentis	1.3581102598205421
+gutmock_sup_r4	Kraken2.std16s	species	Faecalibacterium prausnitzii	27.34578423842796
+gutmock_sup_r4	Kraken2.std16s	species	Salmonella enterica	0.2547627521870258
+gutmock_sup_r4	Kraken2.std16s	species	Other	44.36618399115823
+gutmock_sup_r4	Kraken2.std16s	genus	Akkermansia	0.8569187994581877
+gutmock_sup_r4	Kraken2.std16s	genus	Bacteroides	24.639623583089758
+gutmock_sup_r4	Kraken2.std16s	genus	Bifidobacterium	2.6520282312682686
+gutmock_sup_r4	Kraken2.std16s	genus	Faecalibacterium	20.81414415056676
+gutmock_sup_r4	Kraken2.std16s	genus	Fusobacterium	2.8972695515790976
+gutmock_sup_r4	Kraken2.std16s	genus	Prevotella	11.121408711770158
+gutmock_sup_r4	Kraken2.std16s	genus	Roseburia	1.6639338418763812
+gutmock_sup_r4	Kraken2.std16s	genus	Salmonella	0.19391174164112068
+gutmock_sup_r4	Kraken2.std16s	genus	Veillonella	31.5092321950524
+gutmock_sup_r4	Kraken2.std16s	genus	Other	3.6515291936978684
+gutmock_sup_r4	Bracken.std16s	species	Akkermansia muciniphila	0.8082519701982303
+gutmock_sup_r4	Bracken.std16s	species	Bacteroides fragilis	22.309637160762797
+gutmock_sup_r4	Bracken.std16s	species	Bifidobacterium adolescentis	1.9876812178918208
+gutmock_sup_r4	Bracken.std16s	species	Faecalibacterium prausnitzii	21.56997229618871
+gutmock_sup_r4	Bracken.std16s	species	Salmonella enterica	4.525404125985099
+gutmock_sup_r4	Bracken.std16s	species	Other	48.79905322897334
+gutmock_sup_r4	Bracken.std16s	genus	Akkermansia	0.8082519701982303
+gutmock_sup_r4	Bracken.std16s	genus	Bacteroides	23.237580354501198
+gutmock_sup_r4	Bracken.std16s	genus	Bifidobacterium	2.4570321955942873
+gutmock_sup_r4	Bracken.std16s	genus	Faecalibacterium	21.56997229618871
+gutmock_sup_r4	Bracken.std16s	genus	Prevotella	10.184512762581027
+gutmock_sup_r4	Bracken.std16s	genus	Roseburia	0.17617472228946446
+gutmock_sup_r4	Bracken.std16s	genus	Salmonella	4.525404125985099
+gutmock_sup_r4	Bracken.std16s	genus	Veillonella	29.71838941337852
+gutmock_sup_r4	Bracken.std16s	genus	Other	7.322682159283467
+gutmock_sup_r4	Kraken2.emu	species	Akkermansia muciniphila	0.8172953727055714
+gutmock_sup_r4	Kraken2.emu	species	Bacteroides fragilis	23.298312811037533
+gutmock_sup_r4	Kraken2.emu	species	Bifidobacterium adolescentis	2.2280065275736036
+gutmock_sup_r4	Kraken2.emu	species	Clostridioides difficile	5.931460477160236
+gutmock_sup_r4	Kraken2.emu	species	Escherichia coli	4.826897918998746
+gutmock_sup_r4	Kraken2.emu	species	Faecalibacterium prausnitzii	21.28879118507829
+gutmock_sup_r4	Kraken2.emu	species	Fusobacterium nucleatum	2.74050197580482
+gutmock_sup_r4	Kraken2.emu	species	Limosilactobacillus fermentum	1.2556138481664803
+gutmock_sup_r4	Kraken2.emu	species	Prevotella corporis	10.41579564918338
+gutmock_sup_r4	Kraken2.emu	species	Roseburia hominis	2.9508948440260565
+gutmock_sup_r4	Kraken2.emu	species	Salmonella enterica	1.3756456768311598
+gutmock_sup_r4	Kraken2.emu	species	Veillonella rogosae	8.473707634833506
+gutmock_sup_r4	Kraken2.emu	species	Other	14.39707607860062
+gutmock_sup_r4	Kraken2.emu	genus	Akkermansia	0.751795749748781
+gutmock_sup_r4	Kraken2.emu	genus	Bacteroides	21.470840001488707
+gutmock_sup_r4	Kraken2.emu	genus	Bifidobacterium	2.2603495974295034
+gutmock_sup_r4	Kraken2.emu	genus	Clostridioides	5.456101827384718
+gutmock_sup_r4	Kraken2.emu	genus	Escherichia	4.539308000545858
+gutmock_sup_r4	Kraken2.emu	genus	Faecalibacterium	19.58266651779622
+gutmock_sup_r4	Kraken2.emu	genus	Fusobacterium	2.520872877045418
+gutmock_sup_r4	Kraken2.emu	genus	Limosilactobacillus	1.1897229769126751
+gutmock_sup_r4	Kraken2.emu	genus	Prevotella	9.599662560323544
+gutmock_sup_r4	Kraken2.emu	genus	Roseburia	2.7144044561886687
+gutmock_sup_r4	Kraken2.emu	genus	Salmonella	1.2653987867058691
+gutmock_sup_r4	Kraken2.emu	genus	Veillonella	27.155209845298796
+gutmock_sup_r4	Kraken2.emu	genus	Other	1.4936668031312417
+gutmock_sup_r4	Bracken.emu	species	Akkermansia muciniphila	0.8884588318085855
+gutmock_sup_r4	Bracken.emu	species	Bacteroides fragilis	25.326941121276096
+gutmock_sup_r4	Bracken.emu	species	Bifidobacterium adolescentis	2.42200328407225
+gutmock_sup_r4	Bracken.emu	species	Clostridioides difficile	6.4479239971850815
+gutmock_sup_r4	Bracken.emu	species	Escherichia coli	7.692646023926812
+gutmock_sup_r4	Bracken.emu	species	Faecalibacterium prausnitzii	23.142446633825944
+gutmock_sup_r4	Bracken.emu	species	Fusobacterium nucleatum	2.9893854093361485
+gutmock_sup_r4	Bracken.emu	species	Limosilactobacillus fermentum	1.3649425287356323
+gutmock_sup_r4	Bracken.emu	species	Roseburia hominis	3.2078348580811635
+gutmock_sup_r4	Bracken.emu	species	Salmonella enterica	1.8428923293455313
+gutmock_sup_r4	Bracken.emu	species	Other	24.674524982406755
+gutmock_sup_r4	Bracken.emu	genus	Akkermansia	0.8886021379239556
+gutmock_sup_r4	Bracken.emu	genus	Bacteroides	25.3310262914791
+gutmock_sup_r4	Bracken.emu	genus	Bifidobacterium	2.5162397172896167
+gutmock_sup_r4	Bracken.emu	genus	Clostridioides	6.448964030675835
+gutmock_sup_r4	Bracken.emu	genus	Escherichia	7.773069196592225
+gutmock_sup_r4	Bracken.emu	genus	Faecalibacterium	23.146179450708974
+gutmock_sup_r4	Bracken.emu	genus	Fusobacterium	2.9898675894834086
+gutmock_sup_r4	Bracken.emu	genus	Limosilactobacillus	1.3651626904409286
+gutmock_sup_r4	Bracken.emu	genus	Roseburia	3.2083522735604206
+gutmock_sup_r4	Bracken.emu	genus	Salmonella	1.8431895831194922
+gutmock_sup_r4	Bracken.emu	genus	Veillonella	21.74435825622828
+gutmock_sup_r4	Bracken.emu	genus	Other	2.7449887824977637
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Akkermansia muciniphila	0.7516343210202918
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Bacteroides fragilis	20.18134682585435
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Bifidobacterium adolescentis	2.193888318086952
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Clostridioides difficile	5.2638872818754106
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Escherichia coli	10.804862523628579
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Faecalibacterium prausnitzii	18.85943281614596
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Fusobacterium nucleatum	2.4878679822084337
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Limosilactobacillus fermentum	1.1484196942334106
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Prevotella corporis	8.557813976720311
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Roseburia hominis	2.66686303539413
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Salmonella enterica	0.013867810701261064
+gutmock_sup_r4	EMtrace.rrnDB.dedup	species	Veillonella rogosae	27.070115414130903
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Akkermansia	0.7516343210202918
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Bacteroides	20.18134682585435
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Bifidobacterium	2.193888318086952
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Clostridioides	5.2638872818754106
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Escherichia	10.804862523628579
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Faecalibacterium	18.85943281614596
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Fusobacterium	2.4878679822084337
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Limosilactobacillus	1.1484196942334106
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Prevotella	8.557813976720311
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Roseburia	2.66686303539413
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Salmonella	0.013867810701261064
+gutmock_sup_r4	EMtrace.rrnDB.dedup	genus	Veillonella	27.070115414130903
+gutmock_sup_r4	EMtrace.emu	species	Akkermansia muciniphila	0.748845802500606
+gutmock_sup_r4	EMtrace.emu	species	Bacteroides fragilis	20.193129758311553
+gutmock_sup_r4	EMtrace.emu	species	Bifidobacterium adolescentis	2.198816162511521
+gutmock_sup_r4	EMtrace.emu	species	Clostridioides difficile	5.291246240733146
+gutmock_sup_r4	EMtrace.emu	species	Escherichia coli	10.800745764360464
+gutmock_sup_r4	EMtrace.emu	species	Faecalibacterium prausnitzii	18.826982217738507
+gutmock_sup_r4	EMtrace.emu	species	Fusobacterium nucleatum	2.487803065392251
+gutmock_sup_r4	EMtrace.emu	species	Limosilactobacillus fermentum	1.1499586459654298
+gutmock_sup_r4	EMtrace.emu	species	Prevotella corporis	8.555945990885828
+gutmock_sup_r4	EMtrace.emu	species	Roseburia hominis	2.676022697064424
+gutmock_sup_r4	EMtrace.emu	species	Salmonella enterica	0.01397756220977223
+gutmock_sup_r4	EMtrace.emu	species	Other	27.05652609232651
+gutmock_sup_r4	EMtrace.emu	genus	Akkermansia	0.748845802500606
+gutmock_sup_r4	EMtrace.emu	genus	Bacteroides	20.193129758311553
+gutmock_sup_r4	EMtrace.emu	genus	Bifidobacterium	2.198816162511521
+gutmock_sup_r4	EMtrace.emu	genus	Clostridioides	5.291246240733146
+gutmock_sup_r4	EMtrace.emu	genus	Escherichia	10.800745764360464
+gutmock_sup_r4	EMtrace.emu	genus	Faecalibacterium	18.826982217738507
+gutmock_sup_r4	EMtrace.emu	genus	Fusobacterium	2.487803065392251
+gutmock_sup_r4	EMtrace.emu	genus	Limosilactobacillus	1.1499586459654298
+gutmock_sup_r4	EMtrace.emu	genus	Prevotella	8.555945990885828
+gutmock_sup_r4	EMtrace.emu	genus	Roseburia	2.676022697064424
+gutmock_sup_r4	EMtrace.emu	genus	Salmonella	0.01397756220977223
+gutmock_sup_r4	EMtrace.emu	genus	Veillonella	27.05652609232651
+gutmock_sup_r4	wf16s	species	Akkermansia muciniphila	0.7515627271405727
+gutmock_sup_r4	wf16s	species	Bacteroides fragilis	20.475359790667248
+gutmock_sup_r4	wf16s	species	Bifidobacterium adolescentis	2.1151330135194066
+gutmock_sup_r4	wf16s	species	Clostridioides difficile	5.122837621747347
+gutmock_sup_r4	wf16s	species	Escherichia coli	5.944177932839075
+gutmock_sup_r4	wf16s	species	Faecalibacterium prausnitzii	0.15409216455880215
+gutmock_sup_r4	wf16s	species	Limosilactobacillus fermentum	1.1208024422154383
+gutmock_sup_r4	wf16s	species	Prevotella corporis	8.536124436691379
+gutmock_sup_r4	wf16s	species	Roseburia hominis	2.5963076028492513
+gutmock_sup_r4	wf16s	species	Veillonella rogosae	1.699374909143771
+gutmock_sup_r4	wf16s	species	Other	51.4842273586277
+gutmock_sup_r4	wf16s	genus	Akkermansia	0.7515627271405727
+gutmock_sup_r4	wf16s	genus	Bacteroides	20.475359790667248
+gutmock_sup_r4	wf16s	genus	Bifidobacterium	2.1151330135194066
+gutmock_sup_r4	wf16s	genus	Clostridioides	5.122837621747347
+gutmock_sup_r4	wf16s	genus	Escherichia	10.82134031109173
+gutmock_sup_r4	wf16s	genus	Faecalibacterium	18.805058874836458
+gutmock_sup_r4	wf16s	genus	Fusobacterium	2.478557929931676
+gutmock_sup_r4	wf16s	genus	Limosilactobacillus	1.1208024422154383
+gutmock_sup_r4	wf16s	genus	Prevotella	8.536124436691379
+gutmock_sup_r4	wf16s	genus	Roseburia	2.5963076028492513
+gutmock_sup_r4	wf16s	genus	Veillonella	27.17691524930949
+synthgut	Expected	species	Anaerostipes hadrus	2.107543
+synthgut	Expected	species	Bacteroides thetaiotaomicron	0.008814
+synthgut	Expected	species	Citrobacter rodentium	7.286398
+synthgut	Expected	species	Clostridioides difficile	5.949056
+synthgut	Expected	species	Clostridium perfringens	17.889541
+synthgut	Expected	species	Dorea longicatena	6.910451
+synthgut	Expected	species	Enterococcus faecalis	6.192455
+synthgut	Expected	species	Enterococcus faecium	7.123341
+synthgut	Expected	species	Escherichia coli	6.11991
+synthgut	Expected	species	Gemmiger formicilis	0.004068
+synthgut	Expected	species	Intestinibacter bartlettii	0.593583
+synthgut	Expected	species	Mediterraneibacter gnavus	11.010617
+synthgut	Expected	species	Paraclostridium bifermentans	7.044693
+synthgut	Expected	species	Paraclostridium sordellii	8.301016
+synthgut	Expected	species	Phocaeicola vulgatus	0.018984
+synthgut	Expected	species	Romboutsia hominis	12.176089
+synthgut	Expected	species	Roseburia faecis	0.462392
+synthgut	Expected	species	[Clostridium] innocuum	0.059663
+synthgut	Expected	species	[Clostridium] leptum	0.001695
+synthgut	Expected	species	[Clostridium] scindens	0.739691
+synthgut	Expected	genus	Anaerostipes	2.107543
+synthgut	Expected	genus	Bacteroides	0.008814
+synthgut	Expected	genus	Citrobacter	7.286398
+synthgut	Expected	genus	Clostridioides	5.949056
+synthgut	Expected	genus	Clostridium	17.950899
+synthgut	Expected	genus	Dorea	6.910451
+synthgut	Expected	genus	Enterococcus	13.315795999999999
+synthgut	Expected	genus	Escherichia	6.11991
+synthgut	Expected	genus	Gemmiger	0.004068
+synthgut	Expected	genus	Intestinibacter	0.593583
+synthgut	Expected	genus	Lachnoclostridium	0.739691
+synthgut	Expected	genus	Mediterraneibacter	11.010617
+synthgut	Expected	genus	Paraclostridium	15.345709
+synthgut	Expected	genus	Phocaeicola	0.018984
+synthgut	Expected	genus	Romboutsia	12.176089
+synthgut	Expected	genus	Roseburia	0.462392
+synthgut	EMtrace.rrnDB.dedup	species	Anaerostipes hadrus	2.2768507569512413
+synthgut	EMtrace.rrnDB.dedup	species	Bacteroides thetaiotaomicron	0.03688753948567691
+synthgut	EMtrace.rrnDB.dedup	species	Citrobacter rodentium	5.866482876057467
+synthgut	EMtrace.rrnDB.dedup	species	Clostridioides difficile	7.379360464630874
+synthgut	EMtrace.rrnDB.dedup	species	Clostridium perfringens	17.088674834521676
+synthgut	EMtrace.rrnDB.dedup	species	Dorea longicatena	6.298380420578324
+synthgut	EMtrace.rrnDB.dedup	species	Enterococcus faecalis	7.251137964372709
+synthgut	EMtrace.rrnDB.dedup	species	Enterococcus faecium	8.224593024564683
+synthgut	EMtrace.rrnDB.dedup	species	Escherichia coli	4.84092056499162
+synthgut	EMtrace.rrnDB.dedup	species	Intestinibacter bartlettii	10.230403938803773
+synthgut	EMtrace.rrnDB.dedup	species	Mediterraneibacter gnavus	7.251378204846687
+synthgut	EMtrace.rrnDB.dedup	species	Paraclostridium bifermentans	4.9272992039887376
+synthgut	EMtrace.rrnDB.dedup	species	Paraclostridium sordellii	10.631270885277438
+synthgut	EMtrace.rrnDB.dedup	species	Phocaeicola vulgatus	0.05393640222859269
+synthgut	EMtrace.rrnDB.dedup	species	Roseburia faecis	0.39977291848313257
+synthgut	EMtrace.rrnDB.dedup	species	[Clostridium] innocuum	0.20563299429634946
+synthgut	EMtrace.rrnDB.dedup	species	[Clostridium] scindens	0.6698104142190869
+synthgut	EMtrace.rrnDB.dedup	species	Other	6.367206591701915
+synthgut	EMtrace.rrnDB.dedup	genus	Anaerostipes	2.2652607398312745
+synthgut	EMtrace.rrnDB.dedup	genus	Bacteroides	0.036699768191117005
+synthgut	EMtrace.rrnDB.dedup	genus	Citrobacter	5.836620296457149
+synthgut	EMtrace.rrnDB.dedup	genus	Clostridioides	7.341796775461365
+synthgut	EMtrace.rrnDB.dedup	genus	Clostridium	17.206273370168493
+synthgut	EMtrace.rrnDB.dedup	genus	Dorea	6.266319321852507
+synthgut	EMtrace.rrnDB.dedup	genus	Enterococcus	15.463822168522077
+synthgut	EMtrace.rrnDB.dedup	genus	Escherichia	4.816278478964085
+synthgut	EMtrace.rrnDB.dedup	genus	Intestinibacter	10.17832737803978
+synthgut	EMtrace.rrnDB.dedup	genus	Lachnoclostridium	0.6664008301063687
+synthgut	EMtrace.rrnDB.dedup	genus	Mediterraneibacter	9.467590985851663
+synthgut	EMtrace.rrnDB.dedup	genus	Paraclostridium	18.0947418912414
+synthgut	EMtrace.rrnDB.dedup	genus	Phocaeicola	0.05366184588215219
+synthgut	EMtrace.rrnDB.dedup	genus	Romboutsia	0.46600311657144
+synthgut	EMtrace.rrnDB.dedup	genus	Roseburia	0.3977379256514009
+synthgut	EMtrace.rrnDB.dedup	genus	Other	1.4424651072077121
+synthgut	Bracken.std16s	species	Clostridium perfringens	37.411596518521634
+synthgut	Bracken.std16s	species	Mediterraneibacter gnavus	24.258503973426397
+synthgut	Bracken.std16s	species	Roseburia faecis	0.7833326325526637
+synthgut	Bracken.std16s	species	Other	37.5465668754993
+synthgut	Bracken.std16s	genus	Bacteroides	0.19425640163141739
+synthgut	Bracken.std16s	genus	Clostridium	37.429256191397215
+synthgut	Bracken.std16s	genus	Dorea	6.695538830256906
+synthgut	Bracken.std16s	genus	Enterococcus	2.445864693268301
+synthgut	Bracken.std16s	genus	Roseburia	0.7833326325526637
+synthgut	Bracken.std16s	genus	Other	52.451751250893494
+synthgut	Emu	species	Anaerostipes hadrus	2.2809388695054995
+synthgut	Emu	species	Bacteroides thetaiotaomicron	0.03781596486378559
+synthgut	Emu	species	Citrobacter rodentium	5.564171552813229
+synthgut	Emu	species	Clostridioides difficile	7.450304250013103
+synthgut	Emu	species	Clostridium perfringens	16.925479615412662
+synthgut	Emu	species	Dorea longicatena	5.030575548751568
+synthgut	Emu	species	Enterococcus faecalis	7.209190756319766
+synthgut	Emu	species	Enterococcus faecium	8.324423667262908
+synthgut	Emu	species	Escherichia coli	4.616814444132106
+synthgut	Emu	species	Gemmiger formicilis	0.006334654012715353
+synthgut	Emu	species	Intestinibacter bartlettii	0.8274171394847877
+synthgut	Emu	species	Mediterraneibacter gnavus	7.5248392060380365
+synthgut	Emu	species	Paraclostridium bifermentans	3.8776455552134723
+synthgut	Emu	species	Paraclostridium sordellii	9.785513391090578
+synthgut	Emu	species	Phocaeicola vulgatus	0.053364661076573026
+synthgut	Emu	species	Roseburia faecis	0.3815045825720326
+synthgut	Emu	species	[Clostridium] innocuum	0.030125909457275644
+synthgut	Emu	species	[Clostridium] scindens	0.6846675738378779
+synthgut	Emu	species	Other	19.38887265814205
+synthgut	Emu	genus	Anaerostipes	2.284894175802653
+synthgut	Emu	genus	Bacteroides	0.037881540371291884
+synthgut	Emu	genus	Citrobacter	5.58242612896374
+synthgut	Emu	genus	Clostridioides	7.463223594634632
+synthgut	Emu	genus	Clostridium	16.98500772157111
+synthgut	Emu	genus	Dorea	5.227908060288974
+synthgut	Emu	genus	Enterococcus	15.583863371018722
+synthgut	Emu	genus	Escherichia	4.624820320785706
+synthgut	Emu	genus	Gemmiger	0.006345638742399149
+synthgut	Emu	genus	Intestinibacter	0.8288519382275029
+synthgut	Emu	genus	Lachnoclostridium	0.6858548349269243
+synthgut	Emu	genus	Mediterraneibacter	9.834238092135694
+synthgut	Emu	genus	Paraclostridium	17.57347900307816
+synthgut	Emu	genus	Phocaeicola	0.053457199102393674
+synthgut	Emu	genus	Romboutsia	11.837316114106965
+synthgut	Emu	genus	Roseburia	0.40515076276152057
+synthgut	Emu	genus	Other	0.9852815034816084
+synthgut	Kraken2.std16s	species	Clostridium perfringens	48.50796601619842
+synthgut	Kraken2.std16s	species	Mediterraneibacter gnavus	24.474458305230762
+synthgut	Kraken2.std16s	species	Roseburia faecis	1.0559009731518898
+synthgut	Kraken2.std16s	species	Other	25.961674705418933
+synthgut	Kraken2.std16s	genus	Anaerostipes	0.16930487384498996
+synthgut	Kraken2.std16s	genus	Bacteroides	0.14154497561094653
+synthgut	Kraken2.std16s	genus	Citrobacter	1.1296143204468427
+synthgut	Kraken2.std16s	genus	Clostridium	26.608320038070715
+synthgut	Kraken2.std16s	genus	Dorea	4.223775285149064
+synthgut	Kraken2.std16s	genus	Enterococcus	21.170125468638943
+synthgut	Kraken2.std16s	genus	Roseburia	0.8657427603100567
+synthgut	Kraken2.std16s	genus	Other	45.691572277928444
+synthgut	Spaghetti	genus	Anaerostipes	2.277313908569647
+synthgut	Spaghetti	genus	Bacteroides	0.052618358826892093
+synthgut	Spaghetti	genus	Citrobacter	5.041834843314221
+synthgut	Spaghetti	genus	Clostridioides	6.588771285533633
+synthgut	Spaghetti	genus	Clostridium	14.236189304831361
+synthgut	Spaghetti	genus	Dorea	5.799495903130251
+synthgut	Spaghetti	genus	Enterococcus	15.356548928577615
+synthgut	Spaghetti	genus	Escherichia	5.056342785871429
+synthgut	Spaghetti	genus	Intestinibacter	0.7189010341781142
+synthgut	Spaghetti	genus	Lachnoclostridium	1.0036464739203492
+synthgut	Spaghetti	genus	Mediterraneibacter	1.6915827948793458
+synthgut	Spaghetti	genus	Paraclostridium	15.824484210161623
+synthgut	Spaghetti	genus	Phocaeicola	0.040275780830460614
+synthgut	Spaghetti	genus	Romboutsia	13.11669582690942
+synthgut	Spaghetti	genus	Roseburia	0.38738371992308623
+synthgut	Spaghetti	genus	Other	12.807914840542555
+synthgut	Bracken.emu	species	Anaerostipes hadrus	3.4570836479300873
+synthgut	Bracken.emu	species	Bacteroides thetaiotaomicron	0.030790320594172867
+synthgut	Bracken.emu	species	Citrobacter rodentium	0.5245064177737795
+synthgut	Bracken.emu	species	Clostridioides difficile	20.595511574483126
+synthgut	Bracken.emu	species	Clostridium perfringens	21.045317997076257
+synthgut	Bracken.emu	species	Enterococcus faecalis	8.777918788521369
+synthgut	Bracken.emu	species	Enterococcus faecium	7.317922108521155
+synthgut	Bracken.emu	species	Escherichia coli	6.205186696439568
+synthgut	Bracken.emu	species	Mediterraneibacter gnavus	6.959415680037698
+synthgut	Bracken.emu	species	Paraclostridium sordellii	7.598247896887232
+synthgut	Bracken.emu	species	Phocaeicola vulgatus	0.0698806406528619
+synthgut	Bracken.emu	species	[Clostridium] scindens	0.9713676792666014
+synthgut	Bracken.emu	species	Other	16.446850551816095
+synthgut	Bracken.emu	genus	Anaerostipes	3.468860316044554
+synthgut	Bracken.emu	genus	Bacteroides	0.05077560406849602
+synthgut	Bracken.emu	genus	Citrobacter	1.4512688527937327
+synthgut	Bracken.emu	genus	Clostridioides	20.66567085587788
+synthgut	Bracken.emu	genus	Clostridium	22.60212881421502
+synthgut	Bracken.emu	genus	Enterococcus	18.758227528437025
+synthgut	Bracken.emu	genus	Escherichia	6.253996228097984
+synthgut	Bracken.emu	genus	Lachnoclostridium	1.140704840607588
+synthgut	Bracken.emu	genus	Mediterraneibacter	6.983123156361995
+synthgut	Bracken.emu	genus	Paraclostridium	7.624131575978035
+synthgut	Bracken.emu	genus	Phocaeicola	0.07011869133268499
+synthgut	Bracken.emu	genus	Roseburia	0.06770080542466136
+synthgut	Bracken.emu	genus	Other	10.863292730760348
+synthgut	Kraken2.emu	species	Anaerostipes hadrus	2.8364805848703463
+synthgut	Kraken2.emu	species	Bacteroides thetaiotaomicron	0.025262954403662472
+synthgut	Kraken2.emu	species	Citrobacter rodentium	0.43034893631978066
+synthgut	Kraken2.emu	species	Clostridioides difficile	16.898280361677635
+synthgut	Kraken2.emu	species	Clostridium perfringens	17.267339173835488
+synthgut	Kraken2.emu	species	Dorea longicatena	4.41552507403144
+synthgut	Kraken2.emu	species	Enterococcus faecalis	7.202138783687601
+synthgut	Kraken2.emu	species	Enterococcus faecium	4.834890117132237
+synthgut	Kraken2.emu	species	Escherichia coli	4.760419321107528
+synthgut	Kraken2.emu	species	Intestinibacter bartlettii	0.5450207815259703
+synthgut	Kraken2.emu	species	Mediterraneibacter gnavus	5.7100867288208565
+synthgut	Kraken2.emu	species	Paraclostridium bifermentans	1.1761552858887727
+synthgut	Kraken2.emu	species	Paraclostridium sordellii	6.2342381132307585
+synthgut	Kraken2.emu	species	Phocaeicola vulgatus	0.05733592260309483
+synthgut	Kraken2.emu	species	Roseburia faecis	0.38070173896997445
+synthgut	Kraken2.emu	species	[Clostridium] innocuum	0.07864467544792317
+synthgut	Kraken2.emu	species	[Clostridium] scindens	0.796991291969456
+synthgut	Kraken2.emu	species	Other	26.35014015447747
+synthgut	Kraken2.emu	genus	Anaerostipes	2.666729098678545
+synthgut	Kraken2.emu	genus	Bacteroides	0.042548773312757915
+synthgut	Kraken2.emu	genus	Citrobacter	1.160013925053084
+synthgut	Kraken2.emu	genus	Clostridioides	15.660187988216636
+synthgut	Kraken2.emu	genus	Clostridium	17.48897091007551
+synthgut	Kraken2.emu	genus	Dorea	4.729021317139012
+synthgut	Kraken2.emu	genus	Enterococcus	14.591379089211953
+synthgut	Kraken2.emu	genus	Escherichia	4.444616358680052
+synthgut	Kraken2.emu	genus	Intestinibacter	0.5050885482724994
+synthgut	Kraken2.emu	genus	Lachnoclostridium	0.8752018012992644
+synthgut	Kraken2.emu	genus	Mediterraneibacter	7.508128037198622
+synthgut	Kraken2.emu	genus	Paraclostridium	15.847687606499171
+synthgut	Kraken2.emu	genus	Phocaeicola	0.05313507097909003
+synthgut	Kraken2.emu	genus	Romboutsia	4.124788019568364
+synthgut	Kraken2.emu	genus	Roseburia	0.4362776134413407
+synthgut	Kraken2.emu	genus	Other	9.8662258423741
+synthgut	EMtrace.emu	species	Anaerostipes hadrus	2.268775006584988
+synthgut	EMtrace.emu	species	Bacteroides thetaiotaomicron	0.03669750089008095
+synthgut	EMtrace.emu	species	Citrobacter rodentium	5.8844496065712
+synthgut	EMtrace.emu	species	Clostridioides difficile	7.233626429772497
+synthgut	EMtrace.emu	species	Clostridium perfringens	17.05732509418319
+synthgut	EMtrace.emu	species	Dorea longicatena	5.359560618540911
+synthgut	EMtrace.emu	species	Enterococcus faecalis	7.2066411994425
+synthgut	EMtrace.emu	species	Enterococcus faecium	8.234307469628162
+synthgut	EMtrace.emu	species	Escherichia coli	4.763633532958567
+synthgut	EMtrace.emu	species	Intestinibacter bartlettii	0.8190893543780333
+synthgut	EMtrace.emu	species	Mediterraneibacter gnavus	7.511465688779063
+synthgut	EMtrace.emu	species	Paraclostridium bifermentans	2.811098584813133
+synthgut	EMtrace.emu	species	Paraclostridium sordellii	9.638580969164952
+synthgut	EMtrace.emu	species	Phocaeicola vulgatus	0.053651086711486516
+synthgut	EMtrace.emu	species	Roseburia faecis	0.4007417979522686
+synthgut	EMtrace.emu	species	[Clostridium] innocuum	0.06689945736824426
+synthgut	EMtrace.emu	species	[Clostridium] scindens	0.6844791521346467
+synthgut	EMtrace.emu	species	Other	19.96897745012607
+synthgut	EMtrace.emu	genus	Anaerostipes	2.271884020584194
+synthgut	EMtrace.emu	genus	Bacteroides	0.0367477892808081
+synthgut	EMtrace.emu	genus	Citrobacter	5.892513357340383
+synthgut	EMtrace.emu	genus	Clostridioides	7.243539023912468
+synthgut	EMtrace.emu	genus	Clostridium	17.14769071884515
+synthgut	EMtrace.emu	genus	Dorea	5.674892420862242
+synthgut	EMtrace.emu	genus	Enterococcus	15.499011691886272
+synthgut	EMtrace.emu	genus	Escherichia	4.770161374325855
+synthgut	EMtrace.emu	genus	Intestinibacter	0.82021179281374
+synthgut	EMtrace.emu	genus	Lachnoclostridium	0.6854171275883496
+synthgut	EMtrace.emu	genus	Mediterraneibacter	9.914228910434085
+synthgut	EMtrace.emu	genus	Paraclostridium	17.267020077014365
+synthgut	EMtrace.emu	genus	Phocaeicola	0.053724607434861245
+synthgut	EMtrace.emu	genus	Romboutsia	12.075107966943428
+synthgut	EMtrace.emu	genus	Roseburia	0.4012909541516645
+synthgut	EMtrace.emu	genus	Other	0.2465581665821386
+synthgut	Spaghetti.emu	species	Anaerostipes hadrus	2.258910374848014
+synthgut	Spaghetti.emu	species	Bacteroides thetaiotaomicron	0.03742855041171405
+synthgut	Spaghetti.emu	species	Citrobacter rodentium	5.444664159891306
+synthgut	Spaghetti.emu	species	Clostridioides difficile	7.216570679382278
+synthgut	Spaghetti.emu	species	Clostridium perfringens	16.976551986742074
+synthgut	Spaghetti.emu	species	Dorea longicatena	5.719428662913716
+synthgut	Spaghetti.emu	species	Enterococcus faecalis	7.070101727771119
+synthgut	Spaghetti.emu	species	Enterococcus faecium	8.052979788582777
+synthgut	Spaghetti.emu	species	Escherichia coli	4.519118849710307
+synthgut	Spaghetti.emu	species	Gemmiger formicilis	0.0038943000428373004
+synthgut	Spaghetti.emu	species	Intestinibacter bartlettii	0.973791360711705
+synthgut	Spaghetti.emu	species	Mediterraneibacter gnavus	7.075077777825856
+synthgut	Spaghetti.emu	species	Paraclostridium bifermentans	2.8181751309999266
+synthgut	Spaghetti.emu	species	Paraclostridium sordellii	9.410143353511577
+synthgut	Spaghetti.emu	species	Phocaeicola vulgatus	0.054736550602102065
+synthgut	Spaghetti.emu	species	Roseburia faecis	0.3957041543527457
+synthgut	Spaghetti.emu	species	[Clostridium] innocuum	0.0679339007472729
+synthgut	Spaghetti.emu	species	[Clostridium] scindens	0.6615983072775814
+synthgut	Spaghetti.emu	species	Other	21.243190383675092
+synthgut	Spaghetti.emu	genus	Anaerostipes	2.2731894750050845
+synthgut	Spaghetti.emu	genus	Bacteroides	0.03742855041171405
+synthgut	Spaghetti.emu	genus	Citrobacter	5.511299960624299
+synthgut	Spaghetti.emu	genus	Clostridioides	7.221546729437015
+synthgut	Spaghetti.emu	genus	Clostridium	17.060063087660694
+synthgut	Spaghetti.emu	genus	Dorea	5.761833263380166
+synthgut	Spaghetti.emu	genus	Enterococcus	15.452582569978407
+synthgut	Spaghetti.emu	genus	Escherichia	4.588134500469479
+synthgut	Spaghetti.emu	genus	Gemmiger	0.0038943000428373004
+synthgut	Spaghetti.emu	genus	Intestinibacter	0.973791360711705
+synthgut	Spaghetti.emu	genus	Lachnoclostridium	0.6715504073870545
+synthgut	Spaghetti.emu	genus	Mediterraneibacter	9.460120204061322
+synthgut	Spaghetti.emu	genus	Paraclostridium	16.999052386989575
+synthgut	Spaghetti.emu	genus	Phocaeicola	0.054736550602102065
+synthgut	Spaghetti.emu	genus	Romboutsia	12.112571233238285
+synthgut	Spaghetti.emu	genus	Roseburia	0.4026273544289009
+synthgut	Spaghetti.emu	genus	Other	1.4155780655713583
+synthgut	EMtrace.emu.noQ	species	Anaerostipes hadrus	2.2245780396405386
+synthgut	EMtrace.emu.noQ	species	Bacteroides thetaiotaomicron	0.03828243008970198
+synthgut	EMtrace.emu.noQ	species	Citrobacter rodentium	5.697969457323855
+synthgut	EMtrace.emu.noQ	species	Clostridioides difficile	7.318787096232639
+synthgut	EMtrace.emu.noQ	species	Clostridium perfringens	17.057628451476923
+synthgut	EMtrace.emu.noQ	species	Dorea longicatena	5.259507490944545
+synthgut	EMtrace.emu.noQ	species	Enterococcus faecalis	7.2548081795953125
+synthgut	EMtrace.emu.noQ	species	Enterococcus faecium	8.266448378533179
+synthgut	EMtrace.emu.noQ	species	Escherichia coli	4.622050162169946
+synthgut	EMtrace.emu.noQ	species	Gemmiger formicilis	0.004946606080314019
+synthgut	EMtrace.emu.noQ	species	Intestinibacter bartlettii	0.8481699919627989
+synthgut	EMtrace.emu.noQ	species	Mediterraneibacter gnavus	7.42975192104692
+synthgut	EMtrace.emu.noQ	species	Paraclostridium bifermentans	3.8040809018090544
+synthgut	EMtrace.emu.noQ	species	Paraclostridium sordellii	9.899792259296767
+synthgut	EMtrace.emu.noQ	species	Phocaeicola vulgatus	0.05419242298643449
+synthgut	EMtrace.emu.noQ	species	Roseburia faecis	0.3968163081888255
+synthgut	EMtrace.emu.noQ	species	[Clostridium] innocuum	0.06869343946361334
+synthgut	EMtrace.emu.noQ	species	[Clostridium] scindens	0.6634783969889644
+synthgut	EMtrace.emu.noQ	species	Other	19.090018066169677
+synthgut	EMtrace.emu.noQ	genus	Anaerostipes	2.2274801353895026
+synthgut	EMtrace.emu.noQ	genus	Bacteroides	0.03833237182051279
+synthgut	EMtrace.emu.noQ	genus	Citrobacter	5.707819391368737
+synthgut	EMtrace.emu.noQ	genus	Clostridioides	7.32833489385586
+synthgut	EMtrace.emu.noQ	genus	Clostridium	17.148664207132384
+synthgut	EMtrace.emu.noQ	genus	Dorea	5.571065398610137
+synthgut	EMtrace.emu.noQ	genus	Enterococcus	15.58161658127598
+synthgut	EMtrace.emu.noQ	genus	Escherichia	4.630308383735833
+synthgut	EMtrace.emu.noQ	genus	Gemmiger	0.004953059225234842
+synthgut	EMtrace.emu.noQ	genus	Intestinibacter	0.8492764806919927
+synthgut	EMtrace.emu.noQ	genus	Lachnoclostridium	0.6643439444326236
+synthgut	EMtrace.emu.noQ	genus	Mediterraneibacter	9.805206970838976
+synthgut	EMtrace.emu.noQ	genus	Paraclostridium	17.73112129695896
+synthgut	EMtrace.emu.noQ	genus	Phocaeicola	0.05426312025916329
+synthgut	EMtrace.emu.noQ	genus	Romboutsia	11.992554286503362
+synthgut	EMtrace.emu.noQ	genus	Roseburia	0.3973339789113597
+synthgut	EMtrace.emu.noQ	genus	Other	0.2673254989893942
+synthgut	Emu.emtracereads	species	Anaerostipes hadrus	2.286113286488371
+synthgut	Emu.emtracereads	species	Bacteroides thetaiotaomicron	0.0366918164915838
+synthgut	Emu.emtracereads	species	Citrobacter rodentium	5.82507632766461
+synthgut	Emu.emtracereads	species	Clostridioides difficile	7.296860458590346
+synthgut	Emu.emtracereads	species	Clostridium perfringens	17.06505263927071
+synthgut	Emu.emtracereads	species	Dorea longicatena	5.395205314139102
+synthgut	Emu.emtracereads	species	Enterococcus faecalis	7.183922148270189
+synthgut	Emu.emtracereads	species	Enterococcus faecium	8.277232138465264
+synthgut	Emu.emtracereads	species	Escherichia coli	4.763047817083844
+synthgut	Emu.emtracereads	species	Intestinibacter bartlettii	0.6332776184371545
+synthgut	Emu.emtracereads	species	Mediterraneibacter gnavus	7.425592155271464
+synthgut	Emu.emtracereads	species	Paraclostridium bifermentans	7.2608632136018825
+synthgut	Emu.emtracereads	species	Paraclostridium sordellii	9.528264835935959
+synthgut	Emu.emtracereads	species	Phocaeicola vulgatus	0.05365021907172757
+synthgut	Emu.emtracereads	species	Roseburia faecis	0.36467350144080957
+synthgut	Emu.emtracereads	species	[Clostridium] innocuum	0.008421457375665731
+synthgut	Emu.emtracereads	species	[Clostridium] scindens	0.6870237124459329
+synthgut	Emu.emtracereads	species	Other	15.909031339955375
+synthgut	Emu.emtracereads	genus	Anaerostipes	2.2907960093292337
+synthgut	Emu.emtracereads	genus	Bacteroides	0.036766973575081525
+synthgut	Emu.emtracereads	genus	Citrobacter	5.8559910845770204
+synthgut	Emu.emtracereads	genus	Clostridioides	7.311806863625467
+synthgut	Emu.emtracereads	genus	Clostridium	17.108446268672044
+synthgut	Emu.emtracereads	genus	Dorea	5.557348667741865
+synthgut	Emu.emtracereads	genus	Enterococcus	15.500720817271702
+synthgut	Emu.emtracereads	genus	Escherichia	4.7728041283467215
+synthgut	Emu.emtracereads	genus	Intestinibacter	0.6345747823117486
+synthgut	Emu.emtracereads	genus	Lachnoclostridium	0.6884309662550503
+synthgut	Emu.emtracereads	genus	Mediterraneibacter	9.799045050803265
+synthgut	Emu.emtracereads	genus	Paraclostridium	17.217606640950002
+synthgut	Emu.emtracereads	genus	Phocaeicola	0.05376011262238811
+synthgut	Emu.emtracereads	genus	Romboutsia	12.176327621335254
+synthgut	Emu.emtracereads	genus	Roseburia	0.3986401382405572
+synthgut	Emu.emtracereads	genus	Other	0.5969338743425875
+synthgut	EMtrace.refseq16S	species	Anaerostipes hadrus	2.267131209131823
+synthgut	EMtrace.refseq16S	species	Bacteroides thetaiotaomicron	0.03225026540189522
+synthgut	EMtrace.refseq16S	species	Citrobacter rodentium	3.0801537695607077
+synthgut	EMtrace.refseq16S	species	Clostridioides difficile	6.787201361318965
+synthgut	EMtrace.refseq16S	species	Clostridium perfringens	16.966040157515398
+synthgut	EMtrace.refseq16S	species	Dorea longicatena	1.2757329663685206
+synthgut	EMtrace.refseq16S	species	Enterococcus faecalis	7.23883532906197
+synthgut	EMtrace.refseq16S	species	Enterococcus faecium	8.16359073665834
+synthgut	EMtrace.refseq16S	species	Escherichia coli	0.006896384594083083
+synthgut	EMtrace.refseq16S	species	Intestinibacter bartlettii	0.6745844531324638
+synthgut	EMtrace.refseq16S	species	Mediterraneibacter gnavus	7.221735658498497
+synthgut	EMtrace.refseq16S	species	Paraclostridium bifermentans	2.824073530049283
+synthgut	EMtrace.refseq16S	species	Paraclostridium sordellii	9.13596145340626
+synthgut	EMtrace.refseq16S	species	Phocaeicola vulgatus	0.053648474260305605
+synthgut	EMtrace.refseq16S	species	Romboutsia hominis	13.227141410622293
+synthgut	EMtrace.refseq16S	species	Roseburia faecis	0.3995906277387047
+synthgut	EMtrace.refseq16S	species	[Clostridium] innocuum	0.20262842937460832
+synthgut	EMtrace.refseq16S	species	[Clostridium] scindens	0.6880221041607303
+synthgut	EMtrace.refseq16S	species	Other	19.75478167914515
+synthgut	EMtrace.refseq16S	genus	Anaerostipes	2.2671312091318225
+synthgut	EMtrace.refseq16S	genus	Bacteroides	0.03669816118783793
+synthgut	EMtrace.refseq16S	genus	Citrobacter	5.919182204324555
+synthgut	EMtrace.refseq16S	genus	Clostridioides	6.787201361318964
+synthgut	EMtrace.refseq16S	genus	Clostridium	17.16866858689
+synthgut	EMtrace.refseq16S	genus	Dorea	5.961224715803578
+synthgut	EMtrace.refseq16S	genus	Enterococcus	15.438648940192804
+synthgut	EMtrace.refseq16S	genus	Escherichia	4.751855639952479
+synthgut	EMtrace.refseq16S	genus	Intestinibacter	0.6745844531324637
+synthgut	EMtrace.refseq16S	genus	Lachnoclostridium	0.6880221041607302
+synthgut	EMtrace.refseq16S	genus	Mediterraneibacter	9.615523295478324
+synthgut	EMtrace.refseq16S	genus	Paraclostridium	16.774065333874034
+synthgut	EMtrace.refseq16S	genus	Phocaeicola	0.05364847426030559
+synthgut	EMtrace.refseq16S	genus	Romboutsia	13.22714141062229
+synthgut	EMtrace.refseq16S	genus	Roseburia	0.39959062773870463
+synthgut	EMtrace.refseq16S	genus	Other	0.2368134819310858
+synthgut	EMtrace.silva	species	Anaerostipes hadrus	3.43341339032096
+synthgut	EMtrace.silva	species	Citrobacter rodentium	8.40569882822413
+synthgut	EMtrace.silva	species	Clostridioides difficile	17.288502175265645
+synthgut	EMtrace.silva	species	Enterococcus faecalis	7.5545755135613515
+synthgut	EMtrace.silva	species	Enterococcus faecium	13.450298461109877
+synthgut	EMtrace.silva	species	Escherichia coli	12.210839879158375
+synthgut	EMtrace.silva	species	Intestinibacter bartlettii	0.015356877807326611
+synthgut	EMtrace.silva	species	Mediterraneibacter gnavus	0.21097167614281812
+synthgut	EMtrace.silva	species	Paraclostridium bifermentans	0.8150041852318672
+synthgut	EMtrace.silva	species	Romboutsia hominis	33.7021697558577
+synthgut	EMtrace.silva	species	Roseburia faecis	0.8077896212779037
+synthgut	EMtrace.silva	species	Other	2.1053796360420387
+synthgut	EMtrace.silva	genus	Anaerostipes	2.2264684718856174
+synthgut	EMtrace.silva	genus	Bacteroides	0.09065615961387335
+synthgut	EMtrace.silva	genus	Citrobacter	5.4338666875173764
+synthgut	EMtrace.silva	genus	Clostridioides	6.918654226488065
+synthgut	EMtrace.silva	genus	Clostridium	0.2824063167269696
+synthgut	EMtrace.silva	genus	Dorea	5.952947370853158
+synthgut	EMtrace.silva	genus	Enterococcus	15.315887415606841
+synthgut	EMtrace.silva	genus	Escherichia	4.842678421445596
+synthgut	EMtrace.silva	genus	Intestinibacter	0.749645472631271
+synthgut	EMtrace.silva	genus	Mediterraneibacter	6.77080433321859
+synthgut	EMtrace.silva	genus	Paraclostridium	15.564483159284595
+synthgut	EMtrace.silva	genus	Romboutsia	13.12889805693105
+synthgut	EMtrace.silva	genus	Roseburia	0.36817184003045134
+synthgut	EMtrace.silva	genus	Other	22.354432067766563

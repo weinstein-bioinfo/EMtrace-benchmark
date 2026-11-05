@@ -1,0 +1,5 @@
+sample_id	consensus	reference	stats_div
+ERR14941561	metrics/framework_B/sra_petersen_2026_v20260924_chain2.primary/ERR14941561.fa	data/sra/refs/petersen_2026/ERR14941561.fasta	results/framework_b/sra_petersen_2026_v20260924_chain2/ERR14941561//results/reports/stats_div.csv
+SRR15356294	metrics/framework_B/sra_petersen_2026_v20260924_chain2.primary/SRR15356294.fa	data/sra/refs/petersen_2026/SRR15356294.fasta	results/framework_b/sra_petersen_2026_v20260924_chain2/SRR15356294//results/reports/stats_div.csv
+SRR31174237	metrics/framework_B/sra_petersen_2026_v20260924_chain2.primary/SRR31174237.fa	data/sra/refs/petersen_2026/SRR31174237.fasta	results/framework_b/sra_petersen_2026_v20260924_chain2/SRR31174237//results/reports/stats_div.csv
+SRR32419728	metrics/framework_B/sra_petersen_2026_v20260924_chain2.primary/SRR32419728.fa	data/sra/refs/petersen_2026/SRR32419728.fasta	results/framework_b/sra_petersen_2026_v20260924_chain2/SRR32419728//results/reports/stats_div.csv

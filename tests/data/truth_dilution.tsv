@@ -1,0 +1,5 @@
+sample_id	gc_per_ml	nc_sample_id	taxid	species	genus	family	order	class	division
+s1	60.0	nc1	1	vA	GA	FA	OV	CV	Viruses
+s1	60.0	nc1	2	vB	GB	FB	OV	CV	Viruses
+s2	6.0	nc1	1	vA	GA	FA	OV	CV	Viruses
+s3	0.6	nc1	1	vA	GA	FA	OV	CV	Viruses

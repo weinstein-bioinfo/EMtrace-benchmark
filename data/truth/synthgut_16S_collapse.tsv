@@ -1,0 +1,20 @@
+rank	from	to	if_species	reason
+species	[Ruminococcus] gnavus	Mediterraneibacter gnavus		Emu's DB and SILVA 138 both use the old bracket name; NCBI (Togo et al. 2023) moved it to Mediterraneibacter. 11.0 % of the truth, so this rule decides a large block of mass.
+species	Ruminococcus gnavus	Mediterraneibacter gnavus		Bracket-free spelling of the same synonym, for references that drop NCBI's brackets.
+species	Paeniclostridium sordellii	Paraclostridium sordellii		Emu's DB and SILVA 138 both say Paeniclostridium; NCBI (Bello et al. 2024) moved sordellii into Paraclostridium. 8.3 % of the truth.
+species	Bacteroides vulgatus	Phocaeicola vulgatus		SILVA 138 predates Garcia-Lopez et al. 2020; Emu's DB already says Phocaeicola.
+species	Shigella flexneri	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella sonnei	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella dysenteriae	Escherichia coli		16S-indistinguishable from E. coli.
+species	Shigella boydii	Escherichia coli		16S-indistinguishable from E. coli.
+genus	Erysipelatoclostridium	Clostridium	[Clostridium] innocuum	Emu's DB files [Clostridium] innocuum under Erysipelatoclostridium; NCBI keeps taxid 1522 in Clostridium. Scoped: other Erysipelatoclostridium species stay false positives.
+genus	[Clostridium] innocuum group	Clostridium	[Clostridium] innocuum	SILVA 138's group label for the same organism (underscores become spaces in the Spaghetti converter). Scoped to the species.
+genus	[Ruminococcus] gnavus group	Mediterraneibacter	[Ruminococcus] gnavus	SILVA 138's group label. Genus half of the gnavus rename, scoped to that species only.
+genus	Ruminococcus	Mediterraneibacter	[Ruminococcus] gnavus	Genus half of the gnavus rename, scoped to that species only: Ruminococcus remains a real, populated genus whose other members are 16S-distinguishable and stay genuine false positives.
+genus	Ruminococcus	Mediterraneibacter	Ruminococcus gnavus	As above, for references that drop NCBI's brackets.
+genus	Paeniclostridium	Paraclostridium	Paeniclostridium sordellii	Genus half of the sordellii move. NOTE: after this rule sordellii and P. bifermentans share the genus Paraclostridium, so 8.3 % + 7.0 % of the truth merge at genus rank.
+genus	Bacteroides	Phocaeicola	Bacteroides vulgatus	Genus half of the vulgatus rename, scoped to that species ONLY: Bacteroides is itself a truth genus here (B. thetaiotaomicron), so an unscoped rule would move real Bacteroides mass onto Phocaeicola.
+genus	Subdoligranulum	Gemmiger	Gemmiger formicilis	SILVA 138 files G. formicilis under Subdoligranulum. Scoped: other Subdoligranulum species stay false positives.
+genus	Clostridium sensu stricto 1	Clostridium	Clostridium perfringens	SILVA 138's split label for the Clostridium type group. Scoped to C. perfringens; the other sensu stricto members are not in this mock.
+genus	Escherichia-Shigella	Escherichia		SILVA 138.2 merged genus label; maps onto the truth genus Escherichia.
+genus	Shigella	Escherichia		Shigella is genomically E. coli; NCBI keeps them as separate genera, so every NCBI-taxonomy run splits these reads.

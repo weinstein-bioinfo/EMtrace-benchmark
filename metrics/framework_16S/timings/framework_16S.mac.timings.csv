@@ -1,0 +1,7 @@
+sample,user,system,cpu,total,max_rss_mb,exit_status
+emtrace.barcode79.emu.N25.T10.mac,19704.755,214.746,733,2716.221,3521.4,0
+emtrace.synthgut.emu.N25.T10.noQ.mac,27776.595,271.368,671,4181.527,9794.1,0
+emtrace.gutmock_sup_r1.emu.N25.T10.mac,7759.850,63.300,707,1106.575,3232.2,0
+emtrace.gutmock_sup_r2.emu.N25.T10.mac,8410.720,58.649,714,1185.555,3248.4,0
+emtrace.gutmock_sup_r3.emu.N25.T10.mac,8549.510,66.891,721,1195.391,3226.2,0
+emtrace.gutmock_sup_r4.emu.N25.T10.mac,9181.282,66.013,720,1283.774,3516.5,0

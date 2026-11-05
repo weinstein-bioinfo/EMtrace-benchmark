@@ -1,0 +1,7 @@
+filter	total	Viruses	Bacteria	Eukaryota
+default_AS0	80.11	25.438	34.198	95.747
+default_AS30	80.11	25.438	34.198	95.747
+default_AS50	71.575	0.701	0.386	95.737
+default_AS75	71.477	0.0	0.01	95.735
+default_AS100	71.474	0.0	0.002	95.733
+default_AS125	71.472	0.0	0.002	95.731

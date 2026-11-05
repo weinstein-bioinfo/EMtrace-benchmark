@@ -1,0 +1,5 @@
+gc_per_ml	n_samples	sensitivity	TP	FP	FN	precision	fp_unique_taxa	fp_persistent_taxa	low_n
+60.0	4	0.0	0	0	4	0.0	0	NA	False
+600.0	4	0.0	0	0	4	0.0	0	NA	False
+6000.0	4	0.0	0	1	4	0.0	1	NA	False
+60000.0	4	0.5	2	0	2	1.0	0	NA	False

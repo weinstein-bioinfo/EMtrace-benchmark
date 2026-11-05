@@ -1,0 +1,8 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Orthoflavivirus denguei	TP	94763.0	1.0
+Viruses	species	Orthoflavivirus nilense	FP	292.0	0.0
+Viruses	species	Vesiculovirus piry	FP	97.0	0.0
+Viruses	genus	Orthoflavivirus	TP	95055.0	1.0
+Viruses	genus	Vesiculovirus	FP	97.0	0.0
+Viruses	family	Flaviviridae	TP	95055.0	1.0
+Viruses	family	Rhabdoviridae	FP	97.0	0.0

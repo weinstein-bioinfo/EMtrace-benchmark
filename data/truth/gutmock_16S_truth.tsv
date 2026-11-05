@@ -1,0 +1,18 @@
+taxid	species	genus	family	order	class	division	organism	source_species	readn	pct_16S_only	pct_genomic_DNA	pct_16S_18S	pct_genome_copy	pct_cell_number	note
+853	Faecalibacterium prausnitzii	Faecalibacterium	Oscillospiraceae	Eubacteriales	Clostridia	Bacteria	Faecalibacterium prausnitzii	Faecalibacterium prausnitzii	176	17.63	14	15.96	14.77	14.82	
+423477	Veillonella rogosae	Veillonella	Veillonellaceae	Veillonellales	Negativicutes	Bacteria	Veillonella rogosae	Veillonella rogosae	159	15.87	14	14.37	19.94	20.01	
+301301	Roseburia hominis	Roseburia	Lachnospiraceae	Lachnospirales	Clostridia	Bacteria	Roseburia hominis	Roseburia hominis	99	9.89	14	8.95	12.43	12.47	
+817	Bacteroides fragilis	Bacteroides	Bacteroidaceae	Bacteroidales	Bacteroidia	Bacteria	Bacteroides fragilis	Bacteroides fragilis	99	9.94	14	9.0	8.33	8.36	
+28128	Prevotella corporis	Prevotella	Prevotellaceae	Bacteroidales	Bacteroidia	Bacteria	Prevotella corporis	Prevotella corporis	50	4.98	6	4.51	6.26	6.28	
+1680	Bifidobacterium adolescentis	Bifidobacterium	Bifidobacteriaceae	Bifidobacteriales	Actinomycetes	Bacteria	Bifidobacterium adolescentis	Bifidobacterium adolescentis	88	8.78	6	7.95	8.83	8.86	
+851	Fusobacterium nucleatum	Fusobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Bacteria	Fusobacterium nucleatum	Fusobacterium nucleatum	75	7.49	6	6.79	7.53	7.56	
+1613	Limosilactobacillus fermentum	Limosilactobacillus	Lactobacillaceae	Lactobacillales	Bacilli	Bacteria	Limosilactobacillus fermentum	Lactobacillus fermentum	96	9.63	6	8.72	9.68	9.71	Certificate name Lactobacillus fermentum (pre-2020).
+1496	Clostridioides difficile	Clostridioides	Peptostreptococcaceae	Peptostreptococcales	Clostridia	Bacteria	Clostridioides difficile	Clostridioides difficile	26	2.62	1.5	2.37	1.1	1.1	
+239935	Akkermansia muciniphila	Akkermansia	Akkermansiaceae	Verrucomicrobiales	Verrucomicrobiia	Bacteria	Akkermansia muciniphila	Akkermansia muciniphila	10	0.97	1.5	0.87	1.62	1.62	
+2173	Methanobrevibacter smithii	Methanobrevibacter	Methanobacteriaceae	Methanobacteriales	Methanobacteria	Archaea	Methanobrevibacter smithii	Methanobrevibacter smithii	1	0.066	0.1	0.06	0.17	0.17	Archaeon: in the L1 truth, but outside the Bacteria-only precision/recall counts.
+28901	Salmonella enterica	Salmonella	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Bacteria	Salmonella enterica	Salmonella enterica	0	0.009	0.01	0.008	0.007	0.0065	~7 expected reads per 73 k-read replicate: below the 10-read cutoff, an expected false negative.
+1351	Enterococcus faecalis	Enterococcus	Enterococcaceae	Lactobacillales	Bacilli	Bacteria	Enterococcus faecalis	Enterococcus faecalis	0	0.0009	0.001	0.0008	0.0011	0.0011	<1 expected read per replicate: expected false negative.
+1502	Clostridium perfringens	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacteria	Clostridium perfringens	Clostridium perfringens	0	0.0002	0.0001	0.0002	9e-05	9e-05	<1 expected read per replicate: expected false negative.
+562	Escherichia coli	Escherichia	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Bacteria	Escherichia coli	Escherichia coli	121	12.12	14	10.97	8.71	8.73	Sum of the five certificate strains JM109, B-3008, B-2207, B-766, B-1109 (2.8 % genomic DNA each).
+5476	Candida albicans	Candida	Debaryomycetaceae	Serinales	Pichiomycetes	Eukaryota	Candida albicans	Candida albicans	0	0	1.5	3.11	0.31	0.16	Fungus: no 16S gene, 0 % on the 16S-only basis (ITS reads from SQK-MAB114 are expected to stay unclassified).
+4932	Saccharomyces cerevisiae	Saccharomyces	Saccharomycetaceae	Saccharomycetales	Saccharomycetes	Eukaryota	Saccharomyces cerevisiae	Saccharomyces cerevisiae	0	0	1.4	6.35	0.32	0.16	Fungus: no 16S gene, 0 % on the 16S-only basis.

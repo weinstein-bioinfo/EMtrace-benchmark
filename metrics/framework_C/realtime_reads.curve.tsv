@@ -1,0 +1,738 @@
+run	library	chain	batch	taxon	rank	evidence	source	main	readn	seq_time_s	reads_cum
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	1	Orbivirus	genus	target		True	265	788.0	4000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	2	Orbivirus	genus	target		True	577	1355.0	8000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	3	Orbivirus	genus	target		True	898	1882.0	12000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	4	Orbivirus	genus	target		True	1226	2358.0	16000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	5	Orbivirus	genus	target		True	1557	2817.0	20000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	6	Orbivirus	genus	target		True	1943	3235.0	24000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	7	Orbivirus	genus	target		True	2279	3652.0	28000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	8	Orbivirus	genus	target		True	2625	4046.0	32000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	9	Orbivirus	genus	target		True	2956	4437.0	36000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	10	Orbivirus	genus	target		True	3282	4823.0	40000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	11	Orbivirus	genus	target		True	3641	5213.0	44000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	12	Orbivirus	genus	target		True	3997	5840.0	48000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	13	Orbivirus	genus	target		True	4411	6275.0	52000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	14	Orbivirus	genus	target		True	4781	6709.0	56000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	15	Orbivirus	genus	target		True	5190	7143.0	60000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	16	Orbivirus	genus	target		True	5566	7572.0	64000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	17	Orbivirus	genus	target		True	5978	7980.0	68000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	18	Orbivirus	genus	target		True	6353	8391.0	72000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	19	Orbivirus	genus	target		True	6776	8823.0	76000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	20	Orbivirus	genus	target		True	7163	9239.0	80000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	21	Orbivirus	genus	target		True	7568	9653.0	84000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	22	Orbivirus	genus	target		True	7980	10075.0	88000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	23	Orbivirus	genus	target		True	8369	10504.0	92000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	24	Orbivirus	genus	target		True	8802	10943.0	96000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	25	Orbivirus	genus	target		True	9230	11619.0	100000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	26	Orbivirus	genus	target		True	9657	12053.0	104000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	27	Orbivirus	genus	target		True	10095	12490.0	108000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	28	Orbivirus	genus	target		True	10512	12922.0	112000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	29	Orbivirus	genus	target		True	10930	13356.0	116000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	30	Orbivirus	genus	target		True	11363	13792.0	120000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	31	Orbivirus	genus	target		True	11769	14226.0	124000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	32	Orbivirus	genus	target		True	12189	14697.0	128000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	33	Orbivirus	genus	target		True	12632	15153.0	132000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	34	Orbivirus	genus	target		True	13047	15614.0	136000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	35	Orbivirus	genus	target		True	13474	16097.0	140000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	36	Orbivirus	genus	target		True	13893	16579.0	144000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	37	Orbivirus	genus	target		True	14299	17249.0	148000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	38	Orbivirus	genus	target		True	14794	17540.0	152000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	39	Orbivirus	genus	target		True	15239	17833.0	156000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	40	Orbivirus	genus	target		True	15648	18134.0	160000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	41	Orbivirus	genus	target		True	16103	18441.0	164000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	42	Orbivirus	genus	target		True	16571	18758.0	168000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	43	Orbivirus	genus	target		True	17024	19073.0	172000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	44	Orbivirus	genus	target		True	17490	19393.0	176000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	45	Orbivirus	genus	target		True	17930	19718.0	180000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	46	Orbivirus	genus	target		True	18352	20039.0	184000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	47	Orbivirus	genus	target		True	18796	20376.0	188000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	48	Orbivirus	genus	target		True	19207	20715.0	192000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	49	Orbivirus	genus	target		True	19648	21064.0	196000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	50	Orbivirus	genus	target		True	20095	21425.0	200000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	51	Orbivirus	genus	target		True	20531	21790.0	204000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	52	Orbivirus	genus	target		True	20982	22168.0	208000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	53	Orbivirus	genus	target		True	21427	22570.0	212000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	54	Orbivirus	genus	target		True	21870	23068.0	216000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	55	Orbivirus	genus	target		True	22352	23299.0	220000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	56	Orbivirus	genus	target		True	22821	23534.0	224000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	57	Orbivirus	genus	target		True	23271	23780.0	228000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	58	Orbivirus	genus	target		True	23722	24025.0	232000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	59	Orbivirus	genus	target		True	24190	24277.0	236000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	60	Orbivirus	genus	target		True	24655	24528.0	240000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	61	Orbivirus	genus	target		True	25100	24784.0	244000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	62	Orbivirus	genus	target		True	25546	25042.0	248000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	63	Orbivirus	genus	target		True	26054	25301.0	252000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	64	Orbivirus	genus	target		True	26470	25559.0	256000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	65	Orbivirus	genus	target		True	26922	25829.0	260000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	66	Orbivirus	genus	target		True	27382	26101.0	264000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	67	Orbivirus	genus	target		True	27810	26384.0	268000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	68	Orbivirus	genus	target		True	28267	26674.0	272000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	69	Orbivirus	genus	target		True	28703	26970.0	276000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	70	Orbivirus	genus	target		True	29141	27287.0	280000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	71	Orbivirus	genus	target		True	29562	27617.0	284000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	72	Orbivirus	genus	target		True	29983	27954.0	288000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	73	Orbivirus	genus	target		True	30405	28554.0	292000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	74	Orbivirus	genus	target		True	30852	28950.0	296000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	75	Orbivirus	genus	target		True	31331	29349.0	300000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	76	Orbivirus	genus	target		True	31796	29772.0	304000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	77	Orbivirus	genus	target		True	32229	30193.0	308000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	78	Orbivirus	genus	target		True	32680	30640.0	312000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	79	Orbivirus	genus	target		True	33105	31108.0	316000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	80	Orbivirus	genus	target		True	33560	31596.0	320000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	81	Orbivirus	genus	target		True	33987	32119.0	324000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	82	Orbivirus	genus	target		True	34416	32676.0	328000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	83	Orbivirus	genus	target		True	34933	33276.0	332000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	84	Orbivirus	genus	target		True	35384	33934.0	336000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	85	Orbivirus	genus	target		True	35837	34492.0	340000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	86	Orbivirus	genus	target		True	36308	34798.0	344000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	87	Orbivirus	genus	target		True	36718	35121.0	348000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	88	Orbivirus	genus	target		True	37179	35455.0	352000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	89	Orbivirus	genus	target		True	37644	35795.0	356000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	90	Orbivirus	genus	target		True	38106	36163.0	360000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	91	Orbivirus	genus	target		True	38579	36570.0	364000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	92	Orbivirus	genus	target		True	39018	37017.0	368000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	93	Orbivirus	genus	target		True	39472	37543.0	372000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	94	Orbivirus	genus	target		True	39922	38150.0	376000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	95	Orbivirus	genus	target		True	40387	38799.0	380000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	96	Orbivirus	genus	target		True	40869	39467.0	384000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	97	Orbivirus	genus	target		True	41335	40077.0	388000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	98	Orbivirus	genus	target		True	41790	40337.0	392000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	99	Orbivirus	genus	target		True	42238	40604.0	396000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	100	Orbivirus	genus	target		True	42679	40895.0	400000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	101	Orbivirus	genus	target		True	43082	41198.0	404000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	102	Orbivirus	genus	target		True	43485	41560.0	408000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	103	Orbivirus	genus	target		True	43904	41988.0	412000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	104	Orbivirus	genus	target		True	44329	42518.0	416000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	105	Orbivirus	genus	target		True	44733	43175.0	420000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	106	Orbivirus	genus	target		True	45151	43926.0	424000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	107	Orbivirus	genus	target		True	45618	44737.0	428000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	108	Orbivirus	genus	target		True	46045	45704.0	432000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	109	Orbivirus	genus	target		True	46471	46113.0	436000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	110	Orbivirus	genus	target		True	46869	46663.0	440000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	111	Orbivirus	genus	target		True	47255	47501.0	444000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	112	Orbivirus	genus	target		True	47676	48917.0	448000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	113	Orbivirus	genus	target		True	48071	51338.0	452000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	114	Orbivirus	genus	target		True	48487	51864.0	456000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	115	Orbivirus	genus	target		True	48919	57177.0	460000
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo	RefSeq only	116	Orbivirus	genus	target		True	49334	68340.0	464000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	1	Orbivirus	genus	target		True	892	788.0	4000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	2	Orbivirus	genus	target		True	1821	1355.0	8000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	3	Orbivirus	genus	target		True	2787	1882.0	12000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	4	Orbivirus	genus	target		True	3762	2358.0	16000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	5	Orbivirus	genus	target		True	4758	2817.0	20000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	6	Orbivirus	genus	target		True	5785	3235.0	24000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	7	Orbivirus	genus	target		True	6794	3652.0	28000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	8	Orbivirus	genus	target		True	7787	4046.0	32000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	9	Orbivirus	genus	target		True	8765	4437.0	36000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	10	Orbivirus	genus	target		True	9733	4823.0	40000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	11	Orbivirus	genus	target		True	10718	5213.0	44000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	12	Orbivirus	genus	target		True	11734	5840.0	48000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	13	Orbivirus	genus	target		True	12872	6275.0	52000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	14	Orbivirus	genus	target		True	14019	6709.0	56000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	15	Orbivirus	genus	target		True	15230	7143.0	60000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	16	Orbivirus	genus	target		True	16295	7572.0	64000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	17	Orbivirus	genus	target		True	17443	7980.0	68000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	18	Orbivirus	genus	target		True	18563	8391.0	72000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	19	Orbivirus	genus	target		True	19708	8823.0	76000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	20	Orbivirus	genus	target		True	20792	9239.0	80000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	21	Orbivirus	genus	target		True	21932	9653.0	84000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	22	Orbivirus	genus	target		True	22991	10075.0	88000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	23	Orbivirus	genus	target		True	24080	10504.0	92000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	24	Orbivirus	genus	target		True	25177	10943.0	96000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	25	Orbivirus	genus	target		True	26348	11619.0	100000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	26	Orbivirus	genus	target		True	27557	12053.0	104000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	27	Orbivirus	genus	target		True	28758	12490.0	108000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	28	Orbivirus	genus	target		True	29974	12922.0	112000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	29	Orbivirus	genus	target		True	31146	13356.0	116000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	30	Orbivirus	genus	target		True	32323	13792.0	120000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	31	Orbivirus	genus	target		True	33422	14226.0	124000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	32	Orbivirus	genus	target		True	34569	14697.0	128000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	33	Orbivirus	genus	target		True	35780	15153.0	132000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	34	Orbivirus	genus	target		True	36922	15614.0	136000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	35	Orbivirus	genus	target		True	38022	16097.0	140000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	36	Orbivirus	genus	target		True	39195	16579.0	144000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	37	Orbivirus	genus	target		True	40294	17249.0	148000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	38	Orbivirus	genus	target		True	41525	17540.0	152000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	39	Orbivirus	genus	target		True	42694	17833.0	156000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	40	Orbivirus	genus	target		True	43858	18134.0	160000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	41	Orbivirus	genus	target		True	45031	18441.0	164000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	42	Orbivirus	genus	target		True	46278	18758.0	168000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	43	Orbivirus	genus	target		True	47460	19073.0	172000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	44	Orbivirus	genus	target		True	48648	19393.0	176000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	45	Orbivirus	genus	target		True	49806	19718.0	180000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	46	Orbivirus	genus	target		True	50913	20039.0	184000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	47	Orbivirus	genus	target		True	52004	20376.0	188000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	48	Orbivirus	genus	target		True	53088	20715.0	192000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	49	Orbivirus	genus	target		True	54178	21064.0	196000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	50	Orbivirus	genus	target		True	55285	21425.0	200000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	51	Orbivirus	genus	target		True	56394	21790.0	204000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	52	Orbivirus	genus	target		True	57513	22168.0	208000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	53	Orbivirus	genus	target		True	58639	22570.0	212000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	54	Orbivirus	genus	target		True	59787	23068.0	216000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	55	Orbivirus	genus	target		True	60978	23299.0	220000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	56	Orbivirus	genus	target		True	62184	23534.0	224000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	57	Orbivirus	genus	target		True	63358	23780.0	228000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	58	Orbivirus	genus	target		True	64581	24025.0	232000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	59	Orbivirus	genus	target		True	65797	24277.0	236000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	60	Orbivirus	genus	target		True	67013	24528.0	240000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	61	Orbivirus	genus	target		True	68193	24784.0	244000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	62	Orbivirus	genus	target		True	69390	25042.0	248000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	63	Orbivirus	genus	target		True	70563	25301.0	252000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	64	Orbivirus	genus	target		True	71663	25559.0	256000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	65	Orbivirus	genus	target		True	72853	25829.0	260000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	66	Orbivirus	genus	target		True	74036	26101.0	264000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	67	Orbivirus	genus	target		True	75120	26384.0	268000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	68	Orbivirus	genus	target		True	76220	26674.0	272000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	69	Orbivirus	genus	target		True	77306	26970.0	276000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	70	Orbivirus	genus	target		True	78341	27287.0	280000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	71	Orbivirus	genus	target		True	79364	27617.0	284000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	72	Orbivirus	genus	target		True	80383	27954.0	288000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	73	Orbivirus	genus	target		True	81394	28554.0	292000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	74	Orbivirus	genus	target		True	82548	28950.0	296000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	75	Orbivirus	genus	target		True	83737	29349.0	300000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	76	Orbivirus	genus	target		True	84903	29772.0	304000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	77	Orbivirus	genus	target		True	86082	30193.0	308000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	78	Orbivirus	genus	target		True	87208	30640.0	312000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	79	Orbivirus	genus	target		True	88366	31108.0	316000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	80	Orbivirus	genus	target		True	89533	31596.0	320000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	81	Orbivirus	genus	target		True	90670	32119.0	324000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	82	Orbivirus	genus	target		True	91825	32676.0	328000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	83	Orbivirus	genus	target		True	93049	33276.0	332000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	84	Orbivirus	genus	target		True	94237	33934.0	336000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	85	Orbivirus	genus	target		True	95372	34492.0	340000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	86	Orbivirus	genus	target		True	96509	34798.0	344000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	87	Orbivirus	genus	target		True	97601	35121.0	348000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	88	Orbivirus	genus	target		True	98685	35455.0	352000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	89	Orbivirus	genus	target		True	99781	35795.0	356000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	90	Orbivirus	genus	target		True	100816	36163.0	360000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	91	Orbivirus	genus	target		True	101905	36570.0	364000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	92	Orbivirus	genus	target		True	102967	37017.0	368000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	93	Orbivirus	genus	target		True	104053	37543.0	372000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	94	Orbivirus	genus	target		True	105184	38150.0	376000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	95	Orbivirus	genus	target		True	106377	38799.0	380000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	96	Orbivirus	genus	target		True	107552	39467.0	384000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	97	Orbivirus	genus	target		True	108678	40077.0	388000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	98	Orbivirus	genus	target		True	109820	40337.0	392000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	99	Orbivirus	genus	target		True	110934	40604.0	396000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	100	Orbivirus	genus	target		True	111989	40895.0	400000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	101	Orbivirus	genus	target		True	113008	41198.0	404000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	102	Orbivirus	genus	target		True	113933	41560.0	408000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	103	Orbivirus	genus	target		True	114910	41988.0	412000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	104	Orbivirus	genus	target		True	115819	42518.0	416000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	105	Orbivirus	genus	target		True	116779	43175.0	420000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	106	Orbivirus	genus	target		True	117779	43926.0	424000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	107	Orbivirus	genus	target		True	118891	44737.0	428000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	108	Orbivirus	genus	target		True	119959	45704.0	432000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	109	Orbivirus	genus	target		True	121012	46113.0	436000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	110	Orbivirus	genus	target		True	121955	46663.0	440000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	111	Orbivirus	genus	target		True	122919	47501.0	444000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	112	Orbivirus	genus	target		True	123920	48917.0	448000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	113	Orbivirus	genus	target		True	125016	51338.0	452000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	114	Orbivirus	genus	target		True	126070	51864.0	456000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	115	Orbivirus	genus	target		True	127131	57177.0	460000
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo	+ DIAMOND	116	Orbivirus	genus	target		True	128075	68340.0	464000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	1	Orthoflavivirus encephalitidis	species	target		True	1138	289.7874	4000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	2	Orthoflavivirus encephalitidis	species	target		True	2375	502.3556	8000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	3	Orthoflavivirus encephalitidis	species	target		True	3630	708.2438	12000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	4	Orthoflavivirus encephalitidis	species	target		True	4942	908.276199	16000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	5	Orthoflavivirus encephalitidis	species	target		True	6244	1102.4274	20000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	6	Orthoflavivirus encephalitidis	species	target		True	7557	1296.3718	24000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	7	Orthoflavivirus encephalitidis	species	target		True	8859	1479.7062	28000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	8	Orthoflavivirus encephalitidis	species	target		True	10163	1664.3536	32000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	9	Orthoflavivirus encephalitidis	species	target		True	11505	1849.8058	36000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	10	Orthoflavivirus encephalitidis	species	target		True	12836	2033.9296	40000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	11	Orthoflavivirus encephalitidis	species	target		True	14206	2225.389	44000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	12	Orthoflavivirus encephalitidis	species	target		True	15577	2412.0266	48000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	13	Orthoflavivirus encephalitidis	species	target		True	16964	2600.78	52000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	14	Orthoflavivirus encephalitidis	species	target		True	18377	2786.0784	56000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	15	Orthoflavivirus encephalitidis	species	target		True	19713	2978.4592	60000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	16	Orthoflavivirus encephalitidis	species	target		True	21085	3170.52	64000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	17	Orthoflavivirus encephalitidis	species	target		True	22499	3365.705	68000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	18	Orthoflavivirus encephalitidis	species	target		True	23884	3553.3546	72000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	19	Orthoflavivirus encephalitidis	species	target		True	25293	3753.6414	76000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	20	Orthoflavivirus encephalitidis	species	target		True	26707	3953.186199	80000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	21	Orthoflavivirus encephalitidis	species	target		True	28104	4153.879	84000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	22	Orthoflavivirus encephalitidis	species	target		True	29581	4357.7718	88000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	23	Orthoflavivirus encephalitidis	species	target		True	30983	4558.3354	92000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	24	Orthoflavivirus encephalitidis	species	target		True	32401	4757.7686	96000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	25	Orthoflavivirus encephalitidis	species	target		True	33840	4967.0018	100000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	26	Orthoflavivirus encephalitidis	species	target		True	35285	5169.6684	104000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	27	Orthoflavivirus encephalitidis	species	target		True	36755	5370.6086	108000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	28	Orthoflavivirus encephalitidis	species	target		True	38120	5781.1534	112000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	29	Orthoflavivirus encephalitidis	species	target		True	39627	5957.4836	116000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	30	Orthoflavivirus encephalitidis	species	target		True	41132	6136.947	120000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	31	Orthoflavivirus encephalitidis	species	target		True	42565	6322.6092	124000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	32	Orthoflavivirus encephalitidis	species	target		True	43972	6507.3832	128000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	33	Orthoflavivirus encephalitidis	species	target		True	45380	6687.6342	132000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	34	Orthoflavivirus encephalitidis	species	target		True	46826	6871.068	136000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	35	Orthoflavivirus encephalitidis	species	target		True	48299	7058.2624	140000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	36	Orthoflavivirus encephalitidis	species	target		True	49679	7259.94	144000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	37	Orthoflavivirus encephalitidis	species	target		True	51144	7461.5918	148000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	38	Orthoflavivirus encephalitidis	species	target		True	52642	7663.8534	152000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	39	Orthoflavivirus encephalitidis	species	target		True	54157	7866.6502	156000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	40	Orthoflavivirus encephalitidis	species	target		True	55625	8073.0544	160000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	41	Orthoflavivirus encephalitidis	species	target		True	57143	8277.947	164000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	42	Orthoflavivirus encephalitidis	species	target		True	58605	8487.9038	168000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	43	Orthoflavivirus encephalitidis	species	target		True	60065	8698.5622	172000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	44	Orthoflavivirus encephalitidis	species	target		True	61656	8918.859	176000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	45	Orthoflavivirus encephalitidis	species	target		True	63305	9149.614	180000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	46	Orthoflavivirus encephalitidis	species	target		True	64948	9369.362	184000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	47	Orthoflavivirus encephalitidis	species	target		True	66606	9600.2752	188000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	48	Orthoflavivirus encephalitidis	species	target		True	68303	9846.1768	192000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	49	Orthoflavivirus encephalitidis	species	target		True	69936	10085.252	196000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	50	Orthoflavivirus encephalitidis	species	target		True	71589	10331.6684	200000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	51	Orthoflavivirus encephalitidis	species	target		True	73238	10576.7944	204000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	52	Orthoflavivirus encephalitidis	species	target		True	74852	10823.1164	208000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	53	Orthoflavivirus encephalitidis	species	target		True	76535	11070.6844	212000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	54	Orthoflavivirus encephalitidis	species	target		True	78142	11513.6262	216000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	55	Orthoflavivirus encephalitidis	species	target		True	79761	11741.5746	220000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	56	Orthoflavivirus encephalitidis	species	target		True	81356	11974.5874	224000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	57	Orthoflavivirus encephalitidis	species	target		True	82971	12198.9862	228000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	58	Orthoflavivirus encephalitidis	species	target		True	84658	12444.7788	232000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	59	Orthoflavivirus encephalitidis	species	target		True	86347	12692.7124	236000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	60	Orthoflavivirus encephalitidis	species	target		True	88028	12941.5064	240000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	61	Orthoflavivirus encephalitidis	species	target		True	89647	13194.7104	244000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	62	Orthoflavivirus encephalitidis	species	target		True	91307	13444.3504	248000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	63	Orthoflavivirus encephalitidis	species	target		True	92945	13697.0568	252000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	64	Orthoflavivirus encephalitidis	species	target		True	94660	13948.956	256000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	65	Orthoflavivirus encephalitidis	species	target		True	96320	14207.9038	260000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	66	Orthoflavivirus encephalitidis	species	target		True	98008	14463.234	264000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	67	Orthoflavivirus encephalitidis	species	target		True	99711	14727.979	268000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	68	Orthoflavivirus encephalitidis	species	target		True	101377	14987.877	272000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	69	Orthoflavivirus encephalitidis	species	target		True	103112	15246.7332	276000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	70	Orthoflavivirus encephalitidis	species	target		True	104796	15514.4342	280000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	71	Orthoflavivirus encephalitidis	species	target		True	106410	15780.3516	284000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	72	Orthoflavivirus encephalitidis	species	target		True	108069	16051.4796	288000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	73	Orthoflavivirus encephalitidis	species	target		True	109751	16317.791	292000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	74	Orthoflavivirus encephalitidis	species	target		True	111367	16592.1754	296000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	75	Orthoflavivirus encephalitidis	species	target		True	112991	17080.9848	300000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	76	Orthoflavivirus encephalitidis	species	target		True	114626	17308.2066	304000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	77	Orthoflavivirus encephalitidis	species	target		True	116337	17559.153	308000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	78	Orthoflavivirus encephalitidis	species	target		True	117967	17796.5686	312000
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293	RefSeq only	79	Orthoflavivirus encephalitidis	species	target		True	118726	17913.7126	313867
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	1	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	13		4000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	1	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	0		4000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	1	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		4000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	2	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	32		8000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	2	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	0		8000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	2	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		8000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	3	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	48		12000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	3	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		12000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	3	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		12000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	4	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	66		16000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	4	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		16000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	4	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		16000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	79		20000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	5	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		20000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		20000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	6	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	87		24000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	6	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		24000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	6	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		24000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	7	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	100		28000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	7	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		28000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	7	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		28000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	8	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	109		32000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	8	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		32000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	8	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		32000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	9	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	122		36000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	9	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		36000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	9	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		36000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	10	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	144		40000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	10	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		40000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	10	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		40000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	11	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	168		44000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	11	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		44000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	11	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		44000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	12	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	183		48000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	12	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		48000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	12	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		48000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	13	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	200		52000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	13	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		52000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	13	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		52000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	14	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	216		56000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	14	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		56000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	14	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		56000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	15	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	223		60000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	15	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		60000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	15	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		60000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	16	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	239		64000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	16	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		64000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	16	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		64000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	17	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	254		68000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	17	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		68000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	17	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		68000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	18	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	268		72000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	18	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		72000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	18	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		72000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	19	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	275		76000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	19	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		76000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	19	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		76000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	20	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	289		80000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	20	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		80000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	20	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		80000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	21	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	308		84000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	21	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		84000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	21	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		84000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	22	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	320		88000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	22	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		88000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	22	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		88000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	23	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	335		92000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	23	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		92000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	23	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		92000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	24	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	346		96000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	24	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		96000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	24	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		96000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	25	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	355		100000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	25	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		100000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	25	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		100000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	26	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	359		104000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	26	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		104000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	26	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		104000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	27	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	371		108000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	27	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		108000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	27	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		108000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	28	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	382		112000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	28	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		112000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	28	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		112000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	29	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	396		116000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	29	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		116000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	29	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		116000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	30	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	407		120000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	30	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		120000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	30	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		120000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	31	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	417		124000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	31	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		124000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	31	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		124000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	32	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	429		128000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	32	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		128000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	32	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		128000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	33	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	444		132000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	33	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		132000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	33	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		132000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	34	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	454		136000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	34	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		136000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	34	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		136000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	35	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	465		140000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	35	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		140000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	35	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		140000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	36	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	483		144000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	36	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		144000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	36	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		144000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	37	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	500		148000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	37	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		148000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	37	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		148000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	38	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	508		152000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	38	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		152000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	38	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		152000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	39	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	524		156000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	39	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		156000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	39	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		156000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	40	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	541		160000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	40	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		160000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	40	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		160000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	41	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	550		164000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	41	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		164000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	41	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		164000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	42	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	562		168000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	42	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		168000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	42	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		168000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	43	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	574		172000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	43	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		172000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	43	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		172000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	44	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	585		176000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	44	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		176000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	44	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		176000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	45	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	606		180000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	45	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		180000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	45	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		180000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	46	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	617		184000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	46	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		184000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	46	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		184000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	47	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	631		188000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	47	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		188000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	47	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		188000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	48	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	649		192000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	48	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		192000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	48	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		192000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	49	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	668		196000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	49	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		196000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	49	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		196000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	50	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	683		200000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	50	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		200000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	50	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		200000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	51	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	701		204000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	51	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		204000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	51	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		204000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	52	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	712		208000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	52	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		208000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	52	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		208000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	53	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	725		212000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	53	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		212000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	53	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		212000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	54	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	742		216000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	54	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	2		216000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	54	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		216000
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	55	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	749		216828
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	55	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	2		216828
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33	RefSeq only	55	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		216828
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	1	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	15		4000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	1	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	0		4000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	1	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	2		4000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	2	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	37		8000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	2	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	0		8000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	2	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	7		8000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	3	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	55		12000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	3	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		12000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	3	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	12		12000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	4	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	75		16000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	4	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		16000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	4	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	16		16000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	89		20000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	5	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		20000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	21		20000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	6	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	98		24000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	6	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		24000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	6	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	23		24000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	7	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	112		28000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	7	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		28000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	7	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	26		28000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	8	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	122		32000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	8	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		32000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	8	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	30		32000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	9	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	140		36000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	9	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		36000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	9	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	32		36000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	10	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	162		40000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	10	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		40000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	10	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	33		40000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	11	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	187		44000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	11	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		44000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	11	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	34		44000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	12	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	204		48000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	12	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		48000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	12	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	38		48000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	13	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	223		52000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	13	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		52000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	13	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	42		52000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	14	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	243		56000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	14	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		56000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	14	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	47		56000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	15	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	251		60000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	15	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		60000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	15	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	49		60000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	16	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	268		64000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	16	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		64000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	16	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	52		64000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	17	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	285		68000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	17	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		68000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	17	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	55		68000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	18	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	302		72000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	18	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		72000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	18	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	56		72000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	19	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	310		76000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	19	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		76000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	19	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	59		76000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	20	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	329		80000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	20	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		80000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	20	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	66		80000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	21	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	350		84000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	21	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		84000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	21	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	69		84000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	22	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	364		88000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	22	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		88000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	22	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	69		88000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	23	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	382		92000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	23	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		92000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	23	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	74		92000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	24	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	396		96000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	24	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		96000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	24	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	77		96000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	25	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	405		100000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	25	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		100000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	25	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	80		100000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	26	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	412		104000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	26	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		104000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	26	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	82		104000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	27	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	424		108000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	27	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		108000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	27	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	85		108000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	28	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	437		112000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	28	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		112000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	28	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	86		112000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	29	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	454		116000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	29	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		116000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	29	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	89		116000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	30	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	466		120000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	30	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		120000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	30	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	93		120000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	31	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	478		124000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	31	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		124000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	31	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	93		124000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	32	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	490		128000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	32	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		128000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	32	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	96		128000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	33	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	507		132000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	33	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		132000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	33	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	100		132000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	34	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	521		136000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	34	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		136000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	34	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	107		136000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	35	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	533		140000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	35	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		140000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	35	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	110		140000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	36	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	552		144000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	36	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		144000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	36	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	113		144000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	37	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	571		148000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	37	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		148000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	37	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	119		148000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	38	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	580		152000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	38	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		152000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	38	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	121		152000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	39	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	596		156000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	39	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		156000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	39	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	124		156000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	40	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	615		160000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	40	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		160000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	40	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	127		160000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	41	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	627		164000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	41	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		164000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	41	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	128		164000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	42	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	640		168000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	42	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		168000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	42	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	130		168000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	43	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	655		172000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	43	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		172000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	43	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	134		172000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	44	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	667		176000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	44	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		176000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	44	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	135		176000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	45	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	692		180000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	45	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		180000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	45	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	140		180000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	46	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	706		184000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	46	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		184000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	46	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	141		184000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	47	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	722		188000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	47	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		188000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	47	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	147		188000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	48	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	743		192000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	48	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		192000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	48	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	149		192000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	49	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	762		196000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	49	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		196000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	49	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	150		196000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	50	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	778		200000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	50	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		200000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	50	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	152		200000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	51	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	798		204000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	51	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		204000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	51	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	158		204000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	52	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	810		208000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	52	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		208000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	52	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	158		208000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	53	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	826		212000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	53	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	1		212000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	53	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	164		212000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	54	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	849		216000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	54	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	2		216000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	54	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	167		216000
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	55	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	856		216828
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	55	Jingmenvirus	genus	pcr_neg	JMTV, PCR- (not in Ergunay 2023, Table S2)	False	2		216828
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33	+ DIAMOND	55	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	167		216828
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	1	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	168		4000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	1	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	78		4000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	1	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		4000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	1	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		4000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	2	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	320		8000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	2	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	127		8000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	2	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		8000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	2	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		8000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	3	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	517		12000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	3	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	200		12000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	3	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		12000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	3	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		12000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	4	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	703		16000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	4	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	276		16000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	4	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	0		16000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	4	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		16000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	886		20000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	5	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	357		20000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		20000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	5	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		20000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	6	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1054		24000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	6	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	416		24000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	6	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		24000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	6	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		24000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	7	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1225		28000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	7	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	481		28000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	7	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		28000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	7	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		28000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	8	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1397		32000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	8	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	545		32000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	8	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		32000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	8	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		32000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	9	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1547		36000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	9	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	604		36000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	9	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		36000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	9	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		36000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	10	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1699		40000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	10	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	666		40000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	10	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		40000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	10	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		40000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	11	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1856		44000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	11	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	727		44000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	11	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		44000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	11	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		44000
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	12	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1872		44503
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	12	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	738		44503
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	12	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	1		44503
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37	RefSeq only	12	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	0		44503
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	1	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	180		4000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	1	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	338		4000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	1	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	41		4000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	1	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	1		4000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	2	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	335		8000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	2	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	585		8000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	2	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	64		8000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	2	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	1		8000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	3	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	541		12000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	3	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	901		12000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	3	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	111		12000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	3	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	3		12000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	4	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	738		16000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	4	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	1205		16000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	4	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	150		16000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	4	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	4		16000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	5	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	929		20000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	5	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	1516		20000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	5	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	185		20000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	5	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	5		20000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	6	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1106		24000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	6	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	1816		24000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	6	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	232		24000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	6	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	8		24000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	7	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1288		28000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	7	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	2120		28000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	7	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	265		28000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	7	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	9		28000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	8	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1474		32000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	8	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	2407		32000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	8	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	298		32000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	8	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	10		32000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	9	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1633		36000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	9	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	2676		36000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	9	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	324		36000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	9	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	13		36000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	10	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1794		40000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	10	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	2935		40000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	10	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	353		40000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	10	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	14		40000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	11	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1956		44000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	11	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	3188		44000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	11	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	379		44000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	11	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	16		44000
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	12	Orthonairovirus	genus	pcr_pos	CCHFV, PCR+ (Ergunay 2023, Table S3)	True	1974		44503
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	12	Jingmenvirus	genus	pcr_pos	JMTV, PCR+ (Ergunay 2023, Table S2)	False	3217		44503
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	12	Mivirus	genus	reported	Bole tick virus 3, BLAST (Ergunay 2023, Table S4)	False	384		44503
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37	+ DIAMOND	12	Phlebovirus	genus	reported	Brown dog tick phlebovirus 2, BLAST (Ergunay 2023, Table S5)	False	16		44503

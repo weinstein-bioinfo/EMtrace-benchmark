@@ -1,0 +1,11 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Bat coronavirus	FP	15.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	131845.0	1.0
+Viruses	species	Enterovirus cerhino	FP	35.0	0.0
+Viruses	species	Megareus marna-like virus 1	FP	12.0	0.0
+Viruses	species	Pangolin coronavirus	FP	4489.0	0.0
+Viruses	genus	Betacoronavirus	TP	136334.0	1.0
+Viruses	genus	Enterovirus	FP	35.0	0.0
+Viruses	family	Coronaviridae	TP	136349.0	1.0
+Viruses	family	Marnaviridae	FP	12.0	0.0
+Viruses	family	Picornaviridae	FP	35.0	0.0

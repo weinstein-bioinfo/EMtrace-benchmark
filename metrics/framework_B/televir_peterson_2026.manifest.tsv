@@ -1,0 +1,5 @@
+sample_id	consensus	reference
+SRR32419728	results/insaflu_out/petersen2026/Dengue_SRR32419728//televir.consensus.fa	data/sra/refs/petersen_2026/SRR32419728.fasta
+SRR15356294	results/insaflu_out/petersen2026/SARS_SRR15356294//televir.consensus.fa	data/sra/refs/petersen_2026/SRR15356294.fasta
+ERR14941561	results/insaflu_out/petersen2026/WestNile_ERR14941561//televir.consensus.fa	data/sra/refs/petersen_2026/ERR14941561.fasta
+SRR31174237	results/insaflu_out/petersen2026/Zika_SRR31174237//televir.consensus.fa	data/sra/refs/petersen_2026/SRR31174237.fasta

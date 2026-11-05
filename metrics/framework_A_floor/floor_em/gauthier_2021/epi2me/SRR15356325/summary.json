@@ -1,0 +1,83 @@
+{
+  "AUPR": 0.5,
+  "F_max": 1.0,
+  "Pr_at_Fmax": 1.0,
+  "Rc_at_Fmax": 1.0,
+  "config": {
+    "buddle": false,
+    "dilution_series": false,
+    "drop_unknown": true,
+    "exclude_retro": false,
+    "filter_col": "readn_em",
+    "keep_phages": false,
+    "min_rel": 0.0001,
+    "min_rel_exclude": [
+      "Primates"
+    ],
+    "nc_pred": null,
+    "outdir": "metrics/framework_A_floor/floor_em/gauthier_2021/epi2me/SRR15356325",
+    "pred": "results/framework_A/epi2me/gauthier_2021/SRR15356325/SRR15356325_epi2me.bracken.tsv",
+    "pred_fmt": "epi2me",
+    "ranks": [
+      "species",
+      "genus",
+      "family"
+    ],
+    "read_min": 10.0,
+    "score_col": "readn",
+    "tail_ba": 0.0,
+    "tail_col": "readn",
+    "tail_vi": 0.0,
+    "taxgroups": [
+      "Viruses"
+    ],
+    "tn_universe": null,
+    "total_reads_nc": null,
+    "total_reads_sample": null,
+    "truth": "metrics/framework_A_floor/floor_em/gauthier_2021/epi2me/SRR15356325/truth.sample.tsv"
+  },
+  "metrics": [
+    {
+      "F1": 0.6666666666666666,
+      "FN": 0,
+      "FP": 1,
+      "Pr": 0.5,
+      "Rc": 1.0,
+      "TP": 1,
+      "mean_accuracy": 0.75,
+      "n_pred": 2,
+      "n_true": 1,
+      "rank": "species",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 1.0,
+      "FN": 0,
+      "FP": 0,
+      "Pr": 1.0,
+      "Rc": 1.0,
+      "TP": 1,
+      "mean_accuracy": 1.0,
+      "n_pred": 1,
+      "n_true": 1,
+      "rank": "genus",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 1.0,
+      "FN": 0,
+      "FP": 0,
+      "Pr": 1.0,
+      "Rc": 1.0,
+      "TP": 1,
+      "mean_accuracy": 1.0,
+      "n_pred": 1,
+      "n_true": 1,
+      "rank": "family",
+      "taxgroup": "Viruses"
+    }
+  ],
+  "primary_rank": "species",
+  "primary_taxgroup": "Viruses",
+  "threshold_at_Fmax": 46604.0
+}

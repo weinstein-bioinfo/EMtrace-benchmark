@@ -1,0 +1,65 @@
+output_dir: data/petersen_2026/background_vimop
+sequences:
+- name: Smitis_SK637
+  organism: Streptococcus mitis SK637
+  accession: GCF_000722765.2
+  fraction: 0.01
+  n_reads: 5000
+  fasta: data/petersen_2026/background_vimop/GCF_000722765.2_ASM72276v2_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Smitis_SK637/Smitis_SK637.fastq.gz
+- name: Cpseudodiphtheriticum
+  organism: Corynebacterium pseudodiphtheriticum ACRQT
+  accession: GCF_022345865.1
+  fraction: 0.01
+  n_reads: 5000
+  fasta: data/petersen_2026/background_vimop/GCF_022345865.1_ASM2234586v1_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Cpseudodiphtheriticum/Cpseudodiphtheriticum.fastq.gz
+- name: Capnocytophaga_sputigena
+  organism: Capnocytophaga sputigena
+  accession: GCF_002302415.1
+  fraction: 0.01
+  n_reads: 5000
+  fasta: data/petersen_2026/background_vimop/GCF_002302415.1_ASM230241v1_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Capnocytophaga_sputigena/Capnocytophaga_sputigena.fastq.gz
+- name: Mcatarrhalis
+  organism: Moraxella catarrhalis
+  accession: GCF_002080125.1
+  fraction: 0.02
+  n_reads: 10000
+  fasta: data/petersen_2026/background_vimop/GCF_002080125.1_ASM208012v1_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Mcatarrhalis/Mcatarrhalis.fastq.gz
+- name: Spyogenes_SF370
+  organism: Streptococcus pyogenes SF370 (M1 GAS)
+  accession: GCF_000006785.2
+  fraction: 0.05
+  n_reads: 25000
+  fasta: data/petersen_2026/background_vimop/GCF_000006785.2_ASM678v2_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Spyogenes_SF370/Spyogenes_SF370.fastq.gz
+- name: Dpigrum_KPL3250
+  organism: Dolosigranulum pigrum KPL3250
+  accession: GCF_017655665.1
+  fraction: 0.05
+  n_reads: 25000
+  fasta: data/petersen_2026/background_vimop/GCF_017655665.1_ASM1765566v1_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Dpigrum_KPL3250/Dpigrum_KPL3250.fastq.gz
+- name: Saureus_NCTC8325
+  organism: Staphylococcus aureus NCTC8325
+  accession: GCF_000013425.1
+  fraction: 0.05
+  n_reads: 25000
+  fasta: data/petersen_2026/background_vimop/GCF_000013425.1_ASM1342v1_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Saureus_NCTC8325/Saureus_NCTC8325.fastq.gz
+- name: Pputida_KT2440
+  organism: Pseudomonas putida KT2440
+  accession: GCF_000007565.2
+  fraction: 0.05
+  n_reads: 25000
+  fasta: data/petersen_2026/background_vimop/GCF_000007565.2_ASM756v2_genomic.fna.gz
+  fastq: data/petersen_2026/fastq/Pputida_KT2440/Pputida_KT2440.fastq.gz
+- name: human
+  organism: Homo sapiens (GRCh38.p14)
+  accession: GCF_000001405.40
+  fraction: 0.75
+  n_reads: 375000
+  fasta: data/petersen_2026/background_vimop/GCF_000001405.40_GRCh38.p14_genomic.fna
+  fastq: data/petersen_2026/fastq/human/human.fastq.gz

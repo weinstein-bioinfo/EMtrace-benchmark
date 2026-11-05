@@ -1,0 +1,17 @@
+sample,user,system,cpu,total,max_rss_mb,exit_status
+spaghetti.barcode79,21602.265,238.918,778,2809.077,1704.1,0
+spaghetti.synthgut,30881.870,204.179,772,4025.030,3495.1,0
+emu.emtracereads.synthgut,27132.137,97.239,758,3592.737,5433.2,0
+synthgut.emu.N25.T10.noQ,28837.092,372.590,652,4479.010,10858.0,0
+emu.gutmock_sup_r1,9109.171,24.794,777,1175.093,2410.5,0
+spaghetti.gutmock_sup_r1,6487.751,77.196,763,860.877,1818.5,0
+spaghetti.gutmock_sup_r1,8909.972,94.800,765,1176.952,1470.7,0
+emu.gutmock_sup_r2,10639.873,43.886,762,1401.881,2172.5,0
+spaghetti.gutmock_sup_r2,6988.193,76.386,765,923.479,1817.3,0
+spaghetti.gutmock_sup_r2,9289.268,85.889,748,1252.844,1449.0,0
+emu.gutmock_sup_r3,10033.077,33.360,777,1295.869,1953.5,0
+spaghetti.gutmock_sup_r3,7224.012,88.220,764,957.000,1214.2,0
+spaghetti.gutmock_sup_r3,9433.561,96.906,746,1278.378,1489.3,0
+emu.gutmock_sup_r4,10885.453,34.215,776,1406.303,2068.4,0
+spaghetti.gutmock_sup_r4,7654.498,91.853,765,1012.274,1046.7,0
+spaghetti.gutmock_sup_r4,9944.348,94.143,775,1295.175,1501.6,0

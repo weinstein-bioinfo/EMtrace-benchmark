@@ -1,0 +1,5 @@
+sample_id	nc_sample_id	taxid	species	genus	family	order	class	division	organism	prob	gc_per_ml	readn
+ERR13488560	ERR13488751	11250	Orthopneumovirus hominis	Orthopneumovirus	Pneumoviridae	Mononegavirales	Monjiviricetes	Viruses	Human respiratory syncytial virus	1.0	600	1.0
+ERR13488560	ERR13488751	11520	Betainfluenzavirus influenzae	Betainfluenzavirus	Orthomyxoviridae	Articulavirales	Insthoviricetes	Viruses	Influenza B virus	1.0	600	1.0
+ERR13488560	ERR13488751	351073	Orthoreovirus mammalis	Orthoreovirus	Spinareoviridae	Reovirales	Resentoviricetes	Viruses	Mammalian orthoreovirus 3	1.0	600	1.0
+ERR13488560	ERR13488751	64320	Orthoflavivirus zikaense	Orthoflavivirus	Flaviviridae	Amarillovirales	Flasuviricetes	Viruses	Zika virus	1.0	600	1.0

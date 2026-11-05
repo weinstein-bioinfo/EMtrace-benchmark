@@ -1,0 +1,5 @@
+sample_id	consensus	reference
+ERR14941561	results/vimop_out/petersen/ERR14941561//selected_consensus/WNV.fasta	data/sra/refs/petersen_2026/ERR14941561.fasta
+SRR15356294	results/vimop_out/petersen/SRR15356294//consensus/PH136329.consensus.fasta	data/sra/refs/petersen_2026/SRR15356294.fasta
+SRR31174237	results/vimop_out/petersen/SRR31174237//selected_consensus/ZIKA.fasta	data/sra/refs/petersen_2026/SRR31174237.fasta
+SRR32419728	results/vimop_out/petersen/SRR32419728//selected_consensus/DENV.fasta	data/sra/refs/petersen_2026/SRR32419728.fasta

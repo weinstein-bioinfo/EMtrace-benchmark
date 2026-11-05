@@ -1,0 +1,28 @@
+run	library	anns	event	batch	seq_time_s	wall_s	reads_cum	top_taxon	em_prob	L1	n_pred	n_true	TP	FP	FN	Pr	Rc	F1
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	first_call	1	788.0	140.919	4000	Orbivirus	0.4432207100472161		1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	stabilised	65	25829.0	11726.846	260000	Orbivirus	0.4172523439485089		9.0	1.0	1.0	8.0	0.0	0.1111	1.0	0.2
+Orbivirus_kevo.refseq_abv1g_k11w5	Orbivirus_kevo.refseq_abv1g_k11w5	frameC.orbi	final	116	68340.0	21438.227	464000	Orbivirus	0.4271669049038473		15.0	1.0	1.0	14.0	0.0	0.0667	1.0	0.125
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	first_call	1	788.0	229.274	4000	Orbivirus	0.4252764348403313		1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	stabilised	66	26101.0	17453.663	264000	Orbivirus	0.3703861854052368		10.0	1.0	1.0	9.0	0.0	0.1	1.0	0.1818
+Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	Orbivirus_kevo.refseq_abv1g_k11w5_dmnd	frameC.orbi	final	116	68340.0	32619.548	464000	Orbivirus	0.3605380089604802		13.0	1.0	1.0	12.0	0.0	0.0769	1.0	0.1429
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	first_call	1	289.7874	86.613	4000	Orthoflavivirus encephalitidis	1.0000000000000249		1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	stabilised	1	289.7874	86.613	4000	Orthoflavivirus encephalitidis	1.0000000000000249		1.0	1.0	1.0	0.0	0.0	1.0	1.0	1.0
+TBEV_FBC92293.refseq_abv1g	TBEV_FBC92293.refseq_abv1g	abv.1g	final	79	17913.7126	7389.121	313867	Orthoflavivirus encephalitidis	0.9996392284398448		2.0	1.0	1.0	1.0	0.0	0.5	1.0	0.6667
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	stabilised	5		2540.506	20000	Orthonairovirus	0.2289405684754539									
+ticks_58-37.refseq_abv1g_k11w5	ticks_58-37.refseq_abv1g_k11w5	abv.1g.k11w5	final	12		3223.022	44503	Orthonairovirus	0.2361479237662545									
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	stabilised	1		155.384	4000	Jingmenvirus	0.2859427725862075									
+ticks_58-37.refseq_abv1g_k11w5_dmnd	ticks_58-37.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	final	12		3696.497	44503	Jingmenvirus	0.2917950088881329									
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	stabilised	1		100.568	4000	Psychrobacter	0.2403769713844465									
+ticks_35-33.refseq_abv1g_k11w5	ticks_35-33.refseq_abv1g_k11w5	abv.1g.k11w5	final	55		6373.969	216828	Psychrobacter	0.2459781449220886									
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	stabilised	1		117.802	4000	Psychrobacter	0.2399824796370947									
+ticks_35-33.refseq_abv1g_k11w5_dmnd	ticks_35-33.refseq_abv1g_k11w5_dmnd	abv.1g.k11w5.dmnd	final	55		7465.281	216828	Psychrobacter	0.2455640977580268									
+barcode79	barcode79	16S.rrnDB.dedup	stabilised	1	5135.0	287.313	4000	Bacillus	0.2391554443503549	0.2660137304832513	8.0	8.0	8.0	0.0	0.0	1.0	1.0	1.0
+barcode79	barcode79	16S.rrnDB.dedup	final	26	258458.0	7401.188	100128	Bacillus	0.2276224708978886	0.2614435968512193	19.0	8.0	8.0	11.0	0.0	0.4211	1.0	0.5926
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	stabilised	1	565.668	187.862	4000	Veillonella	0.2723086494109741	0.592859137344303	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r1	gutmock_sup_r1	16S.rrnDB.dedup	final	19	6984.422	3350.696	72830	Veillonella	0.2710289443066437	0.5814301395113342	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	stabilised	1	520.551	179.854	4000	Veillonella	0.2618116165189315	0.5788734270548852	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r2	gutmock_sup_r2	16S.rrnDB.dedup	final	20	6984.381	3614.195	79122	Veillonella	0.2677051855457696	0.5799530090390153	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	stabilised	1	521.799	177.843	4000	Veillonella	0.2549037215770119	0.5806387917025664	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r3	gutmock_sup_r3	16S.rrnDB.dedup	final	20	7011.417	3621.752	78281	Veillonella	0.2672456548130758	0.5834170642727592	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	stabilised	1	536.9	178.84	4000	Veillonella	0.2564536087976862	0.5776575960755274	11.0	15.0	11.0	0.0	4.0	1.0	0.7333	0.8462
+gutmock_sup_r4	gutmock_sup_r4	16S.rrnDB.dedup	final	22	7052.414	3946.534	84233	Veillonella	0.270642168310139	0.5778979875231731	12.0	15.0	12.0	0.0	3.0	1.0	0.8	0.8889

@@ -1,0 +1,17 @@
+sample_id	consensus	reference
+SRR15356329	results/insaflu_out/gauthier2021/P23_SRR15356329//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356329.fasta
+SRR15356328	results/insaflu_out/gauthier2021/P24_SRR15356328//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356328.fasta
+SRR15356305	results/insaflu_out/gauthier2021/P25_SRR15356305//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356305.fasta
+SRR15356306	results/insaflu_out/gauthier2021/P26_SRR15356306//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356306.fasta
+SRR15356327	results/insaflu_out/gauthier2021/P27_SRR15356327//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356327.fasta
+SRR15356326	results/insaflu_out/gauthier2021/P28_SRR15356326//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356326.fasta
+SRR15356325	results/insaflu_out/gauthier2021/P29_SRR15356325//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356325.fasta
+SRR15356298	results/insaflu_out/gauthier2021/P2_SRR15356298//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356298.fasta
+SRR15356307	results/insaflu_out/gauthier2021/P30_SRR15356307//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356307.fasta
+SRR15356322	results/insaflu_out/gauthier2021/P34_SRR15356322//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356322.fasta
+SRR15356310	results/insaflu_out/gauthier2021/P35_SRR15356310//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356310.fasta
+SRR15356311	results/insaflu_out/gauthier2021/P36_SRR15356311//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356311.fasta
+SRR15356321	results/insaflu_out/gauthier2021/P37_SRR15356321//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356321.fasta
+SRR15356320	results/insaflu_out/gauthier2021/P38_SRR15356320//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356320.fasta
+SRR15356303	results/insaflu_out/gauthier2021/P3_SRR15356303//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356303.fasta
+SRR15356308	results/insaflu_out/gauthier2021/P4_SRR15356308//televir.consensus.fa	data/sra/refs/gauthier_2021/SRR15356308.fasta

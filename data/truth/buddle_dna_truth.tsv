@@ -1,0 +1,17 @@
+sample_id	nc_sample_id	taxid	species	genus	family	order	class	division	organism	prob	gc_per_ml
+ERR13488553	ERR13488555	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	60
+ERR13488553	ERR13488555	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	60
+ERR13488749	ERR13488555	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	600
+ERR13488749	ERR13488555	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	600
+ERR13488550	ERR13488555	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	6000
+ERR13488550	ERR13488555	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	6000
+ERR13485822	ERR13488555	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	60000
+ERR13485822	ERR13488555	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	60000
+ERR13488554	ERR13488750	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	60
+ERR13488554	ERR13488750	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	60
+ERR13488552	ERR13488750	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	600
+ERR13488552	ERR13488750	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	600
+ERR13488551	ERR13488750	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	6000
+ERR13488551	ERR13488750	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	6000
+ERR13488549	ERR13488750	3241426	Mastadenovirus faecale	Mastadenovirus	Adenoviridae	Rowavirales	Pharingeaviricetes	Viruses	Human mastadenovirus F	1.0	60000
+ERR13488549	ERR13488750	10359	Cytomegalovirus humanbeta5	Cytomegalovirus	Orthoherpesviridae	Herpesvirales	Herviviricetes	Viruses	Human herpesvirus 5	1.0	60000

@@ -1,0 +1,17 @@
+pipeline	sample_id	path	fmt	gc_per_ml
+emtrace	SRR31174237	results/framework_b/sra_petersen_2026_v20260924_refauto/SRR31174237/results/reports/abund_table.tsv	emtrace	
+epi2me	SRR31174237	results/framework_A/epi2me/peterson_2026/SRR31174237/SRR31174237_epi2me.bracken.tsv	epi2me	
+czid	SRR31174237	results/framework_A/czid/peterson_2026/SRR31174237/SRR31174237_978326_taxon_report.csv	czid	
+megan_lr	SRR31174237	results/framework_A/megan_lr/peterson_2026/SRR31174237/SRR31174237_megan_taxcount.tsv	megan_lr	
+emtrace	ERR14941561	results/framework_b/sra_petersen_2026_v20260924_refauto/ERR14941561/results/reports/abund_table.tsv	emtrace	
+epi2me	ERR14941561	results/framework_A/epi2me/peterson_2026/ERR14941561/ERR14941561_epi2me.bracken.tsv	epi2me	
+czid	ERR14941561	results/framework_A/czid/peterson_2026/ERR14941561/ERR14941561_978341_taxon_report.csv	czid	
+megan_lr	ERR14941561	results/framework_A/megan_lr/peterson_2026/ERR14941561/ERR14941561_megan_taxcount.tsv	megan_lr	
+emtrace	SRR15356294	results/framework_b/sra_petersen_2026_v20260924_refauto/SRR15356294/results/reports/abund_table.tsv	emtrace	
+epi2me	SRR15356294	results/framework_A/epi2me/peterson_2026/SRR15356294/SRR15356294_epi2me.bracken.tsv	epi2me	
+czid	SRR15356294	results/framework_A/czid/peterson_2026/SRR15356294/SRR15356294_978340_taxon_report.csv	czid	
+megan_lr	SRR15356294	results/framework_A/megan_lr/peterson_2026/SRR15356294/SRR15356294_megan_taxcount.tsv	megan_lr	
+emtrace	SRR32419728	results/framework_b/sra_petersen_2026_v20260924_refauto/SRR32419728/results/reports/abund_table.tsv	emtrace	
+epi2me	SRR32419728	results/framework_A/epi2me/peterson_2026/SRR32419728/SRR32419728_epi2me.bracken.tsv	epi2me	
+czid	SRR32419728	results/framework_A/czid/peterson_2026/SRR32419728/SRR32419728_978339_taxon_report.csv	czid	
+megan_lr	SRR32419728	results/framework_A/megan_lr/peterson_2026/SRR32419728/SRR32419728_megan_taxcount.tsv	megan_lr	

@@ -1,0 +1,6 @@
+readn	taxid	species	genus	family	order	class	division	prob
+50.0	1	vA	GA	FA	OV	CV	Viruses	0.90
+40.0	2	vB	GB	FB	OV	CV	Viruses	0.80
+30.0	5	vE	GE	FE	OV	CV	Viruses	0.50
+5.0	6	vF	GF	FF	OV	CV	Viruses	0.10
+500.0	100	bD	BG	BF	OB	CB	Bacteria	0.95

@@ -1,0 +1,11 @@
+taxid	species	genus	family	order	class	division	organism	source_species	readn	pct_16S_only	pct_genomic_DNA	pct_16S_18S	pct_genome_copy	pct_cell_number
+1613	Limosilactobacillus fermentum	Limosilactobacillus	Lactobacillaceae	Lactobacillales	Bacilli	Bacteria	Limosilactobacillus fermentum	Lactobacillus fermentum	184	18.4	12	16.1	21.6	21.9
+1423	Bacillus subtilis	Bacillus	Bacillaceae	Caryophanales	Bacilli	Bacteria	Bacillus subtilis	Bacillus subtilis	174	17.4	12	15.3	10.3	10.3
+1280	Staphylococcus aureus	Staphylococcus	Staphylococcaceae	Caryophanales	Bacilli	Bacteria	Staphylococcus aureus	Staphylococcus aureus	155	15.5	12	13.6	15.2	15.3
+1639	Listeria monocytogenes	Listeria	Listeriaceae	Caryophanales	Bacilli	Bacteria	Listeria monocytogenes	Listeria monocytogenes	141	14.1	12	12.4	13.9	13.9
+28901	Salmonella enterica	Salmonella	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Bacteria	Salmonella enterica	Salmonella enterica	104	10.4	12	9.1	8.7	8.8
+562	Escherichia coli	Escherichia	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Bacteria	Escherichia coli	Escherichia coli	101	10.1	12	8.9	8.5	8.5
+1351	Enterococcus faecalis	Enterococcus	Enterococcaceae	Lactobacillales	Bacilli	Bacteria	Enterococcus faecalis	Enterococcus faecalis	99	9.9	12	8.7	14.6	14.6
+287	Pseudomonas aeruginosa	Pseudomonas	Pseudomonadaceae	Pseudomonadales	Gammaproteobacteria	Bacteria	Pseudomonas aeruginosa	Pseudomonas aeruginosa	42	4.2	12	3.6	6.1	6.1
+4932	Saccharomyces cerevisiae	Saccharomyces	Saccharomycetaceae	Saccharomycetales	Saccharomycetes	Eukaryota	Saccharomyces cerevisiae	Saccharomyces cerevisiae	0	0	2	9.3	0.57	0.29
+5207	Cryptococcus neoformans	Cryptococcus	Cryptococcaceae	Tremellales	Tremellomycetes	Eukaryota	Cryptococcus neoformans	Cryptococcus neoformans	0	0	2	3.3	0.37	0.18

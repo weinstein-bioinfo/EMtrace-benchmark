@@ -1,0 +1,116 @@
+{
+  "AUPR": 0.9409586321353555,
+  "F_max": 0.9693251533742332,
+  "Pr_at_Fmax": 0.9753086419753086,
+  "Rc_at_Fmax": 0.9634146341463414,
+  "config": {
+    "buddle": false,
+    "dilution_series": false,
+    "exclude_retro": false,
+    "keep_phages": false,
+    "nc_pred": null,
+    "outdir": "/private/var/folders/8w/rtsx0jv532q7fgd1wkj0lm1h0000gp/T/pytest-of-admin/pytest-1/test_simmet_tp_fp_fn_match_r0/out",
+    "pred": "Legacy/data/LazypipeX.simmet.vi_nt2/abund_table.tsv",
+    "pred_fmt": "emtrace",
+    "ranks": [
+      "species",
+      "genus",
+      "family"
+    ],
+    "read_min": 0.0,
+    "score_col": "readn",
+    "tail_ba": 0.0,
+    "tail_vi": 0.0,
+    "taxgroups": [
+      "Viruses",
+      "Bacteria"
+    ],
+    "tn_universe": null,
+    "total_reads_nc": null,
+    "total_reads_sample": null,
+    "truth": "Legacy/data/2025_10_14.simmet.abund_table.tsv"
+  },
+  "metrics": [
+    {
+      "F1": 0.9693251533742332,
+      "FN": 3,
+      "FP": 2,
+      "Pr": 0.9753086419753086,
+      "Rc": 0.9634146341463414,
+      "TP": 79,
+      "mean_accuracy": 0.969361638060825,
+      "n_pred": 81,
+      "n_true": 82,
+      "rank": "species",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 0.9894736842105264,
+      "FN": 1,
+      "FP": 0,
+      "Pr": 1.0,
+      "Rc": 0.9791666666666666,
+      "TP": 47,
+      "mean_accuracy": 0.9895833333333333,
+      "n_pred": 47,
+      "n_true": 48,
+      "rank": "genus",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 1.0,
+      "FN": 0,
+      "FP": 0,
+      "Pr": 1.0,
+      "Rc": 1.0,
+      "TP": 29,
+      "mean_accuracy": 1.0,
+      "n_pred": 29,
+      "n_true": 29,
+      "rank": "family",
+      "taxgroup": "Viruses"
+    },
+    {
+      "F1": 0.09302325581395349,
+      "FN": 67,
+      "FP": 11,
+      "Pr": 0.26666666666666666,
+      "Rc": 0.056338028169014086,
+      "TP": 4,
+      "mean_accuracy": 0.16150234741784036,
+      "n_pred": 15,
+      "n_true": 71,
+      "rank": "species",
+      "taxgroup": "Bacteria"
+    },
+    {
+      "F1": 0.2105263157894737,
+      "FN": 39,
+      "FP": 6,
+      "Pr": 0.5,
+      "Rc": 0.13333333333333333,
+      "TP": 6,
+      "mean_accuracy": 0.31666666666666665,
+      "n_pred": 12,
+      "n_true": 45,
+      "rank": "genus",
+      "taxgroup": "Bacteria"
+    },
+    {
+      "F1": 0.27906976744186046,
+      "FN": 28,
+      "FP": 3,
+      "Pr": 0.6666666666666666,
+      "Rc": 0.17647058823529413,
+      "TP": 6,
+      "mean_accuracy": 0.4215686274509804,
+      "n_pred": 9,
+      "n_true": 34,
+      "rank": "family",
+      "taxgroup": "Bacteria"
+    }
+  ],
+  "primary_rank": "species",
+  "primary_taxgroup": "Viruses",
+  "threshold_at_Fmax": 55.0
+}

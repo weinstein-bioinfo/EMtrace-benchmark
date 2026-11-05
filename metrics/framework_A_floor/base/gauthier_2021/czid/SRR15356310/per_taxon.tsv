@@ -1,0 +1,9 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Alphainfluenzavirus influenzae	FP	11.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	26.0	1.0
+Viruses	species	Malassezia restricta virus MrV40L	FP	13.0	0.0
+Viruses	genus	Alphainfluenzavirus	FP	11.0	0.0
+Viruses	genus	Betacoronavirus	TP	26.0	1.0
+Viruses	family	Coronaviridae	TP	26.0	1.0
+Viruses	family	Orthomyxoviridae	FP	11.0	0.0
+Viruses	family	Orthototiviridae	FP	13.0	0.0

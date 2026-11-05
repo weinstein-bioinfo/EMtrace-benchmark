@@ -1,0 +1,5 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Betacoronavirus pandemicum	TP	43816.0	1.0
+Viruses	species	Pangolin coronavirus	FP	1887.0	0.0
+Viruses	genus	Betacoronavirus	TP	45703.0	1.0
+Viruses	family	Coronaviridae	TP	45703.0	1.0

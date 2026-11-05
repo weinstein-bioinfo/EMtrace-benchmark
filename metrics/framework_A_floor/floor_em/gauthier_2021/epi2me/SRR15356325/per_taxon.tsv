@@ -1,0 +1,5 @@
+taxgroup	rank	taxon	status	readn_pred	readn_true
+Viruses	species	Betacoronavirus muris	FP	15.0	0.0
+Viruses	species	Betacoronavirus pandemicum	TP	46604.0	1.0
+Viruses	genus	Betacoronavirus	TP	46619.0	1.0
+Viruses	family	Coronaviridae	TP	46619.0	1.0

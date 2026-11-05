@@ -21,9 +21,11 @@ authors:
   - family-names: Krupińska
     given-names: Martyna
     affiliation: "Department of Tropical Parasitology, Institute of Maritime and Tropical Medicine, Medical University of Gdańsk"
+    orcid: "https://orcid.org/0000-0002-4447-9143"
   - family-names: Vauhkonen
     given-names: Hanna
     affiliation: "Department of Virology, University of Helsinki"
+    orcid: "https://orcid.org/0000-0002-5708-6680"
   - family-names: Sironen
     given-names: Tarja
     affiliation: "Department of Veterinary Biosciences, University of Helsinki; Department of Virology, University of Helsinki"
@@ -31,6 +33,7 @@ authors:
   - family-names: Grzybek
     given-names: Maciej
     affiliation: "Department of Tropical Parasitology, Institute of Maritime and Tropical Medicine, Medical University of Gdańsk"
+    orcid: "https://orcid.org/0000-0002-8780-0304"
   - family-names: Vapalahti
     given-names: Olli
     affiliation: "Department of Veterinary Biosciences, University of Helsinki; Department of Virology, University of Helsinki; Department of Virology and Immunology, University of Helsinki and Helsinki University Hospital"

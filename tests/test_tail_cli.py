@@ -121,9 +121,9 @@ def test_realtime_tail_defaults_to_off():
 
 
 def test_realtime_tail_removes_the_noise_rows():
-    # readn 1000, 12, 11 over 1023: inclusive shares 0.9775, 0.9893, 1.0.
-    # tail 0.02 -> threshold 0.98 -> only the true taxon survives.
-    got = score_snapshot(_abund(), _cfg(read_min=0, tail=0.02), truth=None)
+    # readn 1000, 12, 11 over 1023: the two noise taxa hold 23 reads (2.25 %)
+    # together, so a 3 % tail drops both and only the true taxon survives.
+    got = score_snapshot(_abund(), _cfg(read_min=0, tail=0.03), truth=None)
     assert got["FP"] == 0
     assert got["TP"] == 1
 
@@ -132,4 +132,4 @@ def test_realtime_tail_and_read_min_answer_different_questions():
     # Both noise taxa clear read_min=10, so that filter alone leaves them in.
     assert score_snapshot(_abund(), _cfg(read_min=10), truth=None)["FP"] == 2
     # The tail catches them because they are a rounding error of the library.
-    assert score_snapshot(_abund(), _cfg(read_min=10, tail=0.02), truth=None)["FP"] == 0
+    assert score_snapshot(_abund(), _cfg(read_min=10, tail=0.03), truth=None)["FP"] == 0

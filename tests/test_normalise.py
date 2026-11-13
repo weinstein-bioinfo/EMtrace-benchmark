@@ -144,17 +144,15 @@ def test_groupby_sums_duplicate_taxa() -> None:
 
 
 def test_tail_trim_viruses_drops_smallest_taxa() -> None:
-    # 4 viruses: 1000, 100, 10, 1 reads, total 1111. tail_vi is now a
-    # FRACTION, so 5 % is 0.05 and the threshold is 0.95.
+    # 4 viruses: 1000, 100, 10, 1 reads, total 1111. tail_vi is a FRACTION,
+    # so 5 % is 0.05.
     #
-    # The share is INCLUSIVE (a row's own reads count toward it):
-    #   1000/1111 = 0.900, 1100/1111 = 0.990, 1110/1111 = 0.999, 1.000
-    # kept: share <= 0.95 -> "a" alone.
+    # The smallest taxa that together hold at most 5 % are dropped: 1 + 10
+    # (0.99 %) fit, adding 100 (9.99 %) does not -> {a, b} kept.
     #
-    # This expectation CHANGED with the move to the shared tailtrim: the old
-    # per-division, percent-unit, preceding-cumsum, strict-< rule kept {a, b}.
-    # No completed benchmark result used a non-zero tail, so nothing published
-    # moves -- see BMARK/docs.
+    # (The shared tailtrim before EMtrace v1.0.5 used an inclusive share and
+    # kept "a" alone; the fixed rule matches the original preceding-cumsum,
+    # strict-< rule again.)
     df = pd.DataFrame({
         "readn": [1000.0, 100.0, 10.0, 1.0],
         "taxid": [1, 2, 3, 4],
@@ -166,7 +164,7 @@ def test_tail_trim_viruses_drops_smallest_taxa() -> None:
         "division": ["Viruses"] * 4,
     })
     out = normalise(df, NormaliseOpts(tail_vi=0.05, tail_ba=0.0))
-    assert set(out["species"]) == {"a"}
+    assert set(out["species"]) == {"a", "b"}
 
 
 def test_tail_trim_zero_keeps_everything() -> None:

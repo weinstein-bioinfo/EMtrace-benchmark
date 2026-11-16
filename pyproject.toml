@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ngs-benchmark"
-version = "1.0.0"
+version = "1.0.1"
 description = "Scoring library of the EMtrace benchmark (detection, assembly, real-time, background filtering)"
 readme = "README.md"
 requires-python = ">=3.10"
